@@ -1,25 +1,28 @@
 'use strict';
 
-// ── State ─────────────────────────────────────────────────
+const PARAMS       = new URLSearchParams(window.location.search);
+const CURRENT_PAGE = Math.max(1, parseInt(PARAMS.get('page') || '1', 10));
+
+// ── State ──────────────────────────────────────────────────────
 let currentFilter = 'all';
 let currentSort   = 'title';
 let searchQuery   = '';
+let allShowsLoaded = false;
 
-// In-memory image cache: showId -> url string | null
-const imageCache = {};
+// ── DOM refs ───────────────────────────────────────────────────
+const grid         = document.getElementById('shows-grid');
+const noResults    = document.getElementById('no-results');
+const resultsInfo  = document.getElementById('results-info');
+const searchInput  = document.getElementById('search-input');
+const searchClear  = document.getElementById('search-clear');
+const sortSelect   = document.getElementById('sort-select');
+const paginationEl = document.getElementById('pagination');
 
-// ── DOM refs ──────────────────────────────────────────────
-const grid        = document.getElementById('shows-grid');
-const noResults   = document.getElementById('no-results');
-const resultsInfo = document.getElementById('results-info');
-const searchInput = document.getElementById('search-input');
-const searchClear = document.getElementById('search-clear');
-const sortSelect  = document.getElementById('sort-select');
-
-// ── Image loading ─────────────────────────────────────────
+// ── Image loading ──────────────────────────────────────────────
 
 const LS_KEY = 'hibc_images_v2';
-const LS_TTL = 48 * 60 * 60 * 1000; // 48 hours
+const LS_TTL = 48 * 60 * 60 * 1000;
+const imageCache = {};
 
 function readLocalCache() {
   try {
@@ -54,7 +57,6 @@ async function fetchInBatches(items, batchSize = 6) {
     results.forEach(r => {
       if (r.status === 'fulfilled') imageCache[r.value.id] = r.value.url;
     });
-    // Apply images found so far without waiting for all batches
     applyImages();
   }
 }
@@ -63,7 +65,6 @@ function applyImages() {
   Object.entries(imageCache).forEach(([id, url]) => {
     const poster = document.querySelector(`.card-poster[data-showid="${id}"]`);
     if (!poster || poster.classList.contains('loaded') || poster.classList.contains('error')) return;
-
     if (url) {
       const img = poster.querySelector('img');
       img.onload  = () => poster.classList.add('loaded');
@@ -75,25 +76,35 @@ function applyImages() {
   });
 }
 
-async function loadImages() {
-  // Seed in-memory cache from localStorage
+async function loadImages(shows) {
   const stored = readLocalCache();
   if (stored) Object.assign(imageCache, stored);
-
-  // Apply whatever is already cached
   applyImages();
-
-  // Fetch any that are missing
   const needFetch = shows.filter(s => !(s.id in imageCache));
   if (needFetch.length === 0) return;
-
   await fetchInBatches(needFetch);
-
-  // Persist full cache
   writeLocalCache(imageCache);
 }
 
-// ── Render helpers ────────────────────────────────────────
+// ── Script loading ─────────────────────────────────────────────
+
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = src;
+    s.onload = resolve;
+    s.onerror = () => reject(new Error(`Could not load ${src}`));
+    document.head.appendChild(s);
+  });
+}
+
+async function ensureAllShows() {
+  if (allShowsLoaded) return;
+  await loadScript('data.js');
+  allShowsLoaded = true;
+}
+
+// ── Render helpers ─────────────────────────────────────────────
 
 function statusLabel(status) {
   return { cancelled: 'Cancelled', ended: 'Saved / Ended', running: 'Still Running' }[status] || status;
@@ -141,8 +152,6 @@ function infoBlock(show) {
 
 function renderCard(show, index) {
   const genres = show.genres.map(g => `<span class="genre-tag">${g}</span>`).join('');
-
-  // If image already in memory cache, pre-populate so no flicker on re-renders
   const url = imageCache[show.id];
   const posterClass = url ? 'card-poster loaded' : (imageCache[show.id] === null ? 'card-poster error' : 'card-poster');
   const imgSrc = url ? `src="${url}"` : '';
@@ -175,10 +184,58 @@ function renderCard(show, index) {
   `;
 }
 
-// ── Filter / sort / render ────────────────────────────────
+// ── Stats ──────────────────────────────────────────────────────
 
-function filteredShows() {
-  let result = [...shows];
+function updateStats() {
+  const s = window.pageMetadata?.stats;
+  if (!s) return;
+  document.getElementById('stat-total').textContent       = s.total;
+  document.getElementById('stat-cancelled').textContent   = s.cancelled;
+  document.getElementById('stat-cliffhanger').textContent = s.cliffhanger;
+  document.getElementById('stat-saved').textContent       = s.ended;
+}
+
+// ── Pagination ─────────────────────────────────────────────────
+
+function renderPagination(totalPages) {
+  if (totalPages <= 1) { paginationEl.innerHTML = ''; return; }
+
+  const curr = CURRENT_PAGE;
+  const pages = new Set([1, totalPages]);
+  for (let i = Math.max(1, curr - 2); i <= Math.min(totalPages, curr + 2); i++) pages.add(i);
+  const sorted = [...pages].sort((a, b) => a - b);
+
+  let html = '<nav class="pagination-nav" aria-label="Browse pages">';
+
+  html += curr > 1
+    ? `<a href="?page=${curr - 1}" class="page-btn page-prev">&#8592; Prev</a>`
+    : `<span class="page-btn page-prev page-disabled">&#8592; Prev</span>`;
+
+  let last = 0;
+  for (const p of sorted) {
+    if (last && p - last > 1) html += `<span class="page-ellipsis">…</span>`;
+    html += p === curr
+      ? `<span class="page-btn page-current" aria-current="page">${p}</span>`
+      : `<a href="?page=${p}" class="page-btn">${p}</a>`;
+    last = p;
+  }
+
+  html += curr < totalPages
+    ? `<a href="?page=${curr + 1}" class="page-btn page-next">Next &#8594;</a>`
+    : `<span class="page-btn page-next page-disabled">Next &#8594;</span>`;
+
+  html += '</nav>';
+  paginationEl.innerHTML = html;
+}
+
+// ── Filter / sort ──────────────────────────────────────────────
+
+function isFiltered() {
+  return searchQuery || currentFilter !== 'all';
+}
+
+function applyFiltersAndSort(source) {
+  let result = [...source];
 
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
@@ -208,34 +265,57 @@ function filteredShows() {
   return result;
 }
 
-function updateStats() {
-  document.getElementById('stat-total').textContent       = shows.length;
-  document.getElementById('stat-cancelled').textContent   = shows.filter(s => s.status === 'cancelled').length;
-  document.getElementById('stat-cliffhanger').textContent = shows.filter(s => s.cliffhanger).length;
-  document.getElementById('stat-saved').textContent       = shows.filter(s => s.status === 'ended').length;
-}
+// ── Render ─────────────────────────────────────────────────────
 
-function render() {
-  const list = filteredShows();
-
+function renderList(list, infoText) {
   if (list.length === 0) {
     grid.innerHTML = '';
     noResults.hidden = false;
     resultsInfo.textContent = 'No shows found';
+    paginationEl.innerHTML = '';
     return;
   }
-
   noResults.hidden = true;
-  grid.innerHTML = list.map((show, i) => renderCard(show, i)).join('');
-
-  // Apply any images already cached in memory to freshly rendered elements
+  grid.innerHTML = list.map((s, i) => renderCard(s, i)).join('');
   applyImages();
-
-  const suffix = currentFilter !== 'all' ? ` · filtered from ${shows.length}` : '';
-  resultsInfo.textContent = `Showing ${list.length} show${list.length !== 1 ? 's' : ''}${suffix}`;
+  resultsInfo.textContent = infoText;
 }
 
-// ── Event wiring ──────────────────────────────────────────
+function renderPage() {
+  const meta  = window.pageMetadata || {};
+  const shows = window.pageShows    || [];
+  const list  = applyFiltersAndSort(shows);
+  const total = meta.stats?.total   || 0;
+  const start = (CURRENT_PAGE - 1) * (meta.perPage || 24) + 1;
+  const end   = Math.min(CURRENT_PAGE * (meta.perPage || 24), total);
+
+  renderList(list, `Showing ${start}–${end} of ${total} shows`);
+  renderPagination(meta.totalPages || 1);
+}
+
+async function renderFiltered() {
+  if (!allShowsLoaded) {
+    resultsInfo.textContent = 'Loading…';
+    grid.innerHTML = '';
+    paginationEl.innerHTML = '';
+    await ensureAllShows();
+  }
+  const list = applyFiltersAndSort(window.shows || []);
+  const total = window.pageMetadata?.stats?.total || list.length;
+  const suffix = currentFilter !== 'all' ? ` · filtered from ${total}` : '';
+  renderList(list, `${list.length} show${list.length !== 1 ? 's' : ''} found${suffix}`);
+  paginationEl.innerHTML = '';
+}
+
+function render() {
+  if (isFiltered()) {
+    renderFiltered();
+  } else {
+    renderPage();
+  }
+}
+
+// ── Event wiring ───────────────────────────────────────────────
 
 searchInput.addEventListener('input', e => {
   searchQuery = e.target.value.trim();
@@ -265,7 +345,11 @@ sortSelect.addEventListener('change', e => {
   render();
 });
 
-// ── Init ──────────────────────────────────────────────────
-updateStats();
-render();
-loadImages(); // async — does not block initial render
+// ── Init ───────────────────────────────────────────────────────
+
+(async function init() {
+  await loadScript(`pages/page-${CURRENT_PAGE}.js`);
+  updateStats();
+  render();
+  loadImages(window.pageShows || []);
+})();

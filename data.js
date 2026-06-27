@@ -1,4 +1,4 @@
-const shows = [
+window.shows = [
   {
     id: 1,
     title: "Firefly",

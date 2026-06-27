@@ -1417,19 +1417,6 @@ const shows = [
     note: "Kiefer Sutherland and an autistic boy who sees patterns connecting all humanity. Fox cancelled after Season 2 mid-conspiracy."
   },
   {
-    id: 109,
-    title: "666 Park Avenue",
-    network: "ABC",
-    startYear: 2012,
-    years: "2012–2013",
-    genres: ["Horror", "Supernatural", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "The Drake building's demonic history and Gavin Doran's true nature and goals are only beginning to unravel",
-    note: "Terry O'Quinn as a diabolical hotel owner making deals with tenants. ABC cancelled after one season with the supernatural mystery barely scratched."
-  },
-  {
     id: 110,
     title: "Resurrection",
     network: "ABC",
@@ -1610,19 +1597,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "Piper's true nature as an AI and the Augur corporation's plans for her kind are left permanently unresolved",
     note: "Allison Tolman as a sheriff who takes in a mysterious girl from a plane crash. ABC cancelled before the AI conspiracy was explained."
-  },
-  {
-    id: 124,
-    title: "Another Life",
-    network: "Netflix",
-    startYear: 2019,
-    years: "2019–2021",
-    genres: ["Sci-Fi", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "First contact with the alien Achaia is established but humanity's response and Niko's crew's fate are left open",
-    note: "Katee Sackhoff commanding a crew to track an alien signal. Netflix cancelled after Season 2 mid-first-contact arc."
   },
   {
     id: 125,
@@ -2021,20 +1995,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "Jack's fraud is exposed but the lunar timeshare scheme and his son's identity are left open",
     note: "Billy Crudup as a retro-futurist salesman in a dieselpunk world. Apple TV+ cancelled after one visually stunning but commercially quiet season."
-  },
-  {
-    id: 155,
-    title: "Surface",
-    tvmazeQuery: "Surface Apple TV",
-    network: "Apple TV+",
-    startYear: 2022,
-    years: "2022–2023",
-    genres: ["Thriller", "Mystery", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Sophie's amnesia and the conspiracy behind her 'accident' reach a new revelation that Apple TV+ abandoned",
-    note: "Gugu Mbatha-Raw as an amnesiac uncovering her past. Apple TV+ cancelled after Season 2 mid-revelation."
   },
   {
     id: 156,
@@ -2630,19 +2590,6 @@ const shows = [
     note: "Loving bilingual comedy about a Mexican-American family. Netflix cancelled after two seasons, leaving fans of this warm show without proper closure."
   },
   {
-    id: 201,
-    title: "Warrior Nun",
-    network: "Netflix",
-    startYear: 2020,
-    years: "2020–2022",
-    genres: ["Fantasy", "Action", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Ava's fate after diving into a Tarask portal with Adriel is left completely unresolved — the halo's destiny and the Order's future abandoned",
-    note: "Based on the Ben Dunn comic. Netflix cancelled after Season 2's stunning finale. The #SaveWarriorNun campaign fundraised for a continuation that became a comic."
-  },
-  {
     id: 202,
     title: "Partner Track",
     network: "Netflix",
@@ -2830,21 +2777,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: "Season 4 was a shortened 6-episode final season but provided a complete ending for Kiera Cameron's time travel arc",
     note: "A 2077 cop travels back to 2012. Showcase renewed for a final shortened season to provide closure — a semi-graceful end."
-  },
-  {
-    id: 216,
-    title: "Dark Matter",
-    tvmazeQuery: "Dark Matter 2024",
-    network: "Apple TV+",
-    startYear: 2024,
-    years: "2024",
-    genres: ["Sci-Fi", "Thriller", "Drama"],
-    status: "ended",
-    cancelledAfterSeason: null,
-    totalSeasons: 1,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    note: "Joel Edgerton in Blake Crouch's multiverse thriller. Apple TV+ limited series — a complete and satisfying adaptation that told its story in one season."
   },
   {
     id: 217,
@@ -3180,19 +3112,6 @@ const shows = [
     note: "Alan Tudyk as an alien living as a small-town doctor. Syfy/Peacock cancelled after Season 3 with the alien threat mythology wide open."
   },
   {
-    id: 242,
-    title: "Y: The Last Man",
-    network: "FX on Hulu",
-    startYear: 2021,
-    years: "2021",
-    genres: ["Sci-Fi", "Drama", "Post-Apocalyptic"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Yorick's journey across a world where all mammals with a Y chromosome died is only beginning when FX cancelled after one season",
-    note: "Based on Brian K. Vaughan's landmark comic. FX cancelled after one season of the long-in-development adaptation. The comic's full story will never be told on screen."
-  },
-  {
     id: 243,
     title: "Reservation Dogs",
     network: "FX on Hulu",
@@ -3260,20 +3179,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: "Each season was a self-contained anthology; Season 2 (Infamy) told a complete Japanese-American internment ghost story",
     note: "AMC's anthology horror — Season 1 was a gripping Arctic survival story, Season 2 a ghost story during WWII internment. Cancelled but both seasons complete."
-  },
-  {
-    id: 248,
-    title: "Humans",
-    tvmazeQuery: "Humans",
-    network: "Channel 4 / AMC",
-    startYear: 2015,
-    years: "2015–2018",
-    genres: ["Sci-Fi", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
-    cliffhanger: true,
-    cliffhangerNote: "The synth uprising and the question of whether humans and conscious AIs can coexist are left open after Season 3's revolution",
-    note: "UK/US co-production about humanoid robots gaining consciousness. Cancelled after Season 3 with the synth rights movement unresolved."
   },
   {
     id: 249,
@@ -3533,19 +3438,6 @@ const shows = [
     note: "Spanish heist thriller that became Netflix's global phenomenon. Five seasons with a complete ending — one of the most-watched non-English shows ever."
   },
   {
-    id: 268,
-    title: "Paper Girls",
-    network: "Amazon Prime",
-    startYear: 2022,
-    years: "2022",
-    genres: ["Sci-Fi", "Adventure", "YA"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "The time-war and the girls' attempts to return to 1988 are only beginning when Amazon cancelled; the comic's full story will never be shown",
-    note: "Based on Brian K. Vaughan and Cliff Chiang's beloved comic. Amazon cancelled after one critically praised season. Another Vaughan adaptation abandoned mid-story."
-  },
-  {
     id: 269,
     title: "Barbarians",
     tvmazeQuery: "Barbarians 2020",
@@ -3644,32 +3536,6 @@ const shows = [
 
   // ── Batch 7: Animated cult shows, more streaming, more UK ──
   {
-    id: 276,
-    title: "Final Space",
-    network: "TBS / Adult Swim",
-    startYear: 2018,
-    years: "2018–2021",
-    genres: ["Animated", "Sci-Fi", "Comedy"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
-    cliffhanger: true,
-    cliffhangerNote: "Gary and the Squad's mission to rescue Gary's father from Final Space is abandoned mid-arc with the universe still in danger",
-    note: "Olan Rogers' space opera with genuine emotional depth. Cancelled after Season 3 with the story nowhere near finished. The creator shared what would have happened in the unmade seasons."
-  },
-  {
-    id: 277,
-    title: "Infinity Train",
-    network: "Cartoon Network / HBO Max",
-    startYear: 2019,
-    years: "2019–2021",
-    genres: ["Animated", "Fantasy", "Adventure"],
-    status: "cancelled",
-    cancelledAfterSeason: 4,
-    cliffhanger: false,
-    cliffhangerNote: "Each of the four seasons told a self-contained story on the train, so no central cliffhanger — but the train's full mythology was never explored",
-    note: "Owen Dennis' anthology sci-fi cartoon. HBO Max declined to commission more seasons after four critical darlings. The fans' grief at losing this show was palpable."
-  },
-  {
     id: 278,
     title: "Kipo and the Age of Wonderbeasts",
     network: "Netflix",
@@ -3737,19 +3603,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: null,
     note: "Nick Kroll and Andrew Goldberg's puberty comedy. Seven seasons, complete. One of Netflix's longest-running original animated series with a proper finale."
-  },
-  {
-    id: 283,
-    title: "Tuca & Bertie",
-    network: "Netflix / Adult Swim",
-    startYear: 2019,
-    years: "2019–2022",
-    genres: ["Animated", "Comedy", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
-    cliffhanger: false,
-    cliffhangerNote: "Season 3 on Adult Swim wrapped the story in a reasonably complete way after Netflix cancelled the show",
-    note: "Lisa Hanawalt's bird-lady comedy cancelled by Netflix, rescued by Adult Swim for Seasons 2 and 3. The Adult Swim version provided more closure than a hard cut would have."
   },
   {
     id: 284,
@@ -3925,19 +3778,6 @@ const shows = [
     note: "Dino Stamatopoulos' devastating satire of repressive religious small-town America. Adult Swim cut Season 3 short after the show got too dark. A brilliant, bleak achievement."
   },
   {
-    id: 297,
-    title: "Young Justice",
-    network: "Cartoon Network / DC Universe / HBO Max",
-    startYear: 2010,
-    years: "2010–2022",
-    genres: ["Animated", "Superhero", "Action"],
-    status: "cancelled",
-    cancelledAfterSeason: 4,
-    cliffhanger: true,
-    cliffhangerNote: "The Team's battle against the Anti-Life Equation and the Metahuman trafficking arc are permanently open after HBO Max cancelled",
-    note: "Cancelled by Cartoon Network after Season 2, brought back by fan demand for Season 3 on DC Universe, then moved to HBO Max for Season 4 before being cancelled again."
-  },
-  {
     id: 298,
     title: "Primal",
     network: "Adult Swim",
@@ -4061,19 +3901,6 @@ const shows = [
     note: "Seth MacFarlane's Star Trek love letter moved from Fox to Hulu for Season 3. Quietly cancelled by Hulu — the faithful fans are still waiting for Season 4."
   },
   {
-    id: 307,
-    title: "Limitless",
-    network: "CBS",
-    startYear: 2015,
-    years: "2015–2016",
-    genres: ["Sci-Fi", "Crime", "Comedy"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Brian's relationship with NZT and the shadowy Senator Morra's plans are only beginning when CBS cancelled",
-    note: "Based on the film. Jake McDorman as a loveable FBI consultant using the intelligence-enhancing drug NZT. CBS cancelled after one season with the conspiracy unresolved."
-  },
-  {
     id: 308,
     title: "BrainDead",
     network: "CBS",
@@ -4085,32 +3912,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "The alien ants' infestation of Washington DC politicians is stopped but not defeated — what happens to the hive is unknown",
     note: "From the Good Wife creators — alien insects eating politicians' brains in DC. CBS ordered one season only. A dark political satire that never got to escalate."
-  },
-  {
-    id: 309,
-    title: "Salvation",
-    network: "CBS",
-    startYear: 2017,
-    years: "2017–2018",
-    genres: ["Sci-Fi", "Thriller", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "An asteroid heading for Earth and the global political conspiracy to stop or exploit it are left completely unresolved",
-    note: "CBS sci-fi thriller about a MIT student and tech billionaire racing to stop an asteroid. Cancelled after Season 2 mid-crisis — Earth's fate literally left open."
-  },
-  {
-    id: 310,
-    title: "Zoo",
-    network: "CBS",
-    startYear: 2015,
-    years: "2015–2017",
-    genres: ["Sci-Fi", "Thriller", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
-    cliffhanger: true,
-    cliffhangerNote: "A global animal rebellion and a human infertility crisis are in full swing when CBS cancelled — humanity's fate unresolved",
-    note: "Based on James Patterson's novel — animals worldwide revolt against humans. CBS cancelled after Season 3 with the apocalyptic premise at its wildest point."
   },
   {
     id: 311,
@@ -4279,19 +4080,6 @@ const shows = [
     note: "L.J. Smith's witch coven at a small-town high school. The CW cancelled after one season despite being the Vampire Diaries lead-out."
   },
   {
-    id: 323,
-    title: "Containment",
-    network: "The CW",
-    startYear: 2016,
-    years: "2016",
-    genres: ["Thriller", "Sci-Fi", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "The outbreak's origins and the government conspiracy to contain (and exploit) it are left open",
-    note: "Based on the Belgian series Cordon. The CW cancelled after one season. Eerily prescient about pandemic response — gained a second life during COVID-19."
-  },
-  {
     id: 324,
     title: "No Tomorrow",
     network: "The CW",
@@ -4335,46 +4123,6 @@ const shows = [
     note: "David Simon's examination of Baltimore institutions. Five complete seasons, each with a different lens on the same city. Routinely called the greatest TV drama ever made."
   },
   {
-    id: 327,
-    title: "Deadwood",
-    network: "HBO",
-    startYear: 2004,
-    years: "2004–2006",
-    genres: ["Western", "Drama", "Historical"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
-    cliffhanger: true,
-    cliffhangerNote: "The town of Deadwood's fight against Hearst's consolidation and Seth Bullock's future are left wide open — until a 2019 reunion film partially resolved it",
-    note: "David Milch's profane gold rush Western. HBO cancelled after Season 3 despite critical acclaim. A 2019 film reunited the cast and provided partial closure."
-  },
-  {
-    id: 328,
-    title: "Rome",
-    network: "HBO / BBC",
-    startYear: 2005,
-    years: "2005–2007",
-    genres: ["Historical", "Drama", "Action"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: false,
-    cliffhangerNote: "Season 2 rushed through the transition from Julius Caesar to Augustus in what was planned as five seasons of content compressed into one",
-    note: "Stunning historical epic cancelled after two seasons due to cost. Season 2 tried to wrap decades of Roman history — a fascinating compressed finale by necessity."
-  },
-  {
-    id: 329,
-    title: "Carnivàle",
-    tvmazeQuery: "Carnivàle",
-    network: "HBO",
-    startYear: 2003,
-    years: "2003–2005",
-    genres: ["Fantasy", "Horror", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "The cosmic battle between Management's Avatar and Brother Justin is only reaching its climax when HBO cancelled — three more planned seasons never made",
-    note: "Depression-era supernatural battle between good and evil. HBO cancelled after Season 2 mid-mythology. Creator Daniel Knauf has described the full six-season plan he never got to execute."
-  },
-  {
     id: 330,
     title: "John from Cincinnati",
     network: "HBO",
@@ -4399,19 +4147,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "Chester Bernstein's racetrack empire and his complex revenge plot are abandoned when three horses died during production",
     note: "Dustin Hoffman in a horse racing drama. HBO cancelled after three horses died on set. The tragedy ended what critics considered one of the most promising HBO shows in years."
-  },
-  {
-    id: 332,
-    title: "Vinyl",
-    network: "HBO",
-    startYear: 2016,
-    years: "2016",
-    genres: ["Music", "Drama", "Crime"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Richie Finestra's grip on his record label and his descent into addiction are only beginning when HBO cancelled",
-    note: "Martin Scorsese and Mick Jagger's 1970s music industry drama. HBO cancelled despite the pedigree after Season 1's polarising reception."
   },
   {
     id: 333,
@@ -4826,19 +4561,6 @@ const shows = [
     note: "Matt LeBlanc playing himself adapting a British show for American television. Five seasons, complete. A sharp industry satire that walked the tightrope of Hollywood self-awareness."
   },
   {
-    id: 363,
-    title: "Rubicon",
-    network: "AMC",
-    startYear: 2010,
-    years: "2010",
-    genres: ["Thriller", "Conspiracy", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Will Travers' investigation into a secret society controlling US intelligence is only in its early chapters when AMC cancelled",
-    note: "Slow-burn conspiracy thriller about a think-tank analyst. AMC cancelled after one praised season. Often cited as one of the best shows most people have never heard of."
-  },
-  {
     id: 364,
     title: "Halt and Catch Fire",
     network: "AMC",
@@ -4936,19 +4658,6 @@ const shows = [
     note: "Pierce Brosnan as a Texas oil dynasty patriarch. Based on Philipp Meyer's novel. AMC cancelled after Season 2 with the story far from complete."
   },
   {
-    id: 371,
-    title: "NOS4A2",
-    network: "AMC",
-    startYear: 2019,
-    years: "2019–2020",
-    genres: ["Horror", "Fantasy", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: false,
-    cliffhangerNote: "Season 2 resolved the main arc with Charlie Manx's defeat, providing enough closure for a cancelled show",
-    note: "Based on Joe Hill's novel about a vampire who kidnaps children to Christmasland. AMC cancelled after Season 2 — the villain's story was complete even if the world wasn't."
-  },
-  {
     id: 372,
     title: "Dispatches from Elsewhere",
     network: "AMC",
@@ -5019,34 +4728,6 @@ const shows = [
     note: "Jane Espenson's web series about two celebrities accidentally married after a big night. Three short seasons on CW Seed — a complete and charming LGBTQ comedy."
   },
   {
-    id: 377,
-    title: "Video Game High School",
-    tvmazeQuery: "Video Game High School",
-    network: "RocketJump / YouTube",
-    startYear: 2012,
-    years: "2012–2014",
-    genres: ["Comedy", "Sci-Fi", "Action"],
-    status: "ended",
-    cancelledAfterSeason: null,
-    totalSeasons: 3,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    note: "Freddie Wong's YouTube web series about a future where pro gaming is the biggest sport. Three seasons, crowdfunded by fans. One of YouTube's first real scripted narratives."
-  },
-  {
-    id: 378,
-    title: "Dr. Horrible's Sing-Along Blog",
-    network: "Internet",
-    startYear: 2008,
-    years: "2008",
-    genres: ["Musical", "Comedy", "Superhero"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    note: "Joss Whedon's Writers Strike-born musical about an aspiring supervillain. Neil Patrick Harris, Nathan Fillion, Felicia Day. One perfect act. A sequel has been promised for years."
-  },
-  {
     id: 379,
     title: "The Legend of Neil",
     network: "Atom.com",
@@ -5087,33 +4768,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: null,
     note: "Robert Taylor as a Wyoming sheriff. A&E cancelled after Season 3 despite high ratings; Netflix rescued for three more seasons and a proper finale."
-  },
-  {
-    id: 382,
-    title: "Hannibal",
-    network: "NBC",
-    startYear: 2013,
-    years: "2013–2015",
-    genres: ["Psychological Thriller", "Horror", "Crime"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
-    cliffhanger: false,
-    cliffhangerNote: "Season 3 ended with a stunning climax that functioned as a series finale — the 'Dolce' moment was designed as a possible ending once cancellation loomed",
-    note: "Bryan Fuller's extraordinary reimagining of the Hannibal Lecter mythology. NBC cancelled after three seasons; the ending is ambiguous perfection. A cult classic."
-  },
-  {
-    id: 383,
-    title: "Constantine",
-    tvmazeQuery: "Constantine NBC",
-    network: "NBC",
-    startYear: 2014,
-    years: "2014–2015",
-    genres: ["Supernatural", "Horror", "Action"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "The Rising Darkness supernatural threat and Constantine's assembled army of allies are left completely open",
-    note: "Matt Ryan as John Constantine — a role he later reprised in the Arrowverse. NBC cancelled after one season; the character continued across multiple DC shows."
   },
   {
     id: 384,
@@ -5200,19 +4854,6 @@ const shows = [
     note: "Kyle Chandler and Connie Britton as a Texas football coach and his wife. Five complete seasons with a beautiful finale. The 'Clear Eyes, Full Hearts, Can't Lose' show."
   },
   {
-    id: 390,
-    title: "My Name Is Earl",
-    network: "NBC",
-    startYear: 2005,
-    years: "2005–2009",
-    genres: ["Comedy"],
-    status: "cancelled",
-    cancelledAfterSeason: 4,
-    cliffhanger: true,
-    cliffhangerNote: "Earl was about to learn who his son's father really was when NBC cancelled the show mid-season without completing the list",
-    note: "Jason Lee working through a karma list. NBC cancelled after Season 4's cliffhanger. The DNA test result and the remaining list items were never revealed."
-  },
-  {
     id: 391,
     title: "Studio 60 on the Sunset Strip",
     network: "NBC",
@@ -5224,58 +4865,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: "NBC allowed the remaining filmed episodes to air, providing partial closure to the season's storylines",
     note: "Aaron Sorkin's backstage sketch comedy drama. NBC cancelled after one season — airing in the same slot and style as 30 Rock, which won."
-  },
-  {
-    id: 392,
-    title: "Journeyman",
-    network: "NBC",
-    startYear: 2007,
-    years: "2007",
-    genres: ["Sci-Fi", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Dan Vasser's involuntary time travel and its relationship to a mysterious quantum project are left completely open",
-    note: "Kevin McKidd as a journalist who involuntarily travels through time. NBC cancelled after 13 episodes. The writers' strike and the cancellation made for a cruel double blow."
-  },
-  {
-    id: 393,
-    title: "Pushing Daisies",
-    network: "ABC",
-    startYear: 2007,
-    years: "2007–2009",
-    genres: ["Fantasy", "Comedy", "Mystery"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Ned and Chuck's impossible love story and the murder mystery are resolved only via a narrated epilogue added hastily after the finale aired",
-    note: "Bryan Fuller's fairy-tale pie maker who can resurrect the dead. ABC cancelled due to the writers' strike. A rushed narrator epilogue partially resolved the story — fairy tale justice."
-  },
-  {
-    id: 394,
-    title: "Dirty Sexy Money",
-    network: "ABC",
-    startYear: 2007,
-    years: "2007–2009",
-    genres: ["Drama", "Comedy", "Family"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "The Darling family's secrets and Nick's discovery of who murdered his father are left completely unresolved",
-    note: "Peter Krause and Donald Sutherland in a Park Avenue family saga. ABC cancelled after Season 2 mid-mystery — who killed Nick's father was never revealed."
-  },
-  {
-    id: 395,
-    title: "Eli Stone",
-    network: "ABC",
-    startYear: 2008,
-    years: "2008–2009",
-    genres: ["Fantasy", "Drama", "Legal"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Eli's prophetic visions and whether he's truly chosen by God are left open",
-    note: "A lawyer who has visions he believes come from God. ABC cancelled after Season 2 — an unusual mixture of legal drama and faith-based fantasy."
   },
   {
     id: 396,
@@ -5292,19 +4881,6 @@ const shows = [
     note: "Vampires, werewolves, and witches living in a planned community. ABC cancelled after one season — the supernatural suburb premise was barely explored."
   },
   {
-    id: 397,
-    title: "Pan Am",
-    network: "ABC",
-    startYear: 2011,
-    years: "2011–2012",
-    genres: ["Historical", "Drama", "Spy"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "The Cold War spy subplot and the stewardesses' intertwined personal stories are left wide open",
-    note: "1960s airline glamour meets spy thriller. ABC cancelled after one season — a Mad Men rival that couldn't match its prestige."
-  },
-  {
     id: 398,
     title: "666 Park Avenue",
     network: "ABC",
@@ -5316,20 +4892,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "Gavin Doran's demonic apartment building and the supernatural contract system are left mid-revelation",
     note: "Terry O'Quinn as a devilish building owner in a supernatural thriller. ABC cancelled after one season — the supernatural New York thriller never found its audience."
-  },
-  {
-    id: 399,
-    title: "Resurrection",
-    tvmazeQuery: "Resurrection ABC",
-    network: "ABC",
-    startYear: 2014,
-    years: "2014–2015",
-    genres: ["Sci-Fi", "Drama", "Mystery"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Why the dead are returning to Arcadia, Missouri and the government's true intentions are left permanently unresolved",
-    note: "Based on the French series Les Revenants. ABC cancelled after Season 2 with the supernatural return of the dead unexplained."
   },
   {
     id: 400,
@@ -5347,19 +4909,6 @@ const shows = [
   },
 
   // ── Batch 12: Final 100 shows ─────────────────────────────
-  {
-    id: 401,
-    title: "FlashForward",
-    network: "ABC",
-    startYear: 2009,
-    years: "2009–2010",
-    genres: ["Sci-Fi", "Mystery", "Thriller"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "A second blackout occurs in the finale — the world has another collective vision that's never explored because ABC cancelled the show",
-    note: "The entire world blacks out for 137 seconds and sees their future. ABC cancelled after one season. A second flash forward in the finale teased exactly what would never come."
-  },
   {
     id: 402,
     title: "Happy Endings",
@@ -5411,20 +4960,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "The 1980s Sunset Strip serial killer's crimes are only partially solved when ABC cancelled after three episodes",
     note: "ABC cancelled after just three aired episodes — one of the fastest cancellations in network history. Almost nothing was resolved."
-  },
-  {
-    id: 406,
-    title: "Time After Time",
-    tvmazeQuery: "Time After Time ABC",
-    network: "ABC",
-    startYear: 2017,
-    years: "2017",
-    genres: ["Sci-Fi", "Thriller", "Historical"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "H.G. Wells pursuing Jack the Ripper through time and the threat of altering history are abandoned in the first season",
-    note: "H.G. Wells chases Jack the Ripper to modern New York via time machine. ABC cancelled after pulling the show from the schedule mid-run."
   },
   {
     id: 407,
@@ -5536,19 +5071,6 @@ const shows = [
     note: "Based on the Australian series — a man slaps someone else's child at a barbecue and the ripple effects destroy relationships. A complete eight-episode limited series."
   },
   {
-    id: 415,
-    title: "Freaks and Geeks",
-    network: "NBC",
-    startYear: 1999,
-    years: "1999–2000",
-    genres: ["Comedy", "Drama", "YA"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: false,
-    cliffhangerNote: "The final episode gave Lindsay Weir a liberating ending following the Grateful Dead — not a cliffhanger, but the show clearly had years of story left",
-    note: "Judd Apatow's high school masterpiece that launched everyone's careers. NBC cancelled after 18 episodes. A foundational cult TV series — what might have been haunts television history."
-  },
-  {
     id: 416,
     title: "Sports Night",
     network: "ABC",
@@ -5577,19 +5099,6 @@ const shows = [
     note: "Tom Cavanagh as a lawyer who moves back to his small town and buys a bowling alley. Four complete seasons with a romantic resolution. A warm, underrated 2000s gem."
   },
   {
-    id: 418,
-    title: "My So-Called Life",
-    network: "ABC",
-    startYear: 1994,
-    years: "1994–1995",
-    genres: ["Drama", "YA"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Angela's relationship with Jordan Catalano, her friendship with Rayanne, and her identity are all in raw flux when ABC cancelled",
-    note: "Claire Danes and Jared Leto in Winnie Holzman's definitive teen drama. ABC cancelled after 19 episodes. One of the most mourned single-season cancellations in television history."
-  },
-  {
     id: 419,
     title: "Relativity",
     network: "ABC",
@@ -5614,19 +5123,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "Ryan Hunter's demonic presence and what God's true plan for Joan means are left wide open",
     note: "A teenage girl who receives instructions from God in disguise. CBS cancelled after Season 2's dramatic shift toward good-vs-evil mythology. A fan-beloved religious drama."
-  },
-  {
-    id: 421,
-    title: "Jericho",
-    network: "CBS",
-    startYear: 2006,
-    years: "2006–2008",
-    genres: ["Post-Apocalyptic", "Drama", "Thriller"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "The New American Government's false flag nuclear attacks and the resistance's fight for the original United States are left open",
-    note: "A Kansas town surviving after nuclear attacks on US cities. CBS cancelled after Season 1; fans sent 20 tons of nuts to CBS (referencing a show line) and got Season 2. Cancelled again."
   },
   {
     id: 422,
@@ -5797,32 +5293,6 @@ const shows = [
     note: "Kat Dennings and Beth Behrs as two waitresses trying to start a cupcake business. CBS cancelled after six seasons — the girls never opened their shop."
   },
   {
-    id: 434,
-    title: "Mindhunter",
-    network: "Netflix",
-    startYear: 2017,
-    years: "2017–2019",
-    genres: ["Crime", "Psychological Thriller", "Historical"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "The BTK Killer thread woven through both seasons — who he is and his eventual capture — is left open",
-    note: "David Fincher's FBI behavioral science unit drama. Netflix cancelled after Season 2; Fincher said he'd return but never did. The BTK subplot remained permanently unresolved."
-  },
-  {
-    id: 435,
-    title: "Marco Polo",
-    network: "Netflix",
-    startYear: 2014,
-    years: "2014–2016",
-    genres: ["Historical", "Action", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Marco's fate at Kublai Khan's court and the Mongolian empire's expansion are abandoned mid-story",
-    note: "Netflix's most expensive production at launch. Cancelled after two seasons despite the massive budget — $200M spent for an incomplete story."
-  },
-  {
     id: 436,
     title: "Hemlock Grove",
     network: "Netflix",
@@ -5850,20 +5320,6 @@ const shows = [
     note: "Kyle Chandler in a Florida Keys family crime drama. Netflix cancelled after Season 3 with the psychological fallout of John's crimes only partially explored."
   },
   {
-    id: 438,
-    title: "Sense8",
-    network: "Netflix",
-    startYear: 2015,
-    years: "2015–2018",
-    genres: ["Sci-Fi", "Drama", "Action"],
-    status: "ended",
-    cancelledAfterSeason: null,
-    totalSeasons: 2,
-    cliffhanger: false,
-    cliffhangerNote: "Netflix cancelled after Season 2 but fan response was so overwhelming that a 2.5-hour finale movie was made to conclude the sensates' story",
-    note: "The Wachowskis' psychically-linked humans across the globe. Netflix cancelled; a 2-hour finale film was ordered after massive fan pressure. One of streaming's great second chances."
-  },
-  {
     id: 439,
     title: "13 Reasons Why",
     network: "Netflix",
@@ -5889,19 +5345,6 @@ const shows = [
     cliffhanger: true,
     cliffhangerNote: "The Boring, Oregon high school ensemble's coming-of-age stories and LGBTQ awakenings are left in their earliest chapters",
     note: "1990s Oregon high school coming-of-age comedy. Netflix cancelled after one season — an early example of the streamer's pattern of cancelling beloved YA shows after one attempt."
-  },
-  {
-    id: 441,
-    title: "The OA",
-    network: "Netflix",
-    startYear: 2016,
-    years: "2016–2019",
-    genres: ["Sci-Fi", "Mystery", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Prairie/OA's journey through dimensions and the mystery of Hap's experiments are left on a staggering mid-revelation note — the multiverse plot was just beginning",
-    note: "Brit Marling's mysterious blind woman with a story about near-death dimensions. Netflix cancelled after Season 2's extraordinary finale. One of streaming's most devastating cancellations."
   },
   {
     id: 442,
@@ -6012,19 +5455,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: null,
     note: "Brazilian sci-fi about a society where only 3% of people can move to an elite paradise. Four complete seasons — Netflix's first Brazilian original."
-  },
-  {
-    id: 450,
-    title: "Altered Carbon",
-    network: "Netflix",
-    startYear: 2018,
-    years: "2018–2020",
-    genres: ["Sci-Fi", "Noir", "Cyberpunk"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Takeshi Kovacs' hunt for Quellcrist Falconer and the Protectorate's grip on humanity are left open",
-    note: "Based on Richard K. Morgan's cyberpunk novel. Netflix cancelled after Season 2 — the trilogy of novels suggests the story was barely starting."
   },
   {
     id: 451,
@@ -6332,19 +5762,6 @@ const shows = [
     note: "Olivia Colman and David Tennant investigating a child's murder in a coastal town. Three complete seasons — the third closed both the case and the characters' arcs."
   },
   {
-    id: 473,
-    title: "Crazyhead",
-    network: "E4",
-    startYear: 2016,
-    years: "2016",
-    genres: ["Horror", "Comedy", "YA"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "Amy and Raquel's demon-fighting partnership and the larger supernatural threat they uncovered are abandoned",
-    note: "Howard Overman's supernatural comedy about two young women who can see demons. E4 cancelled after one perfect season. An underrated UK cult classic."
-  },
-  {
     id: 474,
     title: "The End of the F***ing World",
     network: "Channel 4 / Netflix",
@@ -6647,19 +6064,6 @@ const shows = [
     note: "Rachel Weisz playing both Cronenberg-inspired twins. Amazon cancelled after one season — a genuinely unsettling limited series that deserved renewal."
   },
   {
-    id: 496,
-    title: "The Nevers",
-    network: "HBO",
-    startYear: 2021,
-    years: "2021",
-    genres: ["Sci-Fi", "Victorian", "Superhero"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
-    cliffhanger: true,
-    cliffhangerNote: "The Touched women's powers and the true origin of the alien event that granted them abilities are left completely unresolved",
-    note: "Joss Whedon's Victorian women with supernatural abilities. Whedon departed mid-production; HBO cancelled after one season. The story was barely introduced."
-  },
-  {
     id: 497,
     title: "Station Eleven",
     network: "HBO Max",
@@ -6685,20 +6089,6 @@ const shows = [
     cliffhanger: false,
     cliffhangerNote: null,
     note: "Mike White's satirical resort anthology. Each season complete in itself. Still running — one of HBO's most culturally dominant shows of the 2020s."
-  },
-  {
-    id: 499,
-    title: "The Expanse",
-    network: "Syfy / Amazon Prime",
-    startYear: 2015,
-    years: "2015–2022",
-    genres: ["Sci-Fi", "Drama", "Political"],
-    status: "ended",
-    cancelledAfterSeason: null,
-    totalSeasons: 6,
-    cliffhanger: false,
-    cliffhangerNote: "The book series has more story, so Season 6 leaves the full saga incomplete — but the show's arc has a definitive ending within its six seasons",
-    note: "The most realistic sci-fi series on television. Cancelled by Syfy after Season 3, rescued by Amazon for three more seasons. Six seasons, a complete TV story — though the novels continue."
   },
   {
     id: 500,

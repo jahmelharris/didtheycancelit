@@ -737,3 +737,77 @@ body {
 @media (max-width: 400px) {
   .filter-wrap { display: grid; grid-template-columns: 1fr 1fr; }
 }
+
+/* ── Spoiler warning overlay ─────────────────────────────────── */
+#spoiler-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 16, 10, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 24px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+#spoiler-overlay.spoiler-dismissed {
+  opacity: 0;
+}
+
+.spoiler-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 40px 36px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+}
+
+.spoiler-icon {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: var(--orange);
+}
+
+.spoiler-box h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.spoiler-box p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.spoiler-box p:last-of-type {
+  margin-bottom: 28px;
+}
+
+#spoiler-dismiss {
+  background: var(--bg-header);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  width: 100%;
+}
+
+#spoiler-dismiss:hover {
+  opacity: 0.85;
+}

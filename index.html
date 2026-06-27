@@ -88,7 +88,34 @@
     <p>Show status and cliffhanger assessments are based on public record and fan consensus.<br>Built with grief for fans left hanging.</p>
   </footer>
 
+  <div id="spoiler-overlay" role="dialog" aria-modal="true" aria-labelledby="spoiler-title">
+    <div class="spoiler-box">
+      <div class="spoiler-icon">⚠</div>
+      <h2 id="spoiler-title">Spoiler Warning</h2>
+      <p>This site reveals whether shows were cancelled, how many seasons they ran, and whether they ended on a cliffhanger.</p>
+      <p>If you're currently watching a show and don't want to know its fate, search carefully.</p>
+      <button id="spoiler-dismiss">I understand, show me the site</button>
+    </div>
+  </div>
+
   <script src="data.js"></script>
   <script src="app.js"></script>
+  <script>
+    (function () {
+      const overlay = document.getElementById('spoiler-overlay');
+      const btn = document.getElementById('spoiler-dismiss');
+      if (sessionStorage.getItem('spoiler-ack')) {
+        overlay.remove();
+        return;
+      }
+      document.body.style.overflow = 'hidden';
+      btn.addEventListener('click', function () {
+        overlay.classList.add('spoiler-dismissed');
+        sessionStorage.setItem('spoiler-ack', '1');
+        document.body.style.overflow = '';
+        overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
+      });
+    })();
+  </script>
 </body>
 </html>

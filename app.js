@@ -305,6 +305,7 @@ async function renderFiltered() {
   const suffix = currentFilter !== 'all' ? ` · filtered from ${total}` : '';
   renderList(list, `${list.length} show${list.length !== 1 ? 's' : ''} found${suffix}`);
   paginationEl.innerHTML = '';
+  loadImages(list);
 }
 
 function render() {

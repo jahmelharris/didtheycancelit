@@ -3,10 +3,13 @@
 const PARAMS       = new URLSearchParams(window.location.search);
 const CURRENT_PAGE = Math.max(1, parseInt(PARAMS.get('page') || '1', 10));
 
+const PER_PAGE = 24;
+
 // ── State ──────────────────────────────────────────────────────
-let currentFilter = 'all';
-let currentSort   = 'title';
-let searchQuery   = '';
+let currentFilter  = 'all';
+let currentSort    = 'title';
+let searchQuery    = '';
+let searchPage     = 1;
 let allShowsLoaded = false;
 
 // ── DOM refs ───────────────────────────────────────────────────
@@ -300,12 +303,67 @@ async function renderFiltered() {
     paginationEl.innerHTML = '';
     await ensureAllShows();
   }
-  const list = applyFiltersAndSort(window.shows || []);
-  const total = window.pageMetadata?.stats?.total || list.length;
-  const suffix = currentFilter !== 'all' ? ` · filtered from ${total}` : '';
-  renderList(list, `${list.length} show${list.length !== 1 ? 's' : ''} found${suffix}`);
-  paginationEl.innerHTML = '';
-  loadImages(list);
+
+  const allFiltered   = applyFiltersAndSort(window.shows || []);
+  const totalResults  = allFiltered.length;
+  const totalPages    = Math.ceil(totalResults / PER_PAGE);
+  searchPage          = Math.min(searchPage, Math.max(1, totalPages));
+
+  const start      = (searchPage - 1) * PER_PAGE;
+  const pageSlice  = allFiltered.slice(start, start + PER_PAGE);
+  const globalTotal = window.pageMetadata?.stats?.total || totalResults;
+
+  let infoText;
+  if (totalResults === 0) {
+    infoText = 'No shows found';
+  } else {
+    const end    = Math.min(start + PER_PAGE, totalResults);
+    const suffix = currentFilter !== 'all' ? ` of ${globalTotal}` : '';
+    infoText = `Showing ${start + 1}–${end} of ${totalResults} result${totalResults !== 1 ? 's' : ''}${suffix}`;
+  }
+
+  renderList(pageSlice, infoText);
+  renderSearchPagination(totalPages);
+  loadImages(pageSlice);
+}
+
+function renderSearchPagination(totalPages) {
+  if (totalPages <= 1) { paginationEl.innerHTML = ''; return; }
+
+  const curr = searchPage;
+  const pages = new Set([1, totalPages]);
+  for (let i = Math.max(1, curr - 2); i <= Math.min(totalPages, curr + 2); i++) pages.add(i);
+  const sorted = [...pages].sort((a, b) => a - b);
+
+  let html = '<nav class="pagination-nav" aria-label="Search result pages">';
+
+  html += curr > 1
+    ? `<button class="page-btn page-prev" data-sp="${curr - 1}">&#8592; Prev</button>`
+    : `<span class="page-btn page-prev page-disabled">&#8592; Prev</span>`;
+
+  let last = 0;
+  for (const p of sorted) {
+    if (last && p - last > 1) html += `<span class="page-ellipsis">…</span>`;
+    html += p === curr
+      ? `<span class="page-btn page-current" aria-current="page">${p}</span>`
+      : `<button class="page-btn" data-sp="${p}">${p}</button>`;
+    last = p;
+  }
+
+  html += curr < totalPages
+    ? `<button class="page-btn page-next" data-sp="${curr + 1}">Next &#8594;</button>`
+    : `<span class="page-btn page-next page-disabled">Next &#8594;</span>`;
+
+  html += '</nav>';
+  paginationEl.innerHTML = html;
+
+  paginationEl.querySelectorAll('button[data-sp]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      searchPage = parseInt(btn.dataset.sp, 10);
+      renderFiltered();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
 }
 
 function render() {
@@ -320,6 +378,7 @@ function render() {
 
 searchInput.addEventListener('input', e => {
   searchQuery = e.target.value.trim();
+  searchPage  = 1;
   searchClear.classList.toggle('visible', searchQuery.length > 0);
   render();
 });
@@ -327,6 +386,7 @@ searchInput.addEventListener('input', e => {
 searchClear.addEventListener('click', () => {
   searchInput.value = '';
   searchQuery = '';
+  searchPage  = 1;
   searchClear.classList.remove('visible');
   searchInput.focus();
   render();
@@ -337,12 +397,14 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentFilter = btn.dataset.filter;
+    searchPage    = 1;
     render();
   });
 });
 
 sortSelect.addEventListener('change', e => {
   currentSort = e.target.value;
+  searchPage  = 1;
   render();
 });
 

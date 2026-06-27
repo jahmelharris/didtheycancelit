@@ -80,6 +80,7 @@ const shows = [
   {
     id: 7,
     title: "Carnivàle",
+    tvmazeQuery: "Carnivale",
     network: "HBO",
     startYear: 2003,
     years: "2003–2005",
@@ -171,6 +172,7 @@ const shows = [
   {
     id: 14,
     title: "Cowboy Bebop (2021)",
+    tvmazeQuery: "Cowboy Bebop 2021",
     network: "Netflix",
     startYear: 2021,
     years: "2021",

@@ -333,17 +333,108 @@ body {
   box-shadow: 0 12px 40px var(--red-glow);
 }
 
-/* Coloured top stripe */
-.card-stripe {
-  height: 3px;
+/* ── Poster image ────────────────────────────────────────── */
+
+.card-poster {
+  position: relative;
   width: 100%;
-  background: var(--border);
+  height: 200px;
+  background: var(--bg-muted);
+  overflow: hidden;
   flex-shrink: 0;
 }
 
-.show-card.cancelled .card-stripe { background: var(--red); }
-.show-card.ended     .card-stripe { background: var(--green); }
-.show-card.running   .card-stripe { background: var(--blue); }
+/* Coloured stripe at bottom of poster */
+.card-poster::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 3;
+  background: var(--border);
+}
+.show-card.cancelled .card-poster::after { background: var(--red); }
+.show-card.ended     .card-poster::after { background: var(--green); }
+.show-card.running   .card-poster::after { background: var(--blue); }
+
+/* Subtle gradient overlay at bottom so title text is readable */
+.card-poster::before {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to top, rgba(18,18,32,0.7) 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.card-poster img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  z-index: 1;
+}
+
+.card-poster.loaded img {
+  opacity: 1;
+}
+
+/* Placeholder shown while loading or on error */
+.poster-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+/* Shimmer while loading */
+.card-poster:not(.loaded):not(.error) .poster-placeholder {
+  background: linear-gradient(
+    90deg,
+    var(--bg-muted)   0%,
+    var(--border)     50%,
+    var(--bg-muted)   100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+/* Fallback letter on error / no image */
+.poster-initial {
+  font-family: 'Bebas Neue', 'Arial Black', Impact, sans-serif;
+  font-size: 100px;
+  line-height: 1;
+  color: var(--border-hover);
+  opacity: 0;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.card-poster.error .poster-placeholder {
+  animation: none;
+  background: linear-gradient(135deg, var(--bg-muted) 0%, var(--bg-card) 100%);
+}
+
+.card-poster.error .poster-initial {
+  opacity: 1;
+}
 
 .card-body {
   padding: 18px 18px 0;

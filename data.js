@@ -15,6 +15,7 @@ const shows = [
   {
     id: 2,
     title: "Dark Matter",
+    tvmazeQuery: "Dark Matter 2015",
     network: "Syfy",
     startYear: 2015,
     years: "2015–2017",
@@ -517,7 +518,7 @@ const shows = [
   {
     id: 40,
     title: "V",
-    tvmazeQuery: "V 2009",
+    tvmazeQuery: "V ABC",
     network: "ABC",
     startYear: 2009,
     years: "2009–2011",
@@ -753,7 +754,7 @@ const shows = [
   {
     id: 58,
     title: "Dirk Gently's Holistic Detective Agency",
-    tvmazeQuery: "Dirk Gently",
+    tvmazeQuery: "Dirk Gently BBC America",
     network: "BBC America",
     startYear: 2016,
     years: "2016–2017",
@@ -1068,6 +1069,7 @@ const shows = [
   {
     id: 82,
     title: "American Gothic",
+    tvmazeQuery: "American Gothic 1995",
     network: "CBS",
     startYear: 1995,
     years: "1995–1996",
@@ -1120,6 +1122,7 @@ const shows = [
   {
     id: 86,
     title: "Nowhere Man",
+    tvmazeQuery: "Nowhere Man UPN",
     network: "UPN",
     startYear: 1995,
     years: "1995–1996",
@@ -1224,6 +1227,7 @@ const shows = [
   {
     id: 94,
     title: "Surface",
+    tvmazeQuery: "Surface NBC",
     network: "NBC",
     startYear: 2005,
     years: "2005–2006",
@@ -1237,6 +1241,7 @@ const shows = [
   {
     id: 95,
     title: "Invasion",
+    tvmazeQuery: "Invasion ABC",
     network: "ABC",
     startYear: 2005,
     years: "2005–2006",
@@ -2142,6 +2147,7 @@ const shows = [
   {
     id: 167,
     title: "The Defenders",
+    tvmazeQuery: "The Defenders Netflix",
     network: "Netflix",
     startYear: 2017,
     years: "2017",
@@ -2447,6 +2453,7 @@ const shows = [
   {
     id: 190,
     title: "Ragnarök",
+    tvmazeQuery: "Ragnarok",
     network: "Netflix",
     startYear: 2020,
     years: "2020–2023",
@@ -2835,13 +2842,14 @@ const shows = [
     title: "Good Omens",
     network: "Amazon Prime",
     startYear: 2019,
-    years: "2019–2023",
+    years: "2019–2025",
     genres: ["Fantasy", "Comedy", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 2,
-    cliffhanger: true,
-    cliffhangerNote: "Aziraphale goes to Heaven and Crowley is left heartbroken — the planned Season 3 resolution of their relationship and the Second Coming left open",
-    note: "Neil Gaiman and Terry Pratchett's angel-demon comedy. Amazon cancelled after Season 2's divisive finale. Neil Gaiman has described what Season 3 would have been."
+    status: "ended",
+    cancelledAfterSeason: null,
+    totalSeasons: 3,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    note: "Neil Gaiman and Terry Pratchett's angel-demon comedy. Three seasons — the third released as a 90-minute special that concluded Aziraphale and Crowley's story."
   },
   {
     id: 222,
@@ -3090,13 +3098,14 @@ const shows = [
     title: "Poker Face",
     network: "Peacock",
     startYear: 2023,
-    years: "2023–",
+    years: "2023–2024",
     genres: ["Mystery", "Comedy", "Drama"],
-    status: "running",
+    status: "ended",
     cancelledAfterSeason: null,
+    totalSeasons: 2,
     cliffhanger: false,
     cliffhangerNote: null,
-    note: "Natasha Lyonne as a human lie detector solving murders in a Columbo-style procedural. Still running — Rian Johnson's best work in television form."
+    note: "Natasha Lyonne as a human lie detector solving murders in a Columbo-style procedural. Two complete seasons — Rian Johnson's best work in television form."
   },
   {
     id: 241,
@@ -3344,6 +3353,7 @@ const shows = [
   {
     id: 261,
     title: "Generation",
+    tvmazeQuery: "Generation HBO",
     network: "HBO Max",
     startYear: 2021,
     years: "2021",
@@ -3425,7 +3435,7 @@ const shows = [
   {
     id: 267,
     title: "La Casa de Papel",
-    tvmazeQuery: "Money Heist",
+    tvmazeQuery: "La Casa de Papel",
     network: "Antena 3 / Netflix",
     startYear: 2017,
     years: "2017–2021",
@@ -3469,13 +3479,14 @@ const shows = [
     title: "Squid Game",
     network: "Netflix",
     startYear: 2021,
-    years: "2021–",
+    years: "2021–2025",
     genres: ["Thriller", "Sci-Fi", "Drama"],
-    status: "running",
+    status: "ended",
     cancelledAfterSeason: null,
+    totalSeasons: 3,
     cliffhanger: false,
     cliffhangerNote: null,
-    note: "Hwang Dong-hyuk's death-game thriller became Netflix's most-watched series ever. Season 2 arrived in 2024 — still running, still culturally inescapable."
+    note: "Hwang Dong-hyuk's death-game thriller — Netflix's most-watched series ever. Three seasons, a complete story. Season 3 concluded the show in 2025."
   },
   {
     id: 272,
@@ -3743,13 +3754,14 @@ const shows = [
     title: "The Venture Bros.",
     network: "Adult Swim",
     startYear: 2003,
-    years: "2003–2018",
+    years: "2003–2023",
     genres: ["Animated", "Comedy", "Action"],
-    status: "cancelled",
-    cancelledAfterSeason: 7,
-    cliffhanger: true,
-    cliffhangerNote: "The Monarch's true origin and the fate of the original Team Venture are left open; a Kickstarter film was later crowdfunded to provide closure",
-    note: "Jackson Publick and Doc Hammer's supervillain-parody masterpiece. Adult Swim cancelled without warning after Season 7; fan outrage fueled a crowdfunded feature film."
+    status: "ended",
+    cancelledAfterSeason: null,
+    totalSeasons: 7,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    note: "Jackson Publick and Doc Hammer's supervillain-parody masterpiece. Adult Swim cancelled after Season 7; the 2023 crowdfunded film 'Radiant is the Blood Maiden' concluded the story."
   },
   {
     id: 295,
@@ -3782,14 +3794,13 @@ const shows = [
     title: "Primal",
     network: "Adult Swim",
     startYear: 2019,
-    years: "2019–2023",
+    years: "2019–",
     genres: ["Animated", "Action", "Adventure"],
-    status: "ended",
+    status: "running",
     cancelledAfterSeason: null,
-    totalSeasons: 2,
     cliffhanger: false,
     cliffhangerNote: null,
-    note: "Genndy Tartakovsky's wordless caveman-and-dinosaur masterpiece. Two complete seasons — Adult Swim let one of animation's true auteurs finish what he started."
+    note: "Genndy Tartakovsky's wordless caveman-and-dinosaur masterpiece. Still running — more content in development from one of animation's true auteurs."
   },
   {
     id: 299,
@@ -3863,7 +3874,7 @@ const shows = [
   {
     id: 304,
     title: "Star",
-    tvmazeQuery: "Star Fox",
+    tvmazeQuery: "Star Lee Daniels",
     network: "Fox",
     startYear: 2016,
     years: "2016–2019",
@@ -4265,13 +4276,12 @@ const shows = [
     title: "Big Little Lies",
     network: "HBO",
     startYear: 2017,
-    years: "2017–2019",
+    years: "2017–",
     genres: ["Mystery", "Drama", "Thriller"],
-    status: "ended",
+    status: "running",
     cancelledAfterSeason: null,
-    totalSeasons: 2,
     cliffhanger: true,
-    cliffhangerNote: "Season 2 ends with the 'Monterey Five' about to face legal consequences — a de facto cliffhanger, as Season 3 was announced but remains in limbo",
+    cliffhangerNote: "Season 2 ends with the 'Monterey Five' about to face legal consequences — Season 3 is in development",
     note: "Reese Witherspoon and Nicole Kidman in a Liane Moriarty adaptation. Season 2 was made despite original design as a miniseries. Season 3 remains unconfirmed years later."
   },
   {
@@ -4403,13 +4413,14 @@ const shows = [
     title: "Ray Donovan",
     network: "Showtime",
     startYear: 2013,
-    years: "2013–2020",
+    years: "2013–2022",
     genres: ["Crime", "Drama"],
-    status: "cancelled",
-    cancelledAfterSeason: 7,
-    cliffhanger: true,
-    cliffhangerNote: "Ray's complicated relationship with his father Mickey and his path to redemption are left open — a film was later announced to wrap things up",
-    note: "Liev Schreiber as a Hollywood fixer. Showtime cancelled without warning after Season 7's cliffhanger. A promised film eventually aired providing some closure."
+    status: "ended",
+    cancelledAfterSeason: null,
+    totalSeasons: 7,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    note: "Liev Schreiber as a Hollywood fixer. Showtime cancelled after Season 7's cliffhanger; a 2022 TV movie wrapped Ray's story. A promised film eventually aired providing some closure."
   },
   {
     id: 352,
@@ -4591,7 +4602,7 @@ const shows = [
   {
     id: 366,
     title: "The Killing",
-    tvmazeQuery: "The Killing US",
+    tvmazeQuery: "The Killing AMC",
     network: "AMC / Netflix",
     startYear: 2011,
     years: "2011–2014",
@@ -5166,8 +5177,7 @@ const shows = [
   },
   {
     id: 425,
-    title: "Numbers",
-    tvmazeQuery: "Numb3rs",
+    title: "Numb3rs",
     network: "CBS",
     startYear: 2005,
     years: "2005–2010",
@@ -5502,13 +5512,13 @@ const shows = [
     title: "Taboo",
     network: "FX / BBC One",
     startYear: 2017,
-    years: "2017",
+    years: "2017–",
     genres: ["Historical", "Drama", "Thriller"],
-    status: "cancelled",
-    cancelledAfterSeason: 1,
+    status: "running",
+    cancelledAfterSeason: null,
     cliffhanger: true,
     cliffhangerNote: "James Delaney's escape and his plans to use Nootka Sound against both the East India Company and the Crown are only beginning",
-    note: "Tom Hardy as a man returning to London with dangerous secrets. FX/BBC cancelled — a second season was promised for years and never delivered."
+    note: "Tom Hardy as a man returning to London with dangerous secrets. Season 2 is in active development — one of TV's longest-gestating sequelssed for years and never delivered."
   },
   {
     id: 455,
@@ -5668,13 +5678,12 @@ const shows = [
     title: "Peaky Blinders",
     network: "BBC Two / BBC One",
     startYear: 2013,
-    years: "2013–2022",
+    years: "2013–",
     genres: ["Crime", "Drama", "Historical"],
-    status: "ended",
+    status: "running",
     cancelledAfterSeason: null,
-    totalSeasons: 6,
-    cliffhanger: false,
-    cliffhangerNote: "Season 6 ended with Tommy Shelby's fate ambiguous — a feature film was announced to continue the story",
+    cliffhanger: true,
+    cliffhangerNote: "Season 6 ended with Tommy Shelby's fate ambiguous — a feature film is in production to conclude the story",
     note: "Cillian Murphy as Birmingham gangster Tommy Shelby. Six seasons — the story continues in a planned film. One of the BBC's biggest prestige hits."
   },
   {
@@ -5696,14 +5705,13 @@ const shows = [
     title: "Luther",
     network: "BBC One",
     startYear: 2010,
-    years: "2010–2019",
+    years: "2010–",
     genres: ["Crime", "Thriller", "Drama"],
-    status: "ended",
+    status: "running",
     cancelledAfterSeason: null,
-    totalSeasons: 5,
     cliffhanger: false,
     cliffhangerNote: null,
-    note: "Idris Elba as Detective John Luther. Five short seasons and a 2023 Netflix film. Complete — though Elba fans will always want more."
+    note: "Idris Elba as Detective John Luther. Five BBC seasons, a 2023 Netflix film, and the franchise continues — more Luther content is in development."
   },
   {
     id: 469,
@@ -5724,14 +5732,13 @@ const shows = [
     title: "Doctor Foster",
     network: "BBC One",
     startYear: 2015,
-    years: "2015–2017",
+    years: "2015–",
     genres: ["Drama", "Thriller"],
-    status: "ended",
+    status: "running",
     cancelledAfterSeason: null,
-    totalSeasons: 2,
     cliffhanger: false,
     cliffhangerNote: null,
-    note: "Suranne Jones as a GP discovering her husband's affair and dismantling his world. Two devastating seasons — a complete story of revenge and self-destruction."
+    note: "Suranne Jones as a GP discovering her husband's affair. Two seasons of Doctor Foster plus the 2022 sequel series Tom — the story continues."
   },
   {
     id: 471,
@@ -5866,12 +5873,12 @@ const shows = [
     title: "Ted Lasso",
     network: "Apple TV+",
     startYear: 2020,
-    years: "2020–2023",
+    years: "2020–",
     genres: ["Comedy", "Drama", "Sports"],
-    status: "cancelled",
-    cancelledAfterSeason: 3,
+    status: "running",
+    cancelledAfterSeason: null,
     cliffhanger: false,
-    cliffhangerNote: "Season 3 was designed as a finale — but the cast and creators left the door open, and a Season 4 was later announced then unannounced then re-announced",
+    cliffhangerNote: null,
     note: "Jason Sudeikis as an American football coach managing AFC Richmond. Three seasons — technically complete but the 'will there be more?' debate continues."
   },
   {
@@ -6093,6 +6100,7 @@ const shows = [
   {
     id: 500,
     title: "Twin Peaks: The Return",
+    tvmazeQuery: "Twin Peaks The Return",
     network: "Showtime",
     startYear: 2017,
     years: "2017",

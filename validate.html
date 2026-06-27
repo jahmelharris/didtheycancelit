@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Validator — Has It Been Cancelled?</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+      background: #f4f1ec;
+      color: #1a1410;
+      padding: 32px 24px;
+    }
+
+    h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+    p.subtitle { color: #6a5a50; margin-bottom: 24px; }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    button {
+      padding: 10px 22px;
+      background: #141010;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    #progress-wrap {
+      flex: 1;
+      max-width: 400px;
+    }
+    #progress-bar-outer {
+      height: 8px;
+      background: #ddd5c8;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    #progress-bar-inner {
+      height: 100%;
+      background: #c0311f;
+      border-radius: 4px;
+      width: 0%;
+      transition: width 0.2s;
+    }
+    #progress-label {
+      font-size: 12px;
+      color: #6a5a50;
+      margin-top: 4px;
+    }
+
+    .summary {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .summary-item {
+      background: #fff;
+      border: 1px solid #cec5b8;
+      border-radius: 8px;
+      padding: 12px 18px;
+      min-width: 120px;
+    }
+    .summary-item .num { font-size: 28px; font-weight: 700; }
+    .summary-item .lbl { font-size: 12px; color: #6a5a50; margin-top: 2px; }
+    .num-red   { color: #c0311f; }
+    .num-orange { color: #b05a10; }
+    .num-green  { color: #236b42; }
+
+    .filter-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      padding: 5px 14px;
+      background: #ede8df;
+      color: #1a1410;
+      border: 1px solid #cec5b8;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .filter-btn.active {
+      background: #141010;
+      color: #fff;
+      border-color: #141010;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid #cec5b8;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th {
+      text-align: left;
+      padding: 10px 14px;
+      background: #ede8df;
+      border-bottom: 1px solid #cec5b8;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #6a5a50;
+    }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #ede8df;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #faf8f5; }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .badge-red    { background: #fde8e5; color: #c0311f; }
+    .badge-orange { background: #fdf0e0; color: #b05a10; }
+    .badge-blue   { background: #e5edf8; color: #2a5c9a; }
+    .badge-green  { background: #e5f2ea; color: #236b42; }
+
+    .severity-critical { border-left: 3px solid #c0311f; }
+    .severity-warning  { border-left: 3px solid #b05a10; }
+    .severity-info     { border-left: 3px solid #2a5c9a; }
+
+    .show-id   { color: #a8998d; font-size: 12px; }
+    .show-link { color: #2a5c9a; text-decoration: none; }
+    .show-link:hover { text-decoration: underline; }
+
+    #no-issues {
+      text-align: center;
+      padding: 48px;
+      color: #6a5a50;
+      display: none;
+    }
+    #no-issues .big { font-size: 40px; margin-bottom: 8px; }
+
+    #results-table-wrap { display: none; }
+
+    .error-msg {
+      background: #fde8e5;
+      border: 1px solid #f5c6c0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      color: #c0311f;
+      margin-bottom: 12px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Data Validator</h1>
+  <p class="subtitle">Checks each show against the TVMaze API and flags status mismatches, year discrepancies, and missing entries.</p>
+
+  <div class="controls">
+    <button id="run-btn">Run Validation</button>
+    <div id="progress-wrap" style="display:none">
+      <div id="progress-bar-outer"><div id="progress-bar-inner"></div></div>
+      <div id="progress-label">0 / 0</div>
+    </div>
+  </div>
+
+  <div id="error-msg" class="error-msg"></div>
+
+  <div id="summary" class="summary" style="display:none"></div>
+
+  <div id="filter-row" class="filter-row" style="display:none"></div>
+
+  <div id="results-table-wrap">
+    <table id="results-table">
+      <thead>
+        <tr>
+          <th>Show</th>
+          <th>Issue</th>
+          <th>Our Data</th>
+          <th>TVMaze Says</th>
+        </tr>
+      </thead>
+      <tbody id="results-body"></tbody>
+    </table>
+  </div>
+
+  <div id="no-issues">
+    <div class="big">✓</div>
+    <p>No issues found.</p>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    const BATCH_SIZE = 5;
+    const BATCH_DELAY = 1200; // ms between batches (~4 req/s, well under TVMaze's 20/10s)
+
+    const runBtn       = document.getElementById('run-btn');
+    const progressWrap = document.getElementById('progress-wrap');
+    const progressBar  = document.getElementById('progress-bar-inner');
+    const progressLbl  = document.getElementById('progress-label');
+    const summaryEl    = document.getElementById('summary');
+    const filterRowEl  = document.getElementById('filter-row');
+    const tableWrap    = document.getElementById('results-table-wrap');
+    const tbody        = document.getElementById('results-body');
+    const noIssues     = document.getElementById('no-issues');
+    const errorMsg     = document.getElementById('error-msg');
+
+    // TVMaze status → our status
+    function tvmazeStatusToOurs(tvStatus) {
+      if (!tvStatus) return null;
+      const s = tvStatus.toLowerCase();
+      if (s === 'running') return 'running';
+      if (s === 'ended')   return 'ended_or_cancelled'; // TVMaze doesn't distinguish
+      return 'unknown'; // "To Be Determined", "In Development"
+    }
+
+    function ourStatusLabel(s) {
+      return { cancelled: 'Cancelled', ended: 'Saved / Ended', running: 'Still Running' }[s] || s;
+    }
+
+    async function fetchTVMaze(show) {
+      const q = encodeURIComponent(show.tvmazeQuery || show.title);
+      try {
+        const res = await fetch(`https://api.tvmaze.com/singlesearch/shows?q=${q}`);
+        if (res.status === 404) return { found: false };
+        if (!res.ok) return { error: res.status };
+        const data = await res.json();
+        return { found: true, data };
+      } catch (e) {
+        return { error: e.message };
+      }
+    }
+
+    function extractYear(dateStr) {
+      if (!dateStr) return null;
+      const m = dateStr.match(/^(\d{4})/);
+      return m ? parseInt(m[1]) : null;
+    }
+
+    function classifyIssues(show, result) {
+      const issues = [];
+
+      if (!result.found) {
+        issues.push({
+          severity: 'warning',
+          type: 'not_found',
+          label: 'Not found on TVMaze',
+          ours: ourStatusLabel(show.status),
+          theirs: '—'
+        });
+        return issues;
+      }
+
+      if (result.error) {
+        issues.push({
+          severity: 'info',
+          type: 'fetch_error',
+          label: `Fetch error: ${result.error}`,
+          ours: ourStatusLabel(show.status),
+          theirs: '—'
+        });
+        return issues;
+      }
+
+      const tv = result.data;
+      const tvStatus = tv.status; // "Running", "Ended", "To Be Determined"
+      const tvMapped = tvmazeStatusToOurs(tvStatus);
+
+      // Status mismatches
+      if (show.status === 'running' && tvMapped === 'ended_or_cancelled') {
+        issues.push({
+          severity: 'critical',
+          type: 'status_mismatch',
+          label: 'We say Running — TVMaze says Ended',
+          ours: 'running',
+          theirs: tvStatus
+        });
+      } else if ((show.status === 'ended' || show.status === 'cancelled') && tvStatus === 'Running') {
+        issues.push({
+          severity: 'critical',
+          type: 'status_mismatch',
+          label: 'We say ' + ourStatusLabel(show.status) + ' — TVMaze says Running',
+          ours: ourStatusLabel(show.status),
+          theirs: tvStatus
+        });
+      } else if (show.status !== 'running' && tvStatus === 'To Be Determined') {
+        issues.push({
+          severity: 'warning',
+          type: 'status_mismatch',
+          label: 'TVMaze status is uncertain (To Be Determined)',
+          ours: ourStatusLabel(show.status),
+          theirs: tvStatus
+        });
+      }
+
+      // Start year mismatch (allow ±1 for shows that premiered late in a year)
+      const tvStartYear = extractYear(tv.premiered);
+      if (tvStartYear && Math.abs(tvStartYear - show.startYear) > 1) {
+        issues.push({
+          severity: 'warning',
+          type: 'year_mismatch',
+          label: 'Start year mismatch',
+          ours: String(show.startYear),
+          theirs: String(tvStartYear)
+        });
+      }
+
+      // End year — if TVMaze has an ended date and the show isn't running, check it's plausible
+      const tvEndYear = extractYear(tv.ended);
+      if (tvEndYear && show.status !== 'running') {
+        const ourEndYear = parseInt((show.years || '').split('–')[1]);
+        if (ourEndYear && Math.abs(tvEndYear - ourEndYear) > 1) {
+          issues.push({
+            severity: 'warning',
+            type: 'year_mismatch',
+            label: 'End year mismatch',
+            ours: String(ourEndYear),
+            theirs: String(tvEndYear)
+          });
+        }
+      }
+
+      // Name mismatch (fuzzy — flag if TVMaze name is very different)
+      if (tv.name && show.title) {
+        const norm = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const ourNorm  = norm(show.title);
+        const theirNorm = norm(tv.name);
+        if (!ourNorm.includes(theirNorm) && !theirNorm.includes(ourNorm) && theirNorm.length > 3) {
+          issues.push({
+            severity: 'info',
+            type: 'name_mismatch',
+            label: 'TVMaze matched a different show title',
+            ours: show.title,
+            theirs: tv.name
+          });
+        }
+      }
+
+      return issues;
+    }
+
+    let allRows = [];
+
+    function renderTable(filter) {
+      const filtered = filter === 'all' ? allRows : allRows.filter(r => r.severity === filter);
+      tbody.innerHTML = '';
+
+      if (filtered.length === 0) {
+        tableWrap.style.display = 'none';
+        noIssues.style.display = 'block';
+        return;
+      }
+
+      noIssues.style.display = 'none';
+      tableWrap.style.display = 'block';
+
+      filtered.forEach(row => {
+        const tr = document.createElement('tr');
+        tr.className = `severity-${row.severity}`;
+        tr.innerHTML = `
+          <td>
+            <div><strong>${row.showTitle}</strong></div>
+            <div class="show-id">#${row.showId} · ${row.network}</div>
+          </td>
+          <td><span class="badge badge-${row.severity === 'critical' ? 'red' : row.severity === 'warning' ? 'orange' : 'blue'}">${row.label}</span></td>
+          <td>${row.ours}</td>
+          <td>${row.theirs}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderSummaryAndFilters() {
+      const counts = { critical: 0, warning: 0, info: 0 };
+      allRows.forEach(r => counts[r.severity]++);
+
+      summaryEl.style.display = 'flex';
+      summaryEl.innerHTML = `
+        <div class="summary-item">
+          <div class="num num-red">${counts.critical}</div>
+          <div class="lbl">Critical</div>
+        </div>
+        <div class="summary-item">
+          <div class="num num-orange">${counts.warning}</div>
+          <div class="lbl">Warnings</div>
+        </div>
+        <div class="summary-item">
+          <div class="num">${counts.info}</div>
+          <div class="lbl">Info</div>
+        </div>
+        <div class="summary-item">
+          <div class="num num-green">${shows.length - allRows.map(r=>r.showId).filter((v,i,a)=>a.indexOf(v)===i).length}</div>
+          <div class="lbl">Clean</div>
+        </div>
+      `;
+
+      filterRowEl.style.display = 'flex';
+      filterRowEl.innerHTML = '';
+      const filters = [
+        { key: 'all', label: `All issues (${allRows.length})` },
+        { key: 'critical', label: `Critical (${counts.critical})` },
+        { key: 'warning', label: `Warnings (${counts.warning})` },
+        { key: 'info', label: `Info (${counts.info})` },
+      ];
+      let active = 'all';
+      filters.forEach(f => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn' + (f.key === active ? ' active' : '');
+        btn.textContent = f.label;
+        btn.addEventListener('click', () => {
+          filterRowEl.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          active = f.key;
+          renderTable(active);
+        });
+        filterRowEl.appendChild(btn);
+      });
+    }
+
+    async function delay(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    runBtn.addEventListener('click', async () => {
+      runBtn.disabled = true;
+      progressWrap.style.display = 'block';
+      summaryEl.style.display = 'none';
+      filterRowEl.style.display = 'none';
+      tableWrap.style.display = 'none';
+      noIssues.style.display = 'none';
+      errorMsg.style.display = 'none';
+      tbody.innerHTML = '';
+      allRows = [];
+
+      const total = shows.length;
+      let done = 0;
+
+      for (let i = 0; i < shows.length; i += BATCH_SIZE) {
+        const batch = shows.slice(i, i + BATCH_SIZE);
+        const results = await Promise.all(batch.map(s => fetchTVMaze(s)));
+
+        results.forEach((result, j) => {
+          const show = batch[j];
+          const issues = classifyIssues(show, result);
+          issues.forEach(issue => {
+            allRows.push({
+              showId: show.id,
+              showTitle: show.title,
+              network: show.network,
+              severity: issue.severity,
+              label: issue.label,
+              ours: issue.ours,
+              theirs: issue.theirs,
+            });
+          });
+        });
+
+        done += batch.length;
+        const pct = Math.round((done / total) * 100);
+        progressBar.style.width = pct + '%';
+        progressLbl.textContent = `${done} / ${total} shows checked`;
+
+        if (i + BATCH_SIZE < shows.length) {
+          await delay(BATCH_DELAY);
+        }
+      }
+
+      progressLbl.textContent = `Done — ${total} shows checked`;
+
+      if (allRows.length === 0) {
+        noIssues.style.display = 'block';
+      } else {
+        // Sort: critical first, then warning, then info
+        const order = { critical: 0, warning: 1, info: 2 };
+        allRows.sort((a, b) => order[a.severity] - order[b.severity] || a.showId - b.showId);
+        renderSummaryAndFilters();
+        renderTable('all');
+      }
+
+      runBtn.disabled = false;
+    });
+  </script>
+</body>
+</html>

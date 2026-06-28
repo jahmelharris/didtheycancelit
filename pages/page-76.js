@@ -314,7 +314,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled in 2006 after one season; Nim/Nimrod\'s origins and the government cover-up were left unresolved.',
+    cliffhangerNote: 'Apple TV+ cancelled after two seasons; Sophie\'s recovered identity and the conspiracy around her past were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/554/1386518.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 76, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 76, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

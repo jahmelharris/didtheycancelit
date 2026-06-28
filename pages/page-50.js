@@ -178,16 +178,16 @@ window.pageShows = [
   {
     id: 1188,
     tvmazeId: '60090',
-    title: 'Monarch: Legacy of Monsters checkifcancelled',
+    title: 'Monarch: Legacy of Monsters',
     network: 'Apple TV',
     startYear: 2023,
     years: '2023–',
     genres: ['Action', 'Adventure', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Apple TV+ cancelled after one season; the Randa family mystery and Godzilla\'s origins were left unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/612/1530034.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 50, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 50, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

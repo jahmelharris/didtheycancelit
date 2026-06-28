@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2018,
     years: '2018',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after one season; Henry Morgan\'s immortality origins and Adam\'s identity were unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: '8-episode limited anthology series with Maya Rudolph and Fred Armisen; told a complete self-contained story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/163/408127.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 152, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 152, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

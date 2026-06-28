@@ -198,11 +198,11 @@ window.pageShows = [
     startYear: 1968,
     years: '1968',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after two seasons; the mysterious return of the dead in Arcadia was left completely unexplained.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     note: '',
   },
   {
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 599, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 599, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

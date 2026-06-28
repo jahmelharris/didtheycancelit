@@ -42,8 +42,8 @@ window.pageShows = [
     status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after one season; Henry Morgan\'s immortality origins and Adam\'s identity were unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/564/1411466.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 11, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 11, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

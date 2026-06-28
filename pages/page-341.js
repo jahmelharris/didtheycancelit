@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled after one season on a cliffhanger; Josh Wheeler\'s quest and the Burr zombie timeline were left unresolved.',
+    cliffhangerNote: 'ABC cancelled after eight aired episodes (13 produced); the time-loop conspiracy holding Hopper was never resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9395.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 341, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 341, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

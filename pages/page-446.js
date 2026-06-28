@@ -186,7 +186,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'CBS cancelled after one season; the Hawthorne family\'s investigation of the Silver Hand killer was unresolved.',
+    cliffhangerNote: 'CBS cancelled after one season; Sheriff Buck\'s hold over the town of Trinity and Caleb Temple\'s supernatural destiny were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/419/1048256.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 446, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 446, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

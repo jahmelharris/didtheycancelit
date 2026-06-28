@@ -170,8 +170,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled after one season; Vince Faraday\'s vigilante war against Peter Fleming/Chess was just beginning.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/146/365613.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 444, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 444, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

@@ -358,7 +358,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: 'BBC One gave the series a planned five-series finale, though fans debated its handling of Arthur and Merlin\'s destiny.',
+    cliffhangerNote: '1998 NBC miniseries starring Sam Neill; told a complete story of Merlin\'s life and concluded properly.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/149/374688.jpg',
     note: '',
   },
@@ -378,4 +378,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 422, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 422, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

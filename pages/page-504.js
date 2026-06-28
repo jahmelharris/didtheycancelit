@@ -57,8 +57,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after one season; the search for Dr. Emmet Cole in the Amazon and the supernatural forces there were unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/151/379943.jpg',
     note: '',
   },
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 504, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 504, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

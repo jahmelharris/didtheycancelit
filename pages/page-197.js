@@ -281,7 +281,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: 'CBS cancelled twice; the story was partially continued in comic books but the TV arc was not fully resolved on screen.',
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/44/111582.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 197, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 197, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

@@ -373,10 +373,10 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Netflix cancelled after one season; Sasha\'s possession storyline and the Annex Foundation conspiracy were unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/365/913688.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 399, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 399, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

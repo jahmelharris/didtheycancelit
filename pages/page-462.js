@@ -26,8 +26,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after four episodes mid-story; H.G. Wells chasing Jack the Ripper through time was barely started.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     note: '',
   },
   {
@@ -379,4 +379,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 462, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 462, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

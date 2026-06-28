@@ -370,7 +370,7 @@ window.pageShows = [
   {
     id: 1656,
     tvmazeId: '60527',
-    title: 'Loot checkifcancelled',
+    title: 'Loot',
     network: 'Apple TV',
     startYear: 2022,
     years: '2022–',
@@ -378,10 +378,10 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Apple TV+ cancelled after two seasons; Molly\'s charity work and romantic arc were left open.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/594/1485065.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 69, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 69, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

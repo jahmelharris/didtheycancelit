@@ -123,7 +123,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'BBC cancelled after two series; the plague survivors\' society-building and the lab conspiracy were unresolved.',
+    cliffhangerNote: 'BBC cancelled the 2008 remake after two series; the lab conspiracy and the origin of the plague were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/17037.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 324, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 324, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

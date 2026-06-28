@@ -331,7 +331,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'ABC Australia cancelled after two seasons; Ned and Jesse\'s political conspiracy investigation was left open.',
+    cliffhangerNote: 'CBS cancelled after one season; the NCIS-style legal drama\'s cases and character arcs were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/191/478314.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 140, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 140, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

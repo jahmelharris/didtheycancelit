@@ -182,11 +182,11 @@ window.pageShows = [
     startYear: 2006,
     years: '2006–2008',
     genres: ['Drama', 'Action', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: 'CBS cancelled twice; the story was partially continued in comic books but the TV arc was not fully resolved on screen.',
+    cliffhanger: true,
+    cliffhangerNote: 'CBS cancelled twice; the civil war and Hawkins\'s mission to expose the conspiracy were left unresolved on screen (a comics continuation existed but the TV story was never concluded).',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/495/1239461.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 343, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 343, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

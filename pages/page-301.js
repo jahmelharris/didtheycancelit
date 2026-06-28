@@ -343,11 +343,11 @@ window.pageShows = [
     startYear: 2010,
     years: '2010',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'BBC One cancelled after one series; the Hermes submarine crew\'s deep-sea discoveries were just beginning.',
+    cliffhanger: false,
+    cliffhangerNote: '5-episode BBC One mini-series; the story of the Hermes submarine crew was resolved within the single series.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9141.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 301, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 301, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

@@ -325,11 +325,11 @@ window.pageShows = [
     startYear: 1967,
     years: '1967–1968',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Syfy cancelled after four seasons; Magnus\'s Sanctuary network and the abnormal world storyline were left mid-arc.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     note: '',
   },
   {
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 602, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 602, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

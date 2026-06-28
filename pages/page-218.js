@@ -183,11 +183,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2016',
     genres: ['Drama', 'Action', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled after one season; the evos\' fight to save humanity and Tommy/Malina\'s destinies were left unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: 'Designed as a 13-episode limited event series with a planned series finale.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/197/493254.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 218, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 218, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

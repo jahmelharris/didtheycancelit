@@ -310,11 +310,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016–2022',
     genres: ['Drama', 'Science-Fiction', 'Western'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'HBO cancelled after four seasons with major host consciousness and loops left unresolved, though creators posted episode summaries.',
+    cliffhanger: false,
+    cliffhangerNote: 'Season 4 was crafted as a planned series finale; the story was brought to a self-contained close.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/445/1113927.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 210, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 210, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

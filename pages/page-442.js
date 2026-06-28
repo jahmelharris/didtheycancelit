@@ -356,11 +356,11 @@ window.pageShows = [
     startYear: 1996,
     years: '1996–1999',
     genres: ['Drama', 'Adventure'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after one season; the Sandoval winery family power struggle was just developing.',
+    cliffhanger: false,
+    cliffhangerNote: 'CBS drama that ran three seasons (1996-1999) and concluded its run naturally.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/302/755459.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 442, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 442, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

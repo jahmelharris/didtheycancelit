@@ -167,11 +167,11 @@ window.pageShows = [
     startYear: 1972,
     years: '1972–1975',
     genres: ['Drama', 'Action', 'Western'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'CW cancelled after three seasons; Nicky Shen\'s mission and the supernatural threats to San Francisco were left open.',
+    cliffhanger: false,
+    cliffhangerNote: 'Original David Carradine series ran three seasons and concluded its run naturally.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/17/43945.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 586, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 586, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

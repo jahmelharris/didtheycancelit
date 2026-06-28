@@ -85,11 +85,11 @@ window.pageShows = [
     startYear: 1992,
     years: '1992–1995',
     genres: ['Action', 'Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'CW cancelled after one season; Stephen\'s father and the Ultra conspiracy were left completely open.',
+    cliffhanger: false,
+    cliffhangerNote: '1992 UK revival series that ran four series and concluded its run.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/18/47392.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 477, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 477, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 1973,
     years: '1973–1979',
     genres: ['Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'CW cancelled after one season; Stephen\'s father and the Ultra conspiracy were left completely open.',
+    cliffhanger: false,
+    cliffhangerNote: 'Original UK children\'s sci-fi series ran eight series (1973-1979) and concluded its run.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/18/47381.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 584, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 584, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

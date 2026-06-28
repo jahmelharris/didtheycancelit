@@ -276,11 +276,11 @@ window.pageShows = [
     startYear: 1990,
     years: '1990–1995',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Netflix cancelled after season six due to Spacey controversy; the final season was reshot and provided an incomplete conclusion.',
+    cliffhanger: false,
+    cliffhangerNote: '',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/17/43895.jpg',
     note: '',
   },
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 486, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 486, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

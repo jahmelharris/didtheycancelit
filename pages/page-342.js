@@ -299,7 +299,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled Heroes Reborn after one season; original series ended without resolving Volume 5 properly, and Reborn left new character arcs open.',
+    cliffhangerNote: 'NBC cancelled after four seasons; Season 4\'s ending was inconclusive and the larger mythology was never fully resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/1904.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 342, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 342, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

@@ -198,11 +198,11 @@ window.pageShows = [
     startYear: 2008,
     years: '2008–2009',
     genres: ['Drama', 'Crime', 'Fantasy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after one season; Sam Tyler\'s mystery of whether 1973 was real or a coma-dream was hastily resolved in a controversial finale.',
+    cliffhanger: false,
+    cliffhangerNote: 'ABC gave the show a rushed but complete finale when it was cancelled; Sam Tyler\'s mystery about 1973 was resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/16226.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 321, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 321, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

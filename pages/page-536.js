@@ -274,11 +274,11 @@ window.pageShows = [
     startYear: 1983,
     years: '1983–1985',
     genres: ['Drama', 'Action', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after two seasons; Anna\'s Bliss weapon and the Fifth Column resistance were left mid-arc.',
+    cliffhanger: false,
+    cliffhangerNote: 'Original 1983 NBC miniseries; the story was completed by the follow-up V: The Final Battle (1984).',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/356/890308.jpg',
     note: '',
   },
@@ -379,4 +379,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 536, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 536, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

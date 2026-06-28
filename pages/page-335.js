@@ -134,11 +134,11 @@ window.pageShows = [
     startYear: 2007,
     years: '2007',
     genres: ['Drama', 'Science-Fiction', 'Mystery'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Syfy cancelled after four seasons; Magnus\'s Sanctuary network and the abnormal world storyline were left mid-arc.',
+    cliffhanger: false,
+    cliffhangerNote: 'Original 8-episode web series that was the precursor to the Syfy series; story continued in the television adaptation.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/341/853960.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 335, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 335, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

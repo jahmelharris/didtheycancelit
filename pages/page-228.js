@@ -87,11 +87,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2020',
     genres: ['Drama', 'Adventure', 'Fantasy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'Syfy cancelled after five seasons; Quentin Coldwater\'s magical journey was not given a proper finale (he was killed in season four, which affected the conclusion).',
+    cliffhanger: false,
+    cliffhangerNote: 'Syfy cancelled after five seasons, but the showrunners wrote Season 5 as a planned finale; major character arcs were resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/229/573329.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 228, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 228, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

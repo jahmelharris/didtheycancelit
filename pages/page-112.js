@@ -295,11 +295,11 @@ window.pageShows = [
     startYear: 2020,
     years: '2020',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled after two seasons; Detective Crews\' wrongful conviction conspiracy investigation was left open.',
+    cliffhanger: false,
+    cliffhangerNote: 'BBC One 6-episode mini-series by Mike Bartlett; told a complete story about four housemates in Manchester.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/268/670996.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 112, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 112, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

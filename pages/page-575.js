@@ -337,11 +337,11 @@ window.pageShows = [
     startYear: 1975,
     years: '1975–1977',
     genres: [],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'BBC cancelled after two series; the plague survivors\' society-building and the lab conspiracy were unresolved.',
+    cliffhanger: false,
+    cliffhangerNote: 'Original 1975 BBC post-apocalyptic series ran three series and concluded its run.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/8/21806.jpg',
     note: '',
   },
@@ -378,4 +378,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 575, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 575, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

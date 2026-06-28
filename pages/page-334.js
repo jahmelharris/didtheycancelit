@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2007,
     years: '2007–2011',
     genres: ['Drama', 'Adventure', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'ITV cancelled after three series on a cliffhanger (later revived for two more); Claudia Brown\'s disappearance and the anomalies were left open.',
+    cliffhanger: false,
+    cliffhangerNote: 'ITV cancelled after three series; later revived by ITV2 for Series 4 and 5, which provided a proper series conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/16152.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 334, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 334, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

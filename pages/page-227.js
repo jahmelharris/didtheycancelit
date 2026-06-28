@@ -134,11 +134,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2022',
     genres: ['Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
-    cliffhangerNote: 'BBC One cancelled after one series; the Hermes submarine crew\'s deep-sea discoveries were just beginning.',
+    cliffhanger: false,
+    cliffhangerNote: 'CBBC animated series that ran three seasons and concluded its story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/48/120277.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 227, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};
+window.pageMetadata = {"page": 227, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};

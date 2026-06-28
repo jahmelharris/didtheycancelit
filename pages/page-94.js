@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 2242,
     tvmazeId: '64728',
-    title: 'Mikki vs the World checkifcancelled',
+    title: 'Mikki vs the World',
     network: 'ABC iview',
     startYear: 2021,
     years: '2021–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 2243,
     tvmazeId: '53254',
-    title: 'Millennials checkifcancelled',
+    title: 'Millennials',
     network: 'ALLBLK',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 2244,
     tvmazeId: '61285',
-    title: 'Milo checkifcancelled',
+    title: 'Milo',
     network: '5',
     startYear: 2021,
     years: '2021–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 94, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 94, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

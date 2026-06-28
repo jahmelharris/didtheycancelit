@@ -113,7 +113,7 @@ window.pageShows = [
   {
     id: 2312,
     tvmazeId: '58020',
-    title: 'Scaredy Cats checkifcancelled',
+    title: 'Scaredy Cats',
     network: 'Netflix',
     startYear: 2021,
     years: '2021–',
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 97, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 97, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

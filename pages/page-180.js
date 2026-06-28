@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 4299,
     tvmazeId: '25188',
-    title: 'Pls Like checkifcancelled',
+    title: 'Pls Like',
     network: 'BBC Three',
     startYear: 2017,
     years: '2017–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 180, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 180, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 3787,
     tvmazeId: '32015',
-    title: 'Polly Pocket checkifcancelled',
+    title: 'Polly Pocket',
     network: 'YouTube',
     startYear: 2018,
     years: '2018–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 158, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 158, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

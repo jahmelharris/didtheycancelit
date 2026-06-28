@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 1186,
     tvmazeId: '70335',
-    title: 'Miseducation checkifcancelled',
+    title: 'Miseducation',
     network: 'Netflix',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 1187,
     tvmazeId: '72489',
-    title: 'Mixmups checkifcancelled',
+    title: 'Mixmups',
     network: '5',
     startYear: 2023,
     years: '2023–',
     genres: ['Adventure', 'Children', 'Fantasy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 1191,
     tvmazeId: '66311',
-    title: 'Mrs Sidhu Investigates checkifcancelled',
+    title: 'Mrs Sidhu Investigates',
     network: 'Acorn TV',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 50, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 50, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

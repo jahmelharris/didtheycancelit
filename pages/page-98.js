@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 2340,
     tvmazeId: '63058',
-    title: 'Stevens & McCarthy checkifcancelled',
+    title: 'Stevens & McCarthy',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 98, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 98, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

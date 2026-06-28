@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 631,
     tvmazeId: '79040',
-    title: 'Dodge\'s Pup School checkifcancelled',
+    title: 'Dodge\'s Pup School',
     network: 'BBC iPlayer',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 636,
     tvmazeId: '76497',
-    title: 'Drag Me to the Movies checkifcancelled',
+    title: 'Drag Me to the Movies',
     network: 'WOW Presents Plus',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -257,12 +257,12 @@ window.pageShows = [
   {
     id: 641,
     tvmazeId: '74492',
-    title: 'Dylan\'s Playtime Adventures checkifcancelled',
+    title: 'Dylan\'s Playtime Adventures',
     network: 'BBC iPlayer',
     startYear: 2024,
     years: '2024–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -305,12 +305,12 @@ window.pageShows = [
   {
     id: 644,
     tvmazeId: '72422',
-    title: 'Eddie\'s Lil\' Homies checkifcancelled',
+    title: 'Eddie\'s Lil\' Homies',
     network: 'SBS On Demand',
     startYear: 2024,
     years: '2024–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 27, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 27, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

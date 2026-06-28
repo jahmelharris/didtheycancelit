@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 3319,
     tvmazeId: '55472',
-    title: 'Stranded checkifcancelled',
+    title: 'Stranded',
     network: 'Snapchat',
     startYear: 2019,
     years: '2019–',
     genres: ['Horror'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 3325,
     tvmazeId: '45130',
-    title: 'Sunnyside Up checkifcancelled',
+    title: 'Sunnyside Up',
     network: 'YouTube',
     startYear: 2019,
     years: '2019–',
     genres: ['Comedy', 'Family', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 139, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 139, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

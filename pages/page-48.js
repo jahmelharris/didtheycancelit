@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 1131,
     tvmazeId: '69363',
-    title: 'Homebound 3.0 checkifcancelled',
+    title: 'Homebound 3.0',
     network: 'ThreeNow',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -97,12 +97,12 @@ window.pageShows = [
   {
     id: 1135,
     tvmazeId: '73083',
-    title: 'I Hate People, People Hate Me checkifcancelled',
+    title: 'I Hate People, People Hate Me',
     network: 'CBC Gem',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -209,12 +209,12 @@ window.pageShows = [
   {
     id: 1142,
     tvmazeId: '67003',
-    title: 'Jamie Johnson FC checkifcancelled',
+    title: 'Jamie Johnson FC',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Children', 'Sports'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -353,7 +353,7 @@ window.pageShows = [
   {
     id: 1151,
     tvmazeId: '68297',
-    title: 'Kitti Katz checkifcancelled',
+    title: 'Kitti Katz',
     network: 'Netflix',
     startYear: 2023,
     years: '2023–',
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 48, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 48, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

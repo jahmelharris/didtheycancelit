@@ -337,12 +337,12 @@ window.pageShows = [
   {
     id: 2206,
     tvmazeId: '59423',
-    title: 'Lace checkifcancelled',
+    title: 'Lace',
     network: 'ALLBLK',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 92, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 92, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

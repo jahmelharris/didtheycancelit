@@ -66,12 +66,12 @@ window.pageShows = [
   {
     id: 1685,
     tvmazeId: '60433',
-    title: 'More Than This checkifcancelled',
+    title: 'More Than This',
     network: 'Paramount+',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,12 +114,12 @@ window.pageShows = [
   {
     id: 1688,
     tvmazeId: '62424',
-    title: 'Mumfie checkifcancelled',
+    title: 'Mumfie',
     network: 'itv QUiZ',
     startYear: 2022,
     years: '2022–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -241,12 +241,12 @@ window.pageShows = [
   {
     id: 1696,
     tvmazeId: '60077',
-    title: 'Newark, Newark checkifcancelled',
+    title: 'Newark, Newark',
     network: 'Now',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 71, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 71, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

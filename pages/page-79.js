@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 1878,
     tvmazeId: '50576',
-    title: 'The Kings of Napa checkifcancelled',
+    title: 'The Kings of Napa',
     network: 'Oprah Winfrey Network',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,7 +114,7 @@ window.pageShows = [
   {
     id: 1880,
     tvmazeId: '53275',
-    title: 'The Last Bus checkifcancelled',
+    title: 'The Last Bus',
     network: 'Netflix',
     startYear: 2022,
     years: '2022–',
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 1892,
     tvmazeId: '63640',
-    title: 'The Other Half checkifcancelled',
+    title: 'The Other Half',
     network: 'U',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 79, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 79, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -2,7 +2,7 @@ window.pageShows = [
   {
     id: 2113,
     tvmazeId: '54148',
-    title: 'Drama Club checkifcancelled',
+    title: 'Drama Club',
     network: 'Nick App',
     startYear: 2021,
     years: '2021–',
@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2118,
     tvmazeId: '52480',
-    title: 'Everyone Is Doing Great checkifcancelled',
+    title: 'Everyone Is Doing Great',
     network: 'Netflix',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -273,12 +273,12 @@ window.pageShows = [
   {
     id: 2130,
     tvmazeId: '47584',
-    title: 'Fisk checkifcancelled',
+    title: 'Fisk',
     network: 'ABC iview',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -305,12 +305,12 @@ window.pageShows = [
   {
     id: 2132,
     tvmazeId: '63215',
-    title: 'Float checkifcancelled',
+    title: 'Float',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -353,12 +353,12 @@ window.pageShows = [
   {
     id: 2135,
     tvmazeId: '61395',
-    title: 'G.O.A.T. checkifcancelled',
+    title: 'G.O.A.T.',
     network: 'Disney XD',
     startYear: 2021,
     years: '2021–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 89, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 89, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

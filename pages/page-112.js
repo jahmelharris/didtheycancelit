@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 2679,
     tvmazeId: '51914',
-    title: 'Kings of Jo\'Burg checkifcancelled',
+    title: 'Kings of Jo\'Burg',
     network: 'Netflix',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Crime', 'Supernatural'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 112, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 112, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

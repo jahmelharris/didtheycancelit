@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1921,
     tvmazeId: '59463',
-    title: 'The Twelve checkifcancelled',
+    title: 'The Twelve',
     network: 'Binge',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Crime', 'Legal'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,12 +114,12 @@ window.pageShows = [
   {
     id: 1928,
     tvmazeId: '70027',
-    title: 'The Watchers checkifcancelled',
+    title: 'The Watchers',
     network: 'Tubi',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Thriller', 'Supernatural'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -130,12 +130,12 @@ window.pageShows = [
   {
     id: 1929,
     tvmazeId: '64679',
-    title: 'The Wedding checkifcancelled',
+    title: 'The Wedding',
     network: 'BBC iPlayer',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 1937,
     tvmazeId: '53838',
-    title: 'Theodosia checkifcancelled',
+    title: 'Theodosia',
     network: 'BBC iPlayer',
     startYear: 2022,
     years: '2022–',
     genres: ['Adventure', 'Family', 'Fantasy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 81, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 81, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

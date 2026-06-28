@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1897,
     tvmazeId: '59754',
-    title: 'The PM\'s Daughter checkifcancelled',
+    title: 'The PM\'s Daughter',
     network: 'ABC iview',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 1908,
     tvmazeId: '65931',
-    title: 'The Secret Life of Amy Bensen checkifcancelled',
+    title: 'The Secret Life of Amy Bensen',
     network: 'PassionFlix',
     startYear: 2022,
     years: '2022–',
     genres: ['Romance', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 1913,
     tvmazeId: '52490',
-    title: 'The Teacher checkifcancelled',
+    title: 'The Teacher',
     network: '5',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 80, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 80, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 1047,
     tvmazeId: '66125',
-    title: 'Crazy Fun Park checkifcancelled',
+    title: 'Crazy Fun Park',
     network: 'ABC iview',
     startYear: 2023,
     years: '2023–',
     genres: ['Adventure', 'Fantasy', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -322,12 +322,12 @@ window.pageShows = [
   {
     id: 1053,
     tvmazeId: '71316',
-    title: 'Darradong Local Council checkifcancelled',
+    title: 'Darradong Local Council',
     network: '7mate',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 44, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 44, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

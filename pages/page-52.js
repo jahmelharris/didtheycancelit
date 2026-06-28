@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1225,
     tvmazeId: '70687',
-    title: 'Patterns checkifcancelled',
+    title: 'Patterns',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 1231,
     tvmazeId: '62356',
-    title: 'Plan B checkifcancelled',
+    title: 'Plan B',
     network: 'CBC Gem',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 1234,
     tvmazeId: '70205',
-    title: 'Play It By Ear checkifcancelled',
+    title: 'Play It By Ear',
     network: 'YouTube',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 1243,
     tvmazeId: '68283',
-    title: 'Psi Cops checkifcancelled',
+    title: 'Psi Cops',
     network: 'Adult Swim',
     startYear: 2023,
     years: '2023–',
     genres: ['Crime', 'Mystery', 'Supernatural'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 52, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 52, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 1446,
     tvmazeId: '71703',
-    title: 'Acting Good checkifcancelled',
+    title: 'Acting Good',
     network: 'CTV Comedy Channel',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 1458,
     tvmazeId: '91142',
-    title: 'Angel Hare checkifcancelled',
+    title: 'Angel Hare',
     network: 'YouTube',
     startYear: 2022,
     years: '2022–',
     genres: ['Horror'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 61, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 61, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

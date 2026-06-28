@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 3228,
     tvmazeId: '40315',
-    title: 'My Life Is Murder checkifcancelled',
+    title: 'My Life Is Murder',
     network: 'TVNZ 1',
     startYear: 2019,
     years: '2019–',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 135, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 135, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

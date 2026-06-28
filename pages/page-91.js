@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 2167,
     tvmazeId: '72526',
-    title: 'Here Comes Your Man checkifcancelled',
+    title: 'Here Comes Your Man',
     network: 'Dekkoo',
     startYear: 2021,
     years: '2021–',
     genres: ['Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,12 +114,12 @@ window.pageShows = [
   {
     id: 2168,
     tvmazeId: '58880',
-    title: 'Hidden Assets checkifcancelled',
+    title: 'Hidden Assets',
     network: 'RTÉ ONE',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 91, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 91, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 3175,
     tvmazeId: '40994',
-    title: 'Jerk checkifcancelled',
+    title: 'Jerk',
     network: 'BBC iPlayer',
     startYear: 2019,
     years: '2019–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 3182,
     tvmazeId: '46440',
-    title: 'Kiri and Lou checkifcancelled',
+    title: 'Kiri and Lou',
     network: 'Sky Go',
     startYear: 2019,
     years: '2019–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 133, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 133, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

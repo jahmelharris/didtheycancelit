@@ -336,7 +336,7 @@ window.pageShows = [
   {
     id: 3118,
     tvmazeId: '43434',
-    title: 'Flatland checkifcancelled',
+    title: 'Flatland',
     network: 'El Rey Network',
     startYear: 2019,
     years: '2019–',
@@ -352,12 +352,12 @@ window.pageShows = [
   {
     id: 3119,
     tvmazeId: '45105',
-    title: 'Flatmates checkifcancelled',
+    title: 'Flatmates',
     network: 'BBC iPlayer',
     startYear: 2019,
     years: '2019–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 130, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 130, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

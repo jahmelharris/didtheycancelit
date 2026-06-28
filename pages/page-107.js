@@ -66,12 +66,12 @@ window.pageShows = [
   {
     id: 2549,
     tvmazeId: '82929',
-    title: 'Broken Karaoke checkifcancelled',
+    title: 'Broken Karaoke',
     network: 'Disney Channel',
     startYear: 2020,
     years: '2020–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2550,
     tvmazeId: '47769',
-    title: 'Buck & Buddy checkifcancelled',
+    title: 'Buck & Buddy',
     network: 'CITV',
     startYear: 2020,
     years: '2020–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -177,12 +177,12 @@ window.pageShows = [
   {
     id: 2556,
     tvmazeId: '45393',
-    title: 'Cherish the Day checkifcancelled',
+    title: 'Cherish the Day',
     network: 'Oprah Winfrey Network',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -193,12 +193,12 @@ window.pageShows = [
   {
     id: 2557,
     tvmazeId: '63390',
-    title: 'Chibi Tiny Tales checkifcancelled',
+    title: 'Chibi Tiny Tales',
     network: 'Disney Channel',
     startYear: 2020,
     years: '2020–',
     genres: ['Comedy', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 107, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 107, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

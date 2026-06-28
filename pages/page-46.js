@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 1087,
     tvmazeId: '69144',
-    title: 'Fatal Seduction checkifcancelled',
+    title: 'Fatal Seduction',
     network: 'Netflix',
     startYear: 2023,
     years: '2023–',
     genres: ['Crime', 'Thriller', 'Mystery'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -353,12 +353,12 @@ window.pageShows = [
   {
     id: 1103,
     tvmazeId: '57325',
-    title: 'Funny Woman checkifcancelled',
+    title: 'Funny Woman',
     network: 'Now',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 46, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 46, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

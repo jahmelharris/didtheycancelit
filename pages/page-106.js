@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 2532,
     tvmazeId: '49015',
-    title: 'Big Dogs checkifcancelled',
+    title: 'Big Dogs',
     network: 'Prime Video',
     startYear: 2020,
     years: '2020–',
     genres: ['Action', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 2534,
     tvmazeId: '51096',
-    title: 'Bite Size Halloween checkifcancelled',
+    title: 'Bite Size Halloween',
     network: 'Hulu',
     startYear: 2020,
     years: '2020–',
     genres: ['Horror'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 106, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 106, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

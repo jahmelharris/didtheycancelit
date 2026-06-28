@@ -322,12 +322,12 @@ window.pageShows = [
   {
     id: 2373,
     tvmazeId: '49930',
-    title: 'The Cleaner checkifcancelled',
+    title: 'The Cleaner',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 99, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 99, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 819,
     tvmazeId: '82357',
-    title: 'Rhett & Link\'s Wonderhole checkifcancelled',
+    title: 'Rhett & Link\'s Wonderhole',
     network: 'YouTube',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -335,12 +335,12 @@ window.pageShows = [
   {
     id: 838,
     tvmazeId: '79638',
-    title: 'Smoggie Queens checkifcancelled',
+    title: 'Smoggie Queens',
     network: 'BBC iPlayer',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 35, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 35, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

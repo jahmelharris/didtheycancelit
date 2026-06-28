@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 2906,
     tvmazeId: '50347',
-    title: 'These Thems checkifcancelled',
+    title: 'These Thems',
     network: 'YouTube',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -209,7 +209,7 @@ window.pageShows = [
   {
     id: 2918,
     tvmazeId: '46384',
-    title: 'Tribal checkifcancelled',
+    title: 'Tribal',
     network: 'APTN',
     startYear: 2020,
     years: '2020–',
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 122, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 122, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

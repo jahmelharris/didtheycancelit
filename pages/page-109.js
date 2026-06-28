@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 2605,
     tvmazeId: '49831',
-    title: 'Etheria checkifcancelled',
+    title: 'Etheria',
     network: 'Prime Video',
     startYear: 2020,
     years: '2020–',
     genres: ['Horror', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -370,12 +370,12 @@ window.pageShows = [
   {
     id: 2616,
     tvmazeId: '51899',
-    title: 'For the Love of Jason checkifcancelled',
+    title: 'For the Love of Jason',
     network: 'ALLBLK',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 109, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 109, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

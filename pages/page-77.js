@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 1827,
     tvmazeId: '55847',
-    title: 'Take Note checkifcancelled',
+    title: 'Take Note',
     network: 'Peacock',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,7 +114,7 @@ window.pageShows = [
   {
     id: 1832,
     tvmazeId: '61254',
-    title: 'Tell Me Everything checkifcancelled',
+    title: 'Tell Me Everything',
     network: 'ITVX',
     startYear: 2022,
     years: '2022–',
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 77, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 77, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

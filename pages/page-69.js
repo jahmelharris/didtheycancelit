@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 1634,
     tvmazeId: '63246',
-    title: 'Justice Served checkifcancelled',
+    title: 'Justice Served',
     network: 'Netflix',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Crime', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -66,12 +66,12 @@ window.pageShows = [
   {
     id: 1637,
     tvmazeId: '62938',
-    title: 'Kid Sister checkifcancelled',
+    title: 'Kid Sister',
     network: 'TVNZ+',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 1644,
     tvmazeId: '66570',
-    title: 'Latecomers checkifcancelled',
+    title: 'Latecomers',
     network: 'SBS On Demand',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -274,7 +274,7 @@ window.pageShows = [
   {
     id: 1650,
     tvmazeId: '62045',
-    title: 'Life by Ella checkifcancelled',
+    title: 'Life by Ella',
     network: 'Apple TV',
     startYear: 2022,
     years: '2022–',
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 1651,
     tvmazeId: '66087',
-    title: 'Little Angel checkifcancelled',
+    title: 'Little Angel',
     network: 'Hulu',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Family'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 69, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 69, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

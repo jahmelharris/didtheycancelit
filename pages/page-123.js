@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 2946,
     tvmazeId: '43707',
-    title: 'We Hunt Together checkifcancelled',
+    title: 'We Hunt Together',
     network: 'U&alibi',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Crime', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 123, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 123, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

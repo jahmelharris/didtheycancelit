@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2214,
     tvmazeId: '54448',
-    title: 'Let\'s Be Real checkifcancelled',
+    title: 'Let\'s Be Real',
     network: 'FOX',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -130,12 +130,12 @@ window.pageShows = [
   {
     id: 2217,
     tvmazeId: '55866',
-    title: 'Life\'s Rewards checkifcancelled',
+    title: 'Life\'s Rewards',
     network: 'Prime Video',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 2218,
     tvmazeId: '54309',
-    title: 'Lights Up checkifcancelled',
+    title: 'Lights Up',
     network: 'BBC Four',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 2228,
     tvmazeId: '68921',
-    title: 'Mammoth checkifcancelled',
+    title: 'Mammoth',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 93, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 93, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

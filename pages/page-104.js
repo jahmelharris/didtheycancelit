@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 2474,
     tvmazeId: '79434',
-    title: 'Will Sliney\'s Storytellers checkifcancelled',
+    title: 'Will Sliney\'s Storytellers',
     network: 'RTÉ Player',
     startYear: 2021,
     years: '2021–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 104, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 104, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

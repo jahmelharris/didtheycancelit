@@ -49,12 +49,12 @@ window.pageShows = [
   {
     id: 1108,
     tvmazeId: '69415',
-    title: 'Gold Diggers checkifcancelled',
+    title: 'Gold Diggers',
     network: 'ABC iview',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy', 'History'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -145,12 +145,12 @@ window.pageShows = [
   {
     id: 1114,
     tvmazeId: '86871',
-    title: 'Great Kills checkifcancelled',
+    title: 'Great Kills',
     network: 'Tubi',
     startYear: 2023,
     years: '2023–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -177,12 +177,12 @@ window.pageShows = [
   {
     id: 1116,
     tvmazeId: '54406',
-    title: 'Grime Kids checkifcancelled',
+    title: 'Grime Kids',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Music'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -193,12 +193,12 @@ window.pageShows = [
   {
     id: 1117,
     tvmazeId: '66578',
-    title: 'Grind checkifcancelled',
+    title: 'Grind',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 47, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 47, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

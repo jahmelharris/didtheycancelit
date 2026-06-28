@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 1549,
     tvmazeId: '60760',
-    title: 'Eternally Confused and Eager for Love checkifcancelled',
+    title: 'Eternally Confused and Eager for Love',
     network: 'Netflix',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,7 +306,7 @@ window.pageShows = [
   {
     id: 1556,
     tvmazeId: '60264',
-    title: 'Fairview checkifcancelled',
+    title: 'Fairview',
     network: 'Comedy Central',
     startYear: 2022,
     years: '2022–',
@@ -370,12 +370,12 @@ window.pageShows = [
   {
     id: 1560,
     tvmazeId: '65794',
-    title: 'Far From Home checkifcancelled',
+    title: 'Far From Home',
     network: 'Netflix',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 65, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 65, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

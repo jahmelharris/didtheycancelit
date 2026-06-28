@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 2425,
     tvmazeId: '50998',
-    title: 'The Tailings checkifcancelled',
+    title: 'The Tailings',
     network: 'SBS On Demand',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2430,
     tvmazeId: '71299',
-    title: 'The Very Small Creatures checkifcancelled',
+    title: 'The Very Small Creatures',
     network: 'Now',
     startYear: 2021,
     years: '2021–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 2436,
     tvmazeId: '57021',
-    title: 'The Wonder Gang checkifcancelled',
+    title: 'The Wonder Gang',
     network: 'ABC Kids',
     startYear: 2021,
     years: '2021–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 102, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 102, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

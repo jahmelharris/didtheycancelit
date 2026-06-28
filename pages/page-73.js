@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 1734,
     tvmazeId: '63573',
-    title: 'Pulse checkifcancelled',
+    title: 'Pulse',
     network: 'Showmax',
     startYear: 2022,
     years: '2022–',
     genres: ['Horror', 'Science-Fiction', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 1745,
     tvmazeId: '60467',
-    title: 'Recipes for Love and Murder checkifcancelled',
+    title: 'Recipes for Love and Murder',
     network: 'M-Net',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 1748,
     tvmazeId: '65444',
-    title: 'Reef School checkifcancelled',
+    title: 'Reef School',
     network: 'ABC Kids',
     startYear: 2022,
     years: '2022–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 73, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 73, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

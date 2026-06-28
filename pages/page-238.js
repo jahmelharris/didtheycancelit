@@ -241,12 +241,12 @@ window.pageShows = [
   {
     id: 5704,
     tvmazeId: '12063',
-    title: 'Lily\'s Driftwood Bay checkifcancelled',
+    title: 'Lily\'s Driftwood Bay',
     network: 'Nick Jr.',
     startYear: 2014,
     years: '2014–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 238, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 238, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

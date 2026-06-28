@@ -66,12 +66,12 @@ window.pageShows = [
   {
     id: 1277,
     tvmazeId: '62458',
-    title: 'SisterS checkifcancelled',
+    title: 'SisterS',
     network: 'RTÉ Player',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 1283,
     tvmazeId: '70515',
-    title: 'Spellbound checkifcancelled',
+    title: 'Spellbound',
     network: 'Hulu',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Family', 'Fantasy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 1285,
     tvmazeId: '71916',
-    title: 'Spooky Files checkifcancelled',
+    title: 'Spooky Files',
     network: 'ABC iview',
     startYear: 2023,
     years: '2023–',
     genres: ['Action', 'Adventure', 'Fantasy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 54, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 54, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

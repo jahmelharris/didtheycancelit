@@ -257,12 +257,12 @@ window.pageShows = [
   {
     id: 2729,
     tvmazeId: '46917',
-    title: 'My Perfect Landing checkifcancelled',
+    title: 'My Perfect Landing',
     network: 'Family Channel',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Family', 'Sports'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -337,12 +337,12 @@ window.pageShows = [
   {
     id: 2734,
     tvmazeId: '45639',
-    title: 'New Eden checkifcancelled',
+    title: 'New Eden',
     network: 'Crave',
     startYear: 2020,
     years: '2020–',
     genres: ['Comedy', 'Crime'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -369,12 +369,12 @@ window.pageShows = [
   {
     id: 2736,
     tvmazeId: '56398',
-    title: 'Nick News checkifcancelled',
+    title: 'Nick News',
     network: 'Nickelodeon',
     startYear: 2020,
     years: '2020–',
     genres: ['Children', 'Travel'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 114, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 114, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

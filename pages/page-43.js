@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1009,
     tvmazeId: '63510',
-    title: 'Black Snow checkifcancelled',
+    title: 'Black Snow',
     network: 'Stan',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 1022,
     tvmazeId: '71341',
-    title: 'Bria Mack Gets a Life checkifcancelled',
+    title: 'Bria Mack Gets a Life',
     network: 'Crave',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 1023,
     tvmazeId: '71077',
-    title: 'Builder Brothers\' Dream Factory checkifcancelled',
+    title: 'Builder Brothers\' Dream Factory',
     network: 'StackTV',
     startYear: 2023,
     years: '2023–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -370,12 +370,12 @@ window.pageShows = [
   {
     id: 1032,
     tvmazeId: '70808',
-    title: 'Caught Up checkifcancelled',
+    title: 'Caught Up',
     network: 'BET+',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 43, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 43, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

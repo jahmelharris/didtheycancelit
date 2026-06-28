@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 1430,
     tvmazeId: '59462',
-    title: 'Year Of checkifcancelled',
+    title: 'Year Of',
     network: 'Stan',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 1433,
     tvmazeId: '77193',
-    title: 'Young DAVID checkifcancelled',
+    title: 'Young DAVID',
     network: 'Angel Studios',
     startYear: 2023,
     years: '2023–',
     genres: [],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 1436,
     tvmazeId: '69276',
-    title: 'ZOMBIES: The Re-Animated Series Shorts checkifcancelled',
+    title: 'ZOMBIES: The Re-Animated Series Shorts',
     network: 'DisneyNOW',
     startYear: 2023,
     years: '2023–',
     genres: ['Fantasy', 'Music'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 60, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 60, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

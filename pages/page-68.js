@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 1610,
     tvmazeId: '62370',
-    title: 'Hush checkifcancelled',
+    title: 'Hush',
     network: 'ALLBLK',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 1612,
     tvmazeId: '65824',
-    title: 'I Got a Story to Tell checkifcancelled',
+    title: 'I Got a Story to Tell',
     network: 'BET+',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -178,7 +178,7 @@ window.pageShows = [
   {
     id: 1620,
     tvmazeId: '64290',
-    title: 'Interrupting Chicken checkifcancelled',
+    title: 'Interrupting Chicken',
     network: 'Apple TV',
     startYear: 2022,
     years: '2022–',
@@ -370,12 +370,12 @@ window.pageShows = [
   {
     id: 1632,
     tvmazeId: '49962',
-    title: 'Jungle checkifcancelled',
+    title: 'Jungle',
     network: 'Prime Video',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 68, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 68, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

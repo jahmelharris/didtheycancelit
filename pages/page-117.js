@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 2786,
     tvmazeId: '55960',
-    title: 'Rūrangi checkifcancelled',
+    title: 'Rūrangi',
     network: 'Sky Open',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2790,
     tvmazeId: '55474',
-    title: 'Save Me checkifcancelled',
+    title: 'Save Me',
     network: 'Snapchat',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 2800,
     tvmazeId: '55841',
-    title: 'Slo Pitch checkifcancelled',
+    title: 'Slo Pitch',
     network: 'OUTtv',
     startYear: 2020,
     years: '2020–',
     genres: ['Comedy', 'Sports'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 117, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 117, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

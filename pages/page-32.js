@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 745,
     tvmazeId: '79095',
-    title: 'Mermaid Magic checkifcancelled',
+    title: 'Mermaid Magic',
     network: 'Netflix',
     startYear: 2024,
     years: '2024–',
     genres: ['Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -225,12 +225,12 @@ window.pageShows = [
   {
     id: 759,
     tvmazeId: '74813',
-    title: 'Mr Bigstuff checkifcancelled',
+    title: 'Mr Bigstuff',
     network: 'Now',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -321,12 +321,12 @@ window.pageShows = [
   {
     id: 765,
     tvmazeId: '72638',
-    title: 'My Dead Mom checkifcancelled',
+    title: 'My Dead Mom',
     network: 'Crave',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Comedy', 'Family'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -353,12 +353,12 @@ window.pageShows = [
   {
     id: 767,
     tvmazeId: '78534',
-    title: 'My Secret Agent Husband checkifcancelled',
+    title: 'My Secret Agent Husband',
     network: 'Dramabox',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Comedy', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 32, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 32, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

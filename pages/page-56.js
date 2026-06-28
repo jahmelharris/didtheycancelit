@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 1330,
     tvmazeId: '69743',
-    title: 'The Dessert checkifcancelled',
+    title: 'The Dessert',
     network: 'Crave',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 1338,
     tvmazeId: '72014',
-    title: 'The Famous Five checkifcancelled',
+    title: 'The Famous Five',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -354,12 +354,12 @@ window.pageShows = [
   {
     id: 1343,
     tvmazeId: '68624',
-    title: 'The Gone checkifcancelled',
+    title: 'The Gone',
     network: 'RTÉ ONE',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 56, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 56, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

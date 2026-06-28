@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 4998,
     tvmazeId: '34504',
-    title: 'The Young Offenders checkifcancelled',
+    title: 'The Young Offenders',
     network: 'BBC iPlayer',
     startYear: 2016,
     years: '2016–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 209, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 209, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

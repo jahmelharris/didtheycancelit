@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1345,
     tvmazeId: '71909',
-    title: 'The Holiday Shift checkifcancelled',
+    title: 'The Holiday Shift',
     network: 'The Roku Channel',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy', 'Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 1358,
     tvmazeId: '62822',
-    title: 'The Lovers checkifcancelled',
+    title: 'The Lovers',
     network: 'Now',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 1361,
     tvmazeId: '70312',
-    title: 'The Michael Blackson Show checkifcancelled',
+    title: 'The Michael Blackson Show',
     network: 'BET+',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -370,12 +370,12 @@ window.pageShows = [
   {
     id: 1368,
     tvmazeId: '63740',
-    title: 'The Power of Parker checkifcancelled',
+    title: 'The Power of Parker',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 57, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 57, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

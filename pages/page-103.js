@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 2451,
     tvmazeId: '56104',
-    title: 'Twisted Fiction checkifcancelled',
+    title: 'Twisted Fiction',
     network: 'Apple TV',
     startYear: 2021,
     years: '2021–',
     genres: ['Horror'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -289,12 +289,12 @@ window.pageShows = [
   {
     id: 2467,
     tvmazeId: '53271',
-    title: 'We Are Lady Parts checkifcancelled',
+    title: 'We Are Lady Parts',
     network: 'Channel 4',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 103, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 103, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

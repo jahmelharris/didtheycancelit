@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 3401,
     tvmazeId: '44862',
-    title: 'The Strange Chores checkifcancelled',
+    title: 'The Strange Chores',
     network: 'ABC iview',
     startYear: 2019,
     years: '2019–',
     genres: ['Comedy', 'Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 142, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 142, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

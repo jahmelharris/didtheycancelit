@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 998,
     tvmazeId: '68401',
-    title: 'BAT-FAM checkifcancelled',
+    title: 'BAT-FAM',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
     genres: ['Action'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 1000,
     tvmazeId: '69515',
-    title: 'BBC Comedy Short Films checkifcancelled',
+    title: 'BBC Comedy Short Films',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -370,12 +370,12 @@ window.pageShows = [
   {
     id: 1008,
     tvmazeId: '57129',
-    title: 'Black Ops checkifcancelled',
+    title: 'Black Ops',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 42, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 42, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

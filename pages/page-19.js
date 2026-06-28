@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 434,
     tvmazeId: '84703',
-    title: 'The Black Dagger Brotherhood checkifcancelled',
+    title: 'The Black Dagger Brotherhood',
     network: 'PassionFlix',
     startYear: 2025,
     years: '2025–',
     genres: ['Action', 'Fantasy', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 439,
     tvmazeId: '82760',
-    title: 'The Chief checkifcancelled',
+    title: 'The Chief',
     network: 'BBC iPlayer',
     startYear: 2025,
     years: '2025–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,12 +114,12 @@ window.pageShows = [
   {
     id: 440,
     tvmazeId: '86859',
-    title: 'The Chosen Adventures checkifcancelled',
+    title: 'The Chosen Adventures',
     network: 'Prime Video',
     startYear: 2025,
     years: '2025–',
     genres: ['Comedy', 'Adventure', 'Family'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 451,
     tvmazeId: '76565',
-    title: 'The Girlfriend checkifcancelled',
+    title: 'The Girlfriend',
     network: 'Prime Video',
     startYear: 2025,
     years: '2025–',
     genres: ['Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 19, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 19, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

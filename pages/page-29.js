@@ -2,7 +2,7 @@ window.pageShows = [
   {
     id: 673,
     tvmazeId: '72049',
-    title: 'Generation Z checkifcancelled',
+    title: 'Generation Z',
     network: 'Channel 4+',
     startYear: 2024,
     years: '2024–',
@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 676,
     tvmazeId: '79270',
-    title: 'Good Boy checkifcancelled',
+    title: 'Good Boy',
     network: 'RTÉ Player',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 689,
     tvmazeId: '81698',
-    title: 'Homestead: The Series checkifcancelled',
+    title: 'Homestead: The Series',
     network: 'Angel Studios',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Action', 'Adventure'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 692,
     tvmazeId: '71637',
-    title: 'Hot Wheels Let\'s Race checkifcancelled',
+    title: 'Hot Wheels Let\'s Race',
     network: 'Netflix',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy', 'Action'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -322,7 +322,7 @@ window.pageShows = [
   {
     id: 693,
     tvmazeId: '64360',
-    title: 'Hotel Cocaine checkifcancelled',
+    title: 'Hotel Cocaine',
     network: 'MGM+',
     startYear: 2024,
     years: '2024–',
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 29, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 29, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

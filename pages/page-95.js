@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 2259,
     tvmazeId: '56342',
-    title: 'Nine Films About Technology checkifcancelled',
+    title: 'Nine Films About Technology',
     network: 'FXX',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2262,
     tvmazeId: '57898',
-    title: 'Nova Jones checkifcancelled',
+    title: 'Nova Jones',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Music', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 2266,
     tvmazeId: '61135',
-    title: 'Odo checkifcancelled',
+    title: 'Odo',
     network: '5',
     startYear: 2021,
     years: '2021–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 2276,
     tvmazeId: '44594',
-    title: 'Paradise City checkifcancelled',
+    title: 'Paradise City',
     network: 'Prime Video',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Music', 'Supernatural'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 95, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 95, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

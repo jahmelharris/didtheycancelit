@@ -50,7 +50,7 @@ window.pageShows = [
   {
     id: 844,
     tvmazeId: '72735',
-    title: 'Stags checkifcancelled',
+    title: 'Stags',
     network: 'Paramount+',
     startYear: 2024,
     years: '2024–',
@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 855,
     tvmazeId: '79637',
-    title: 'Super Happy Magic Forest checkifcancelled',
+    title: 'Super Happy Magic Forest',
     network: 'BBC iPlayer',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy', 'Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 857,
     tvmazeId: '72416',
-    title: 'Swift Street checkifcancelled',
+    title: 'Swift Street',
     network: 'SBS On Demand',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Crime', 'Family'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 858,
     tvmazeId: '79956',
-    title: 'Tales From The Void checkifcancelled',
+    title: 'Tales From The Void',
     network: 'Screambox',
     startYear: 2024,
     years: '2024–',
     genres: ['Horror'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 36, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 36, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

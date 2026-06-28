@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1201,
     tvmazeId: '68083',
-    title: 'Mystery Lane checkifcancelled',
+    title: 'Mystery Lane',
     network: 'CITV',
     startYear: 2023,
     years: '2023–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 1210,
     tvmazeId: '63856',
-    title: 'North Shore checkifcancelled',
+    title: 'North Shore',
     network: 'Network 10',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 1213,
     tvmazeId: '66916',
-    title: 'Not Even checkifcancelled',
+    title: 'Not Even',
     network: 'Sky Go',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -354,12 +354,12 @@ window.pageShows = [
   {
     id: 1223,
     tvmazeId: '72992',
-    title: 'Paper Dolls checkifcancelled',
+    title: 'Paper Dolls',
     network: 'Paramount+',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 51, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 51, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

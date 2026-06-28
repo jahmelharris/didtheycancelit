@@ -322,12 +322,12 @@ window.pageShows = [
   {
     id: 2301,
     tvmazeId: '59003',
-    title: 'Reyka checkifcancelled',
+    title: 'Reyka',
     network: 'BritBox',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Crime', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -338,12 +338,12 @@ window.pageShows = [
   {
     id: 2302,
     tvmazeId: '51620',
-    title: 'RFDS checkifcancelled',
+    title: 'RFDS',
     network: 'Seven Network',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Medical'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 96, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 96, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

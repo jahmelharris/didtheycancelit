@@ -209,12 +209,12 @@ window.pageShows = [
   {
     id: 2030,
     tvmazeId: '57162',
-    title: 'Becoming Famous checkifcancelled',
+    title: 'Becoming Famous',
     network: 'YouTube',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -257,12 +257,12 @@ window.pageShows = [
   {
     id: 2033,
     tvmazeId: '65411',
-    title: 'Biff and Chip checkifcancelled',
+    title: 'Biff and Chip',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -273,12 +273,12 @@ window.pageShows = [
   {
     id: 2034,
     tvmazeId: '36951',
-    title: 'Big Blue checkifcancelled',
+    title: 'Big Blue',
     network: 'CBC',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -305,12 +305,12 @@ window.pageShows = [
   {
     id: 2036,
     tvmazeId: '58809',
-    title: 'Bill Burr Presents Immoral Compass checkifcancelled',
+    title: 'Bill Burr Presents Immoral Compass',
     network: 'The Roku Channel',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 85, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 85, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

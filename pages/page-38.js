@@ -18,7 +18,7 @@ window.pageShows = [
   {
     id: 890,
     tvmazeId: '76554',
-    title: 'The Green Veil checkifcancelled',
+    title: 'The Green Veil',
     network: 'The Network',
     startYear: 2024,
     years: '2024–',
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 38, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 38, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

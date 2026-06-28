@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 4386,
     tvmazeId: '16314',
-    title: 'Tales checkifcancelled',
+    title: 'Tales',
     network: 'BET',
     startYear: 2017,
     years: '2017–',
     genres: ['Drama', 'Crime', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 183, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 183, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

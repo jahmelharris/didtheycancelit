@@ -209,12 +209,12 @@ window.pageShows = [
   {
     id: 1814,
     tvmazeId: '59192',
-    title: 'Summer Love checkifcancelled',
+    title: 'Summer Love',
     network: 'ABC',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -289,12 +289,12 @@ window.pageShows = [
   {
     id: 1819,
     tvmazeId: '64677',
-    title: 'Supertato checkifcancelled',
+    title: 'Supertato',
     network: 'BBC iPlayer',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Adventure', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -305,7 +305,7 @@ window.pageShows = [
   {
     id: 1820,
     tvmazeId: '55943',
-    title: 'Surface checkifcancelled',
+    title: 'Surface',
     network: 'Apple TV',
     startYear: 2022,
     years: '2022–',
@@ -313,7 +313,7 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: true,
+    cliffhanger: false,
     cliffhangerNote: 'Apple TV+ cancelled after two seasons; Sophie\'s recovered identity and the conspiracy around her past were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/554/1386518.jpg',
     note: '',
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 76, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 76, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

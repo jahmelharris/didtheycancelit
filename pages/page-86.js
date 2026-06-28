@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 2046,
     tvmazeId: '59496',
-    title: 'Born to Spy checkifcancelled',
+    title: 'Born to Spy',
     network: 'ABC iview',
     startYear: 2021,
     years: '2021–',
     genres: ['Adventure'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -114,12 +114,12 @@ window.pageShows = [
   {
     id: 2048,
     tvmazeId: '53499',
-    title: 'Brave Bunnies checkifcancelled',
+    title: 'Brave Bunnies',
     network: '5',
     startYear: 2021,
     years: '2021–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 2053,
     tvmazeId: '69574',
-    title: 'Burb Patrol checkifcancelled',
+    title: 'Burb Patrol',
     network: 'Prime Video',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 86, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 86, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

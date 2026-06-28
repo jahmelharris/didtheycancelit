@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 1667,
     tvmazeId: '61803',
-    title: 'MaveriX checkifcancelled',
+    title: 'MaveriX',
     network: 'ABC iview',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Family', 'Sports'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 1672,
     tvmazeId: '68618',
-    title: 'Mermaze Mermaidz checkifcancelled',
+    title: 'Mermaze Mermaidz',
     network: 'YouTube',
     startYear: 2022,
     years: '2022–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 1675,
     tvmazeId: '49022',
-    title: 'Mike Judge\'s Beavis and Butt-Head checkifcancelled',
+    title: 'Mike Judge\'s Beavis and Butt-Head',
     network: 'Comedy Central',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 70, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 70, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 531,
     tvmazeId: '72015',
-    title: 'Wonderblocks checkifcancelled',
+    title: 'Wonderblocks',
     network: 'BBC iPlayer',
     startYear: 2025,
     years: '2025–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -66,12 +66,12 @@ window.pageShows = [
   {
     id: 533,
     tvmazeId: '83144',
-    title: 'Wylde Pak checkifcancelled',
+    title: 'Wylde Pak',
     network: 'Nickelodeon',
     startYear: 2025,
     years: '2025–',
     genres: ['Comedy', 'Family'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 23, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 23, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

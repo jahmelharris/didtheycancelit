@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 963,
     tvmazeId: '74501',
-    title: 'Yukee checkifcancelled',
+    title: 'Yukee',
     network: 'BBC iPlayer',
     startYear: 2024,
     years: '2024–',
     genres: ['Children', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 964,
     tvmazeId: '69277',
-    title: 'ZOMBIES: The Re-Animated Series checkifcancelled',
+    title: 'ZOMBIES: The Re-Animated Series',
     network: 'DisneyNOW',
     startYear: 2024,
     years: '2024–',
     genres: ['Fantasy', 'Music'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 41, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 41, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

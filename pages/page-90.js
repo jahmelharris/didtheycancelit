@@ -34,7 +34,7 @@ window.pageShows = [
   {
     id: 2139,
     tvmazeId: '57462',
-    title: 'Get Rolling with Otis checkifcancelled',
+    title: 'Get Rolling with Otis',
     network: 'Apple TV',
     startYear: 2021,
     years: '2021–',
@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 2140,
     tvmazeId: '58277',
-    title: 'GhostForce checkifcancelled',
+    title: 'GhostForce',
     network: 'Disney XD',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Action', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -161,12 +161,12 @@ window.pageShows = [
   {
     id: 2147,
     tvmazeId: '55708',
-    title: 'Good Grief checkifcancelled',
+    title: 'Good Grief',
     network: 'TVNZ 1',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 90, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 90, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

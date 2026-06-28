@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 2091,
     tvmazeId: '70251',
-    title: 'Deer Squad checkifcancelled',
+    title: 'Deer Squad',
     network: 'Nick Jr.',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Adventure', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 2103,
     tvmazeId: '59696',
-    title: 'Dodo checkifcancelled',
+    title: 'Dodo',
     network: 'Now',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -338,12 +338,12 @@ window.pageShows = [
   {
     id: 2110,
     tvmazeId: '43875',
-    title: 'Dr. Death checkifcancelled',
+    title: 'Dr. Death',
     network: 'Peacock',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Thriller', 'Medical'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 88, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 88, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

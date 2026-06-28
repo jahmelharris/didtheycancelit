@@ -177,12 +177,12 @@ window.pageShows = [
   {
     id: 2868,
     tvmazeId: '46488',
-    title: 'The Jewish Enquirer checkifcancelled',
+    title: 'The Jewish Enquirer',
     network: 'Prime Video',
     startYear: 2020,
     years: '2020–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 120, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 120, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

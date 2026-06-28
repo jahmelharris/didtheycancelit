@@ -66,12 +66,12 @@ window.pageShows = [
   {
     id: 1589,
     tvmazeId: '65210',
-    title: 'Happy the Hoglet checkifcancelled',
+    title: 'Happy the Hoglet',
     network: 'itv QUiZ',
     startYear: 2022,
     years: '2022–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 1603,
     tvmazeId: '63561',
-    title: 'Housing Complex C checkifcancelled',
+    title: 'Housing Complex C',
     network: 'AdultSwim.com',
     startYear: 2022,
     years: '2022–',
     genres: ['Anime', 'Horror'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 67, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 67, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

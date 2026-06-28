@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 3349,
     tvmazeId: '34891',
-    title: 'The Bay checkifcancelled',
+    title: 'The Bay',
     network: 'ITVX',
     startYear: 2019,
     years: '2019–',
     genres: ['Drama', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 140, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 140, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

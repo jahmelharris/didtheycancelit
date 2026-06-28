@@ -273,12 +273,12 @@ window.pageShows = [
   {
     id: 1530,
     tvmazeId: '60319',
-    title: 'Deep Heat checkifcancelled',
+    title: 'Deep Heat',
     network: 'ITVX',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Sports'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 64, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 64, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

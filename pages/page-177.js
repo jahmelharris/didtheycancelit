@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 4235,
     tvmazeId: '40491',
-    title: 'Malibu Surf checkifcancelled',
+    title: 'Malibu Surf',
     network: 'YouTube',
     startYear: 2017,
     years: '2017–',
     genres: ['Drama', 'Romance'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 177, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 177, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

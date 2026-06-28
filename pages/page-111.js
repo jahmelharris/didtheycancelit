@@ -369,12 +369,12 @@ window.pageShows = [
   {
     id: 2664,
     tvmazeId: '49023',
-    title: 'Itch checkifcancelled',
+    title: 'Itch',
     network: 'ABC Entertains',
     startYear: 2020,
     years: '2020–',
     genres: ['Action', 'Adventure', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 111, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 111, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

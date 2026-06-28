@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 2066,
     tvmazeId: '54724',
-    title: 'Cinema Toast checkifcancelled',
+    title: 'Cinema Toast',
     network: 'Showtime on Demand',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -130,12 +130,12 @@ window.pageShows = [
   {
     id: 2073,
     tvmazeId: '61539',
-    title: 'Collar Confessions checkifcancelled',
+    title: 'Collar Confessions',
     network: 'Here TV',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Romance', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 2075,
     tvmazeId: '59286',
-    title: 'Covenant checkifcancelled',
+    title: 'Covenant',
     network: 'ALLBLK',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 2083,
     tvmazeId: '66471',
-    title: 'DAM checkifcancelled',
+    title: 'DAM',
     network: 'Showmax',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 87, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 87, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

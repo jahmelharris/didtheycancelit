@@ -226,12 +226,12 @@ window.pageShows = [
   {
     id: 1791,
     tvmazeId: '63915',
-    title: 'Sketchy Queens checkifcancelled',
+    title: 'Sketchy Queens',
     network: 'WOW Presents Plus',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 1792,
     tvmazeId: '61031',
-    title: 'Skint checkifcancelled',
+    title: 'Skint',
     network: 'BBC iPlayer',
     startYear: 2022,
     years: '2022–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -257,12 +257,12 @@ window.pageShows = [
   {
     id: 1793,
     tvmazeId: '57682',
-    title: 'SkyMed checkifcancelled',
+    title: 'SkyMed',
     network: 'Paramount+',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Romance', 'Medical'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 75, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 75, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 1163,
     tvmazeId: '67276',
-    title: 'Legacy checkifcancelled',
+    title: 'Legacy',
     network: 'BET+',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -337,12 +337,12 @@ window.pageShows = [
   {
     id: 1174,
     tvmazeId: '74605',
-    title: 'Lu & The Bally Bunch checkifcancelled',
+    title: 'Lu & The Bally Bunch',
     network: 'CBC Gem',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -369,12 +369,12 @@ window.pageShows = [
   {
     id: 1176,
     tvmazeId: '67763',
-    title: 'Macy Murdoch checkifcancelled',
+    title: 'Macy Murdoch',
     network: 'CBC Gem',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Children', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 49, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};
+window.pageMetadata = {"page": 49, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 334, "cliffhanger": 235, "ended": 13701}};

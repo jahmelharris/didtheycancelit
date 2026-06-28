@@ -75,7 +75,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Mostly resolved — The immediate academic crisis is resolved by Season 1\'s end, though Ji-Yoon and Bill\'s relationship remains uncertain. The show reaches a natural pause point rather than a gut-punch cliffhanger.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/342/855475.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 149, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 149, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -26,8 +26,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Cancelled mid-production of Season 6 after NBC sold the Montecito. A kidnapping storyline was left unresolved and several character arcs were wide open; the show literally ended on a \'to be continued\' that never came.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/4/11905.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 454, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 454, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -203,7 +203,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Canal+ cancelled after Season 2, which ended with the town flooded and the mystery of the returned entirely unresolved.',
+    cliffhangerNote: 'Canal+ cancelled after Season 2; the mystery of the returned dead and the fate of the town are left completely unresolved.',
         imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/272/680355.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 347, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 347, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

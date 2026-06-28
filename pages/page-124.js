@@ -202,8 +202,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 2 ends with Jake Adelstein\'s yakuza investigation at a critical turning point and Katagiri\'s battle against internal police corruption unresolved. Based on a true story, making the lack of closure particularly unsatisfying.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/502/1256479.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 124, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 124, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -218,8 +218,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Cancelled mid-story — only 8 of 13 planned episodes aired; the central mystery driving the mission was never resolved. Not recommended unless you can accept an abrupt stop with no answers.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9089.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 384, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 384, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

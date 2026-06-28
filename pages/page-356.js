@@ -203,7 +203,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Syfy cancelled after two seasons on a massive cliffhanger; Dr. Rosen was shot and the Alpha team\'s mission against Stanton Parish was left completely open.',
+    cliffhangerNote: 'Syfy cancelled after two seasons on a massive cliffhanger; the fate of key characters and the team\'s mission against the main antagonist were left completely open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/1/3632.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 356, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 356, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

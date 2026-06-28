@@ -153,7 +153,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Concluded in a wrap-up film — Adult Swim cancelled after Season 7 but creators Jackson Publick and Doc Hammer produced \'Radiant Is the Blood of the Baboon Heart\' (2023), a feature film that serves as a proper series finale. Watch the film for closure.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/2/5028.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 458, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 458, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -250,7 +250,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Properly concluded — Season 5 was written knowing it would be the last, giving the crew and 32nd-century storylines a proper send-off with a satisfying epilogue. Safe to watch start to finish.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/504/1260637.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 251, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 251, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

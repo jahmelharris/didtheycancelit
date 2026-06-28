@@ -90,8 +90,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Abrupt ending — Season 2 ends mid-mystery at the hospital setting with the killer\'s full identity and backstory never properly revealed. Neither the sorority house nor the hospital setting received a proper conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/85/213832.jpg',
     note: '',
   },
@@ -346,8 +346,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Cancelled after Season 3 with Marius still running cons, his true identity unrevealed to the Bernhardt family, and multiple criminal storylines open. The central con is never finished.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/193/483552.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 298, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 298, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

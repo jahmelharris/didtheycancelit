@@ -107,7 +107,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled after one season on a colossal cliffhanger: an alien planet materialised in Earth\'s sky and Martinez was in a coma.',
+    cliffhangerNote: 'NBC cancelled after one season on a colossal cliffhanger; the conspiracy is revealed to be far larger than expected and the fate of key characters is left completely open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/394/985754.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 380, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 380, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

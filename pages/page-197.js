@@ -106,8 +106,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — The entire season builds an elaborate con against a pair of preacher parents that never reaches its conclusion. The antagonists still have the upper hand when the show ends. Not recommended unless you enjoy the ride without a destination.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/196/490637.jpg',
     note: '',
   },
@@ -298,8 +298,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 2 ends with Hynek and Quinn having uncovered hard evidence of a government alien cover-up and facing retaliation. The true nature of the extraterrestrial presence and the conspiracy are left wide open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/225/563987.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 197, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 197, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

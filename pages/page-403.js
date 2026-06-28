@@ -155,7 +155,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Fox cancelled after two seasons on a shocking cliffhanger: John Henry hijacked Cameron\'s body and John Connor leapt to a future where he no longer exists.',
+    cliffhangerNote: 'Fox cancelled after two seasons on one of the most shocking cliffhangers in sci-fi TV; the timeline is left in a completely unresolved state with major consequences for all the main characters.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9347.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 403, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 403, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -218,7 +218,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Netflix cancelled after one season on a cliffhanger; Dan\'s fate in the cult dimension was left unresolved.',
+    cliffhangerNote: 'Netflix cancelled after one season on a cliffhanger; a key character\'s fate and the show\'s central mystery were left completely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/389/973422.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 95, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 95, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

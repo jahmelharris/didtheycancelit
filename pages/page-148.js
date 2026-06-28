@@ -331,7 +331,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Mostly self-contained — The dance competition storyline reaches a natural conclusion and central character relationships hit important turning points within Season 1. Not a gut-punch cliffhanger.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/402/1006403.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 148, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 148, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Story concluded in sequel film — Netflix cancelled after Season 1 but produced \'Fistful of Vengeance\' (2022), a feature film that wraps up the main plot. Watch the film after Season 1 for a proper conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/207/518789.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 208, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 208, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

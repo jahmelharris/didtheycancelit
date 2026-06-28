@@ -330,7 +330,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Originally cancelled after three seasons with storylines unresolved; later Kickstarter film and Hulu revival gave partial closure but the revival itself ended on a devastating note.',
+    cliffhangerNote: 'Originally cancelled after three seasons; a later Kickstarter film and Hulu revival provided partial closure, though the revival series also ended without a fully satisfying conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/9/24539.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 449, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 449, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

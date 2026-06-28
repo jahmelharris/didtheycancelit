@@ -234,8 +234,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Ambiguous cliffhanger — Season 2 ends with Pat\'s sanity and possible demonic possession still deeply unresolved. The show deliberately blurs real horror and domestic drama; the cancellation means the central mystery of what is actually happening to Pat goes permanently unanswered.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/480/1202288.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 116, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 116, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

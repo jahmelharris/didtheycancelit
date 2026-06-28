@@ -43,7 +43,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Relatively self-contained — Season 2 ends with Will and Marcus\'s unlikely friendship on solid ground. As a character comedy it wraps up its main emotional dynamics without a shocking cliffhanger.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/1880.jpg',
     note: '',
   },
@@ -362,8 +362,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 1 ends with Bo\'s telekinetic powers growing and the threat from Orchestra still very much active. The conspiracy surrounding her origins and abilities is unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/51/127824.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 306, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 306, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

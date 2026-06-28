@@ -106,7 +106,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'WB cancelled after two seasons on a cliffhanger involving Brooke McQueen being hit by a car.',
+    cliffhangerNote: 'WB cancelled after two seasons on a dramatic cliffhanger involving one of the lead characters. The story is never resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/23/58802.jpg',
     note: '',
   },
@@ -379,4 +379,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 494, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 494, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -267,7 +267,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Mostly self-contained — Season 1 resolves its primary mission arc and the team finds its footing. The spy world and Will and Frankie\'s relationship remain open, but it is more of a \'cancelled too soon\' than a gut-punch cliffhanger. Enjoyable watch.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/185/463926.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 207, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 207, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

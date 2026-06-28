@@ -363,7 +363,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Netflix cancelled after one season; the simulation-within-a-simulation mystery was never resolved.',
+    cliffhangerNote: 'Netflix cancelled after one season; the central mystery of the show is never resolved. Avoid if you need answers.',
         imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/422/1055108.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 93, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 93, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

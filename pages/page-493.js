@@ -314,7 +314,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'CBS cancelled after one season on a massive cliffhanger with Michael\'s wife discovering his secret and their potential reunion suspended.',
+    cliffhangerNote: 'CBS cancelled after one season on a massive cliffhanger; a key personal revelation leaves the story permanently suspended at its most dramatic moment.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/12/32308.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 493, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 493, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

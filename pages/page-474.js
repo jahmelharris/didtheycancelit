@@ -296,7 +296,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'The series received a proper finale but it is widely considered a poor send-off. A major storyline built up in Season 4 was never told. The earlier seasons are worth watching despite the disappointing ending.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/458/1145937.jpg',
     note: '',
   },
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 474, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 474, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

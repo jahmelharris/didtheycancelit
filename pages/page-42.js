@@ -74,8 +74,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Cliffhanger ending — Season 1 ends with Charles and Edwin\'s bond tested by a supernatural threat tied to their pasts, and the detective agency\'s future uncertain. A charming Sandman spin-off cut short before its story could develop.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/514/1285259.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 42, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 42, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

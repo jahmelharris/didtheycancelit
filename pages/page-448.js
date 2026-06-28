@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'USA cancelled after four seasons; the fourth season finale ended with a Promicin pandemic dividing humanity, and the future faction\'s plans were left unresolved.',
+    cliffhangerNote: 'USA cancelled after four seasons; the finale ended on a massive cliffhanger with a world-changing event and the future faction\'s plans left completely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9372.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 448, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 448, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

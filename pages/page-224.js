@@ -59,7 +59,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Mostly self-contained — Season 1 wraps up its central virtual reality storyline and Mara\'s personal arc reaches a turning point. The corporate story is open but it is not a gut-punch ending.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/486/1215663.jpg',
     note: '',
   },
@@ -250,7 +250,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Netflix did not renew for a third season; Season 2 ended with Gaitonde\'s nuclear countdown and the Guruji conspiracy unresolved.',
+    cliffhangerNote: 'Netflix did not renew for a third season; Season 2 ends with the main conspiracy at its most dangerous point, completely unresolved.',
         imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/204/511629.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 224, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 224, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

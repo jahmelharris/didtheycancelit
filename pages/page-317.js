@@ -139,7 +139,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Self-contained despite cancellation — The romantic comedy between Eliza and Henry reaches a natural emotional turning point in its aired episodes. Not an open cliffhanger; more a charming show cancelled too soon.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/1756.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 317, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 317, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

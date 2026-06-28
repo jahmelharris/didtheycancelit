@@ -266,7 +266,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Fox cancelled after one season with the crew\'s stories and the Alliance conspiracy unresolved. The film Serenity provided some closure but killed key characters.',
+    cliffhangerNote: 'Fox cancelled after one season; the film Serenity provides further closure and is worth watching alongside the series, though the larger story remains incomplete.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/1/2600.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 461, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 461, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

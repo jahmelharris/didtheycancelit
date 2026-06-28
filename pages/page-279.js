@@ -298,7 +298,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Netflix cancelled after two seasons on an extraordinary cliffhanger involving dimension-jumping and OA\'s fate between worlds.',
+    cliffhangerNote: 'Netflix cancelled after two seasons on an extraordinary cliffhanger; the show\'s central mystery grows larger and stranger, and is left completely open. One of the most mourned cancellations in recent streaming history.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/185/464692.jpg',
     note: '',
   },
@@ -362,7 +362,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Relatively satisfying ending — Three full seasons chart the Meyerist Movement\'s rise and collapse and Eddie Lane\'s journey through it. Not a perfect finale but provides meaningful closure to the central story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/343/858932.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 279, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 279, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

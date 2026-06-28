@@ -282,8 +282,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: 'Apple TV+ cancelled after two seasons; Sophie\'s recovered identity and the conspiracy around her past were left unresolved.',
+    cliffhanger: true,
+    cliffhangerNote: 'Apple TV+ cancelled after two seasons; the central mystery around the lead character\'s past was not fully resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/554/1386518.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 118, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 118, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

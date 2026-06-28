@@ -377,10 +377,10 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 1 ends with Marie and friends having exposed the Godolkin University conspiracy but quarantined and facing an uncertain future. Connects to The Boys universe; some threads appear in The Boys Season 4 but the characters\' own stories are left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/587/1469203.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 72, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 72, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

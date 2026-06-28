@@ -26,8 +26,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: 'Max cancelled after one season; Kite Man and Golden Glider\'s Noonan\'s Bar storyline was unfinished.',
+    cliffhanger: true,
+    cliffhangerNote: 'Max cancelled after one season; the main characters\' storylines and ongoing conflicts were left unfinished.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/526/1315189.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 48, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 48, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

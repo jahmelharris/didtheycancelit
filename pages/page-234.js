@@ -234,8 +234,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Despite three seasons of build-up, the war between Old Gods and New Gods never actually arrives. Shadow Moon\'s destiny and Mr. Wednesday\'s grand plan are never realised. Plagued by showrunner changes, the show loses coherence by Season 3 and ends mid-story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/289/722622.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 234, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 234, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

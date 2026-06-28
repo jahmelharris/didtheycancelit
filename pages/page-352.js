@@ -203,7 +203,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Ended by circumstance — The show was effectively cancelled when lead actor Michael Clarke Duncan passed away in 2012. Season 1 does not end on a major plot cliffhanger but the character stories were clearly unfinished.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/15936.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 352, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 352, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

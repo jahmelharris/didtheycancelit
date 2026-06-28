@@ -107,7 +107,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Properly concluded despite cancellation — After being cancelled twice, NBC produced a 2-hour finale movie \'The Miracle of Christmas\' (2018) that resolved the Rittenhouse conflict and gave all main characters closure. Watch the movie after Season 2.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/146/367481.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 281, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 281, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

@@ -42,8 +42,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 2 ends with the asteroid threat still active and a full global government conspiracy in play. The world-ending stakes are never resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/119/298881.jpg',
     note: '',
   },
@@ -90,8 +90,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 3 ends just as a potential cure for Sheila is discovered and the family faces their most dangerous threat yet. The show hits its stride by Season 3, making the abrupt cancellation especially frustrating.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/187/468729.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 250, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 250, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

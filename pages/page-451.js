@@ -203,7 +203,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'HBO cancelled after two seasons at the halfway point of a planned six-season arc; the battle between Ben Hawkins (good) and Brother Justin Crowe (evil) was left entirely unresolved.',
+    cliffhangerNote: 'HBO cancelled after two seasons at the halfway point of a planned six-season arc; the central conflict between the show\'s two protagonists was never resolved. A significant story left permanently incomplete.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/2256.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 451, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 451, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

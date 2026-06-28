@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Satisfying ending despite early cancellation — Season 2 brings the central conspiracy to a resolution and wraps up the main character arcs. Safe to watch start to finish.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/8450.jpg',
     note: '',
   },
@@ -171,7 +171,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'ABC cancelled after one season on a massive cliffhanger involving a second global blackout and unresolved conspiracy.',
+    cliffhangerNote: 'ABC cancelled after one season on a massive cliffhanger; the conspiracy behind the global event escalates dramatically in the finale and is never resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9176.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 385, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 385, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

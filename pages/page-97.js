@@ -59,7 +59,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Light ending — The store survives its immediate crisis and the main relationship is gently advanced. As a sitcom it wraps its season arc tidily enough; the cancellation is a missed opportunity but not a gut-punch cliffhanger.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/425/1063064.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 97, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 97, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

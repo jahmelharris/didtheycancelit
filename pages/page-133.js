@@ -123,7 +123,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'NBC cancelled after one season on a cliffhanger; Bryan and Finola\'s alien debris investigation and her father\'s secret resurrection were unresolved.',
+    cliffhangerNote: 'NBC cancelled after one season on a cliffhanger; the alien debris investigation and a major personal revelation for one of the leads are left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/295/738673.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 133, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 133, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

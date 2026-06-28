@@ -58,7 +58,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: true,
-    cliffhangerNote: 'Fox cancelled after one season on a huge cliffhanger revealing John\'s past and the Phoenix organisation\'s true goals.',
+    cliffhangerNote: 'Fox cancelled after one season on a major cliffhanger; the protagonist\'s mysterious past and the organisation behind it were never resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/17/43938.jpg',
     note: '',
   },
@@ -378,4 +378,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 463, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 463, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

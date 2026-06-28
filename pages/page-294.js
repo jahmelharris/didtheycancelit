@@ -107,7 +107,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Season 3 brings the immediate conflict to a satisfying resolution. The show was later revived on Disney+ as \'Daredevil: Born Again.\' Safe to watch.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/171/429391.jpg',
     note: '',
   },
@@ -139,7 +139,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Season 3 resolves the immediate threat and gives the story a reasonable conclusion, even though it was not planned as a series finale.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/200/502332.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 294, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 294, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

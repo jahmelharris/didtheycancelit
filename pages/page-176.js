@@ -267,7 +267,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Emotionally complete — Each episode functions as a near self-contained philosophical conversation. The final episode is a deeply moving meditation on grief that serves as a natural conclusion. Highly recommended; the cancellation does not undermine Season 1\'s impact.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/250/625869.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 176, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 176, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

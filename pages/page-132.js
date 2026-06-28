@@ -267,7 +267,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Self-contained ending — The live-action adaptation arrives at a dramatic conclusion for Spike\'s story that mirrors the anime\'s arc. Fairly self-contained; knowledge of the anime helps contextualise the ending.',
         imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/394/985036.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 132, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 132, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

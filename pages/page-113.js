@@ -378,10 +378,10 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Major cliffhanger — Season 2 ends with Ben still trapped in the past, the Quantum Leap project\'s future uncertain, and the main antagonist\'s plan only partially thwarted. The show never received the proper finale the original series got.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/479/1198798.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 113, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};
+window.pageMetadata = {"page": 113, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};

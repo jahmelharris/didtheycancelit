@@ -1,22 +1,6 @@
 window.pageShows = [
   {
     id: 73,
-    tvmazeId: '89153',
-    title: 'Free Bert',
-    network: 'Netflix',
-    startYear: 2026,
-    years: '2026–',
-    genres: ['Comedy'],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/610/1525203.jpg',
-    note: '',
-  },
-  {
-    id: 74,
     tvmazeId: '91842',
     title: 'Froglets',
     network: 'BBC iPlayer',
@@ -32,7 +16,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 75,
+    id: 74,
     tvmazeId: '61201',
     title: 'Futuro Desierto',
     network: 'Paramount+',
@@ -48,7 +32,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 76,
+    id: 75,
     tvmazeId: '92414',
     title: 'Fúria',
     network: 'Netflix',
@@ -64,23 +48,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 77,
-    tvmazeId: '91972',
-    title: 'Gameoverse checkifcancelled',
-    network: 'YouTube',
-    startYear: 2026,
-    years: '2026–',
-    genres: [],
-    status: 'cancelled',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/625/1564102.jpg',
-    note: '',
-  },
-  {
-    id: 78,
+    id: 76,
     tvmazeId: '85602',
     title: 'Girl Taken',
     network: 'Paramount+',
@@ -96,7 +64,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 79,
+    id: 77,
     tvmazeId: '86141',
     title: 'Girl Troop vs Aliens',
     network: 'BBC iPlayer',
@@ -112,7 +80,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 80,
+    id: 78,
     tvmazeId: '91618',
     title: 'Glory',
     network: 'Netflix',
@@ -128,7 +96,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 81,
+    id: 79,
     tvmazeId: '90640',
     title: 'Goat Girl',
     network: 'Cartoon Network',
@@ -144,7 +112,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 82,
+    id: 80,
     tvmazeId: '90928',
     title: 'Gold Land',
     network: 'Disney+',
@@ -160,7 +128,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 83,
+    id: 81,
     tvmazeId: '89756',
     title: 'Gomorra - Le Origini',
     network: 'Sky Atlantic',
@@ -176,7 +144,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 84,
+    id: 82,
     tvmazeId: '88579',
     title: 'Gone',
     network: 'ITVX',
@@ -192,7 +160,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 85,
+    id: 83,
     tvmazeId: '92359',
     title: 'Good Boys Go To Heaven',
     network: 'Netflix',
@@ -208,7 +176,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 86,
+    id: 84,
     tvmazeId: '88534',
     title: 'Ground Up',
     network: 'ABC iview',
@@ -224,7 +192,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 87,
+    id: 85,
     tvmazeId: '74839',
     title: 'Half Man',
     network: 'HBO Max',
@@ -240,7 +208,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 88,
+    id: 86,
     tvmazeId: '81110',
     title: 'Harlan Coben\'s I Will Find You',
     network: 'Netflix',
@@ -256,7 +224,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 89,
+    id: 87,
     tvmazeId: '74210',
     title: 'Harlan Coben\'s Run Away',
     network: 'Netflix',
@@ -272,7 +240,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 90,
+    id: 88,
     tvmazeId: '85547',
     title: 'Hate the Player: The Ben Johnson Story',
     network: 'GameTV',
@@ -288,7 +256,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 91,
+    id: 89,
     tvmazeId: '90612',
     title: 'Hello Bachhon',
     network: 'Netflix',
@@ -304,7 +272,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 92,
+    id: 90,
     tvmazeId: '67550',
     title: 'Hey A.J.!',
     network: 'Disney Junior',
@@ -320,7 +288,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 93,
+    id: 91,
     tvmazeId: '78610',
     title: 'His & Hers',
     network: 'Netflix',
@@ -336,7 +304,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 94,
+    id: 92,
     tvmazeId: '90581',
     title: 'Homebodies',
     network: 'SBS On Demand',
@@ -352,7 +320,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 95,
+    id: 93,
     tvmazeId: '88997',
     title: 'Hope Valley: 1874',
     network: 'Hallmark+',
@@ -368,7 +336,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 96,
+    id: 94,
     tvmazeId: '76004',
     title: 'How to Get to Heaven From Belfast',
     network: 'Netflix',
@@ -382,6 +350,38 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/613/1533076.jpg',
     note: '',
+  },
+  {
+    id: 95,
+    tvmazeId: '91917',
+    title: 'Human Vapor',
+    network: 'Netflix',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Action', 'Science-Fiction', 'Thriller'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+        imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/625/1562829.jpg',
+    note: '',
+  },
+  {
+    id: 96,
+    tvmazeId: '87858',
+    title: 'If Wishes Could Kill',
+    network: 'Netflix',
+    startYear: 2026,
+    years: '2026',
+    genres: ['Horror', 'Thriller'],
+    status: 'ended',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+        imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/623/1557825.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 4, "totalPages": 722, "perPage": 24, "stats": {"total": 17316, "cancelled": 491, "cliffhanger": 239, "ended": 15081}};
+window.pageMetadata = {"page": 4, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};

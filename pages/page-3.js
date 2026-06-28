@@ -1,22 +1,6 @@
 window.pageShows = [
   {
     id: 49,
-    tvmazeId: '85800',
-    title: 'Crackhead',
-    network: 'ThreeNow',
-    startYear: 2026,
-    years: '2026–',
-    genres: ['Drama', 'Comedy'],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/619/1548690.jpg',
-    note: '',
-  },
-  {
-    id: 50,
     tvmazeId: '84855',
     title: 'Crookhaven',
     network: 'BBC iPlayer',
@@ -32,7 +16,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 51,
+    id: 50,
     tvmazeId: '75481',
     title: 'Daldal',
     network: 'Prime Video',
@@ -48,7 +32,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 52,
+    id: 51,
     tvmazeId: '90771',
     title: 'Day One',
     network: 'Prime Video',
@@ -64,7 +48,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 53,
+    id: 52,
     tvmazeId: '74831',
     title: 'Dear England',
     network: 'BBC iPlayer',
@@ -80,7 +64,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 54,
+    id: 53,
     tvmazeId: '91107',
     title: 'Dear Killer Nannies: Criado por sicarios',
     network: 'Disney+',
@@ -96,7 +80,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 55,
+    id: 54,
     tvmazeId: '92410',
     title: 'Deep',
     network: 'Canal+',
@@ -112,7 +96,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 56,
+    id: 55,
     tvmazeId: '89912',
     title: 'Dirty Business',
     network: 'Channel 4',
@@ -128,7 +112,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 57,
+    id: 56,
     tvmazeId: '92567',
     title: 'Doc',
     network: 'Netflix',
@@ -144,7 +128,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 58,
+    id: 57,
     tvmazeId: '87053',
     title: 'Dog Park',
     network: 'ABC iview',
@@ -160,7 +144,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 59,
+    id: 58,
     tvmazeId: '90043',
     title: 'Dona Beja',
     network: 'HBO',
@@ -176,7 +160,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 60,
+    id: 59,
     tvmazeId: '69286',
     title: 'Dragon Striker',
     network: 'Disney XD',
@@ -192,7 +176,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 61,
+    id: 60,
     tvmazeId: '63268',
     title: 'DTF St. Louis',
     network: 'HBO',
@@ -208,7 +192,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 62,
+    id: 61,
     tvmazeId: '84539',
     title: 'Dutton Ranch',
     network: 'Paramount+',
@@ -224,7 +208,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 63,
+    id: 62,
     tvmazeId: '90614',
     title: 'El Asesino de TikTok',
     network: 'Netflix',
@@ -240,7 +224,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 64,
+    id: 63,
     tvmazeId: '92430',
     title: 'El mapa de los anhelos',
     network: 'Netflix',
@@ -256,7 +240,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 65,
+    id: 64,
     tvmazeId: '89287',
     title: 'El Tiempo de las Moscas',
     network: 'Netflix',
@@ -272,7 +256,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 66,
+    id: 65,
     tvmazeId: '90310',
     title: 'Emergência Radioativa',
     network: 'Netflix',
@@ -288,7 +272,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 67,
+    id: 66,
     tvmazeId: '91827',
     title: 'Entre padre e hijo',
     network: 'Netflix',
@@ -304,7 +288,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 68,
+    id: 67,
     tvmazeId: '90067',
     title: 'Esa noche',
     network: 'Netflix',
@@ -320,7 +304,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 69,
+    id: 68,
     tvmazeId: '78706',
     title: 'Every Year After',
     network: 'Prime Video',
@@ -336,7 +320,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 70,
+    id: 69,
     tvmazeId: '91980',
     title: 'Exam',
     network: 'Prime Video',
@@ -352,7 +336,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 71,
+    id: 70,
     tvmazeId: '82579',
     title: 'Falling',
     network: 'Channel 4',
@@ -368,7 +352,7 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 72,
+    id: 71,
     tvmazeId: '88897',
     title: 'Finding Her Edge',
     network: 'Netflix',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/607/1518855.jpg',
     note: '',
+  },
+  {
+    id: 72,
+    tvmazeId: '89153',
+    title: 'Free Bert',
+    network: 'Netflix',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Comedy'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/610/1525203.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 3, "totalPages": 722, "perPage": 24, "stats": {"total": 17316, "cancelled": 491, "cliffhanger": 239, "ended": 15081}};
+window.pageMetadata = {"page": 3, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};

@@ -337,12 +337,12 @@ window.pageShows = [
   {
     id: 46,
     tvmazeId: '91059',
-    title: 'City Of Blood checkifcancelled',
+    title: 'City Of Blood',
     network: 'Disney+',
     startYear: 2026,
     years: '2026–',
     genres: [],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -367,19 +367,19 @@ window.pageShows = [
   },
   {
     id: 48,
-    tvmazeId: '89156',
-    title: 'Corriedale checkifcancelled',
-    network: 'ITV1',
+    tvmazeId: '85800',
+    title: 'Crackhead',
+    network: 'ThreeNow',
     startYear: 2026,
     years: '2026–',
-    genres: ['Drama'],
-    status: 'cancelled',
+    genres: ['Drama', 'Comedy'],
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
     cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/604/1511080.jpg',
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/619/1548690.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 2, "totalPages": 722, "perPage": 24, "stats": {"total": 17316, "cancelled": 491, "cliffhanger": 239, "ended": 15081}};
+window.pageMetadata = {"page": 2, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};

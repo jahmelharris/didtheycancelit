@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 11,
     tvmazeId: '91110',
-    title: 'Alkhalati+ checkifcancelled',
+    title: 'Alkhalati+: The Series',
     network: 'Netflix',
     startYear: 2026,
     years: '2026–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 1, "totalPages": 722, "perPage": 24, "stats": {"total": 17316, "cancelled": 491, "cliffhanger": 239, "ended": 15081}};
+window.pageMetadata = {"page": 1, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};

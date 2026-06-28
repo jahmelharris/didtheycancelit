@@ -23,7 +23,7 @@ const paginationEl = document.getElementById('pagination');
 
 // ── Image loading ──────────────────────────────────────────────
 
-const LS_KEY = 'hibc_images_v2';
+const LS_KEY = 'hibc_images_v3';
 const LS_TTL = 48 * 60 * 60 * 1000;
 const imageCache = {};
 
@@ -82,6 +82,8 @@ function applyImages() {
 async function loadImages(shows) {
   const stored = readLocalCache();
   if (stored) Object.assign(imageCache, stored);
+  // Use inline imageUrl from dataset if present — overrides cache since dataset is authoritative
+  shows.forEach(s => { if (s.imageUrl) imageCache[s.id] = s.imageUrl; });
   applyImages();
   const needFetch = shows.filter(s => !(s.id in imageCache));
   if (needFetch.length === 0) return;

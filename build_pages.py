@@ -19,12 +19,12 @@ show_blocks = [b for b in raw_blocks if re.match(r'\s*\{\n\s*id: \d+,', b)]
 total = len(show_blocks)
 print(f"Total shows: {total}")
 
-# Compute global stats
+# Compute global stats (handle both single and double quote string formats)
 stats = {'total': total, 'cancelled': 0, 'cliffhanger': 0, 'ended': 0}
 for b in show_blocks:
-    if 'status: "cancelled"' in b: stats['cancelled'] += 1
-    elif 'status: "ended"' in b:   stats['ended'] += 1
-    if 'cliffhanger: true,' in b:  stats['cliffhanger'] += 1
+    if "status: 'cancelled'" in b or 'status: "cancelled"' in b: stats['cancelled'] += 1
+    elif "status: 'ended'" in b or 'status: "ended"' in b:       stats['ended'] += 1
+    if 'cliffhanger: true,' in b:                                  stats['cliffhanger'] += 1
 
 print(f"Stats: {stats}")
 

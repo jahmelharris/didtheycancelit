@@ -405,6 +405,21 @@ sortSelect.addEventListener('change', e => {
   render();
 });
 
+// ── Notes toggle ───────────────────────────────────────────────
+
+(function initNotesToggle() {
+  const toggle = document.getElementById('notes-toggle');
+  const hidden = localStorage.getItem('hibc_hide_notes') === '1';
+  if (hidden) {
+    toggle.checked = true;
+    document.body.classList.add('hide-notes');
+  }
+  toggle.addEventListener('change', () => {
+    document.body.classList.toggle('hide-notes', toggle.checked);
+    localStorage.setItem('hibc_hide_notes', toggle.checked ? '1' : '0');
+  });
+})();
+
 // ── Init ───────────────────────────────────────────────────────
 
 (async function init() {

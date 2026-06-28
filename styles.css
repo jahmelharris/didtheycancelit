@@ -320,6 +320,69 @@ body {
   border-color: var(--text-secondary);
 }
 
+/* ── Notes toggle ────────────────────────────────────────── */
+
+.notes-toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.notes-toggle input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.notes-toggle-track {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  background: var(--bg-muted);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  transition: background 0.18s, border-color 0.18s;
+  flex-shrink: 0;
+}
+
+.notes-toggle-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+  transition: transform 0.18s;
+}
+
+.notes-toggle input:checked ~ .notes-toggle-track {
+  background: var(--text-secondary);
+  border-color: var(--text-secondary);
+}
+
+.notes-toggle input:checked ~ .notes-toggle-track .notes-toggle-thumb {
+  transform: translateX(14px);
+}
+
+.notes-toggle-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* Hide notes when toggle is on */
+body.hide-notes .info-block,
+body.hide-notes .card-footer {
+  display: none;
+}
+
 /* ── Main content ────────────────────────────────────────── */
 
 .main-content {
@@ -730,6 +793,7 @@ body {
 
   .controls-inner { flex-direction: column; align-items: stretch; }
   .sort-select    { width: 100%; }
+  .notes-toggle   { align-self: flex-start; }
   .shows-grid     { grid-template-columns: 1fr; }
   .main-content   { padding: 16px 16px 40px; }
 }

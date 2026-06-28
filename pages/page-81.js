@@ -203,7 +203,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Netflix — limited prequel series, self-contained.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/436/1092234.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 81, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 81, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -103,11 +103,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016–2017',
     genres: ['Comedy', 'Romance', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CW cancelled after one season; Evie and Xavier\'s end-of-the-world romance was left on a mid-season cliffhanger.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/72/182311.jpg',
     note: '',
   },
@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016',
     genres: ['Drama', 'History'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two episodes; the biblical epic was barely underway.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/46/117214.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 201, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 201, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

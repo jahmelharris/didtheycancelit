@@ -257,11 +257,11 @@ window.pageShows = [
     startYear: 1997,
     years: '1997',
     genres: ['Drama', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled in 2006 after one season; the alien-hybrid reveal and Homecoming were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/129/323214.jpg',
     note: '',
   },
@@ -378,4 +378,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 431, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 431, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

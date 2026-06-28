@@ -42,8 +42,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Amazon cancelled after two seasons; the supernatural forces beneath the North Sea and the Kinloch Bravo crew\'s fate were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/549/1374448.jpg',
     note: '',
   },
@@ -322,7 +322,7 @@ window.pageShows = [
   {
     id: 1389,
     tvmazeId: '51575',
-    title: 'Tiny Toons Looniversity checkifcancelled',
+    title: 'Tiny Toons Looniversity',
     network: 'HBO Max',
     startYear: 2023,
     years: '2023–',
@@ -330,8 +330,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Max cancelled after one season with the characters\' first year at school unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/491/1229452.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 58, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 58, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

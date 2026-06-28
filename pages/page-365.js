@@ -311,11 +311,11 @@ window.pageShows = [
     startYear: 2004,
     years: '2004–2005',
     genres: ['Action', 'Adventure'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Cartoon Network cancelled after two seasons; Coop\'s robot battles were left mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/27/67755.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 365, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 365, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -167,11 +167,11 @@ window.pageShows = [
     startYear: 2009,
     years: '2009',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; the 2nd Precinct detectives\' personal mysteries were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/19/49200.jpg',
     note: '',
   },
@@ -342,11 +342,11 @@ window.pageShows = [
     startYear: 2009,
     years: '2009–2011',
     genres: ['Drama', 'Adventure', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons; Anna\'s Bliss weapon and the Fifth Column resistance were left mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/91/227932.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 315, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 315, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

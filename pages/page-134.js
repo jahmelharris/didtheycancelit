@@ -81,12 +81,12 @@ window.pageShows = [
   {
     id: 3198,
     tvmazeId: '35577',
-    title: 'London Kills checkifcancelled',
+    title: 'London Kills',
     network: 'Acorn TV',
     startYear: 2019,
     years: '2019–',
     genres: ['Drama', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -113,12 +113,12 @@ window.pageShows = [
   {
     id: 3200,
     tvmazeId: '40329',
-    title: 'Love, Death & Robots checkifcancelled',
+    title: 'Love, Death & Robots',
     network: 'Netflix',
     startYear: 2019,
     years: '2019–',
     genres: ['Horror', 'Science-Fiction', 'Thriller'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 134, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 134, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -2,7 +2,7 @@ window.pageShows = [
   {
     id: 4441,
     tvmazeId: '20263',
-    title: 'The Orville checkifcancelled',
+    title: 'The Orville',
     network: 'Hulu',
     startYear: 2017,
     years: '2017–',
@@ -10,8 +10,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Hulu cancelled after three seasons; multiple long-running storylines including the Kaylon threat were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/445/1113833.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 186, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 186, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

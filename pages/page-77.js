@@ -231,11 +231,11 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Action', 'Adventure', 'Fantasy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after one season on a cliffhanger; Nathan\'s discovery of his power and the witch faction war were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/431/1078867.jpg',
     note: '',
   },
@@ -359,11 +359,11 @@ window.pageShows = [
     startYear: 2022,
     years: '2022–2025',
     genres: ['Drama', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after three seasons; Thony\'s battle against the cartel and her immigration status were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/560/1401363.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 77, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 77, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

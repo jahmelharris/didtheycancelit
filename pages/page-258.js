@@ -43,7 +43,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'SundanceTV gave the series a proper finale after four seasons.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/1/3655.jpg',
     note: '',
   },
@@ -91,7 +91,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'CW ran for four seasons and ended with Mary Queen of Scots\' execution, a historically grounded conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/81/204119.jpg',
     note: '',
   },
@@ -138,7 +138,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Adult Swim/Netflix — ongoing; renewed through many seasons.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/626/1566363.jpg',
     note: '',
   },
@@ -193,7 +193,7 @@ window.pageShows = [
   {
     id: 6181,
     tvmazeId: '4091',
-    title: 'RWBY checkifcancelled',
+    title: 'RWBY',
     network: 'Crunchyroll',
     startYear: 2013,
     years: '2013–',
@@ -201,8 +201,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Rooster Teeth\'s closure ended the show mid-story during Volume 9, leaving the heroes\' battle for Remnant unfinished.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/447/1119412.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 258, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 258, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

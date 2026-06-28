@@ -11,7 +11,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'BBC Three gave the UK version a planned finale after five series.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/15636.jpg',
     note: '',
   },
@@ -23,11 +23,11 @@ window.pageShows = [
     startYear: 2009,
     years: '2009–2010',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons; Ted and Veridian Dynamics\' satirical arcs were just hitting their stride.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/15323.jpg',
     note: '',
   },
@@ -299,7 +299,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'NBC/Yahoo gave the show sufficient closure (and a movie was later announced); the study group\'s stories were concluded.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/2/5134.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 305, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 305, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

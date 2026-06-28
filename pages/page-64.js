@@ -369,12 +369,12 @@ window.pageShows = [
   {
     id: 1536,
     tvmazeId: '63922',
-    title: 'Don\'t Hug Me I\'m Scared checkifcancelled',
+    title: 'Don\'t Hug Me I\'m Scared',
     network: 'Channel 4',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Fantasy', 'Horror'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 64, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 64, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

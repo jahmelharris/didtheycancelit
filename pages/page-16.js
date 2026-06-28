@@ -266,8 +266,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after 13 of 22 episodes; the high school friends\' murder mystery was left permanently unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/562/1406754.jpg',
     note: '',
   },
@@ -331,7 +331,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'BBC One ended the series after three seasons with a conclusive finale.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/596/1491034.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 16, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 16, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -103,11 +103,11 @@ window.pageShows = [
     startYear: 2013,
     years: '2013–2014',
     genres: ['Drama', 'Crime', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox aired episodes out of order then cancelled after one season; the Wall\'s mystery and John and Dorian\'s partnership were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/1/3020.jpg',
     note: '',
   },
@@ -251,7 +251,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'FXX ran for one season, self-contained comic adaptation.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/22/55174.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 248, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 248, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -214,11 +214,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016–2017',
     genres: ['Drama', 'Crime', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons; the Benefactor storyline and con artist cat-and-mouse were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/486/1215668.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 206, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 206, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

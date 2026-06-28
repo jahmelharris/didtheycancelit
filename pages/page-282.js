@@ -342,11 +342,11 @@ window.pageShows = [
     startYear: 2011,
     years: '2011–2013',
     genres: ['Action', 'Adventure'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Cartoon Network cancelled after one season; the Anti-Monitor threat and Hal Jordan\'s arc were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/18/46844.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 282, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 282, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

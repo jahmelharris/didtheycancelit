@@ -151,11 +151,11 @@ window.pageShows = [
     startYear: 2007,
     years: '2007–2009',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons; the Darling family murder investigation and Nick George\'s ethics were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/15900.jpg',
     note: '',
   },
@@ -198,11 +198,11 @@ window.pageShows = [
     startYear: 2007,
     years: '2007',
     genres: ['Drama', 'Action', 'Adventure'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after four episodes; the secret cross-country race and its organisers were barely introduced.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/17224.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 330, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 330, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

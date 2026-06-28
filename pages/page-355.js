@@ -7,11 +7,11 @@ window.pageShows = [
     startYear: 2005,
     years: '2005–2006',
     genres: ['Science-Fiction', 'Thriller', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled in 2006 after one season; the alien-hybrid reveal and Homecoming were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/8/21128.jpg',
     note: '',
   },
@@ -91,7 +91,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'CBS cancelled twice; the story was partially continued in comic books but the TV arc was not fully resolved on screen.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/133/333662.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 355, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 355, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2007,
     years: '2007',
     genres: ['Drama', 'Adventure'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after two seasons; Marco\'s place in Kublai Khan\'s court and the battle for empire were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/157/392811.jpg',
     note: '',
   },
@@ -311,11 +311,11 @@ window.pageShows = [
     startYear: 2007,
     years: '2007–2008',
     genres: ['Drama', 'Horror', 'Romance'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CBS cancelled after one season; Mick and Beth\'s vampire romance and the Council storyline were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9159.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 333, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 333, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

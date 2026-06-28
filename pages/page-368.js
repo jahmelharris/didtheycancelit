@@ -39,11 +39,11 @@ window.pageShows = [
     startYear: 2004,
     years: '2004–2007',
     genres: ['Drama', 'Science-Fiction', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'USA cancelled after four seasons; the fourth season finale ended with a Promicin pandemic dividing humanity, and the future faction\'s plans were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/9372.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 368, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 368, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

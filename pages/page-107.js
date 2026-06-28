@@ -246,11 +246,11 @@ window.pageShows = [
     startYear: 2020,
     years: '2020–2022',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'HBO Max cancelled after three seasons; Josh and Emily\'s adventures in Los Angeles were left mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/402/1005226.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 107, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 107, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

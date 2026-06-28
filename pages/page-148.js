@@ -194,7 +194,7 @@ window.pageShows = [
   {
     id: 3541,
     tvmazeId: '40489',
-    title: 'Blark and Son checkifcancelled',
+    title: 'Blark and Son',
     network: 'Comedy Central',
     startYear: 2018,
     years: '2018–',
@@ -202,8 +202,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Comedy Central did not renew after two seasons; the father-son relationship arcs were unfinished.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/180/452467.jpg',
     note: '',
   },
@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 3544,
     tvmazeId: '41821',
-    title: 'Bluey checkifcancelled',
+    title: 'Bluey',
     network: 'ABC Kids',
     startYear: 2018,
     years: '2018–',
     genres: ['Comedy', 'Children'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -306,12 +306,12 @@ window.pageShows = [
   {
     id: 3548,
     tvmazeId: '63012',
-    title: 'Breaking News: No Laugh Newsroom checkifcancelled',
+    title: 'Breaking News: No Laugh Newsroom',
     network: 'Dropout',
     startYear: 2018,
     years: '2018–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 148, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 148, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

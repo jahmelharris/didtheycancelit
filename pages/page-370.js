@@ -39,11 +39,11 @@ window.pageShows = [
     startYear: 2004,
     years: '2004',
     genres: ['Drama', 'Comedy', 'Fantasy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after four episodes (all 13 produced); Jaye Tyler\'s inanimate-object conversations were left mid-story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/16927.jpg',
     note: '',
   },
@@ -315,7 +315,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Fox cancelled after three seasons; Netflix revived it for two more seasons and a film to resolve the story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/338/846049.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 370, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 370, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

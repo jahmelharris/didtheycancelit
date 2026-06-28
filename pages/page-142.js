@@ -119,11 +119,11 @@ window.pageShows = [
     startYear: 2019,
     years: '2019–2020',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix effectively shelved after two seasons; Payton Hobart\'s political ambitions were left mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/257/643545.jpg',
     note: '',
   },
@@ -215,11 +215,11 @@ window.pageShows = [
     startYear: 2019,
     years: '2019',
     genres: ['Drama', 'Science-Fiction', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after one season, with the mystery of how the teens were transported and whether they could return left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/191/478974.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 142, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 142, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

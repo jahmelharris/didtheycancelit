@@ -246,11 +246,11 @@ window.pageShows = [
     startYear: 2021,
     years: '2021–2023',
     genres: ['Action', 'Adventure', 'Fantasy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after two seasons; Alina Starkov\'s fight against the Darkling was mid-arc, especially given the unresolved Six of Crows characters\' storylines.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/447/1118982.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 97, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 97, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

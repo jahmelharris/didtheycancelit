@@ -242,7 +242,7 @@ window.pageShows = [
   {
     id: 2248,
     tvmazeId: '41698',
-    title: 'Monsters at Work checkifcancelled',
+    title: 'Monsters at Work',
     network: 'Disney Channel',
     startYear: 2021,
     years: '2021–',
@@ -250,8 +250,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Disney+ cancelled after two seasons; Tylor Tuskmon\'s career arc and ongoing comedy arcs were unfinished.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/507/1268353.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 94, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 94, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

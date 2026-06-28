@@ -50,7 +50,7 @@ window.pageShows = [
   {
     id: 1324,
     tvmazeId: '59048',
-    title: 'The Consultant checkifcancelled',
+    title: 'The Consultant',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
@@ -58,8 +58,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Season one ended with the mystery of Regus Patoff\'s true nature entirely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/449/1122862.jpg',
     note: '',
   },
@@ -98,7 +98,7 @@ window.pageShows = [
   {
     id: 1327,
     tvmazeId: '60074',
-    title: 'The Crossover checkifcancelled',
+    title: 'The Crossover',
     network: 'Disney+',
     startYear: 2023,
     years: '2023–',
@@ -106,8 +106,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Disney+ cancelled after one season; the Bell family story was left unresolved despite the book source material.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/455/1139085.jpg',
     note: '',
   },
@@ -306,7 +306,7 @@ window.pageShows = [
   {
     id: 1340,
     tvmazeId: '61294',
-    title: 'The Full Monty checkifcancelled',
+    title: 'The Full Monty',
     network: 'Disney+',
     startYear: 2023,
     years: '2023–',
@@ -314,8 +314,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Disney+ cancelled after one season; the Sheffield community storylines were mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/464/1161200.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 56, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 56, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

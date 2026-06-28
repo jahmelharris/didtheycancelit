@@ -342,11 +342,11 @@ window.pageShows = [
     startYear: 2004,
     years: '2004–2019',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Originally cancelled after three seasons with storylines unresolved; later Kickstarter film and Hulu revival gave partial closure but the revival itself ended on a devastating note.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/9/24539.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 369, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 369, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

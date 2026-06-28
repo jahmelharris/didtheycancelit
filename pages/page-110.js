@@ -55,11 +55,11 @@ window.pageShows = [
     startYear: 2020,
     years: '2020–2021',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after two seasons; the Morales family\'s Boyle Heights diner and community were mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/239/599955.jpg',
     note: '',
   },
@@ -103,11 +103,11 @@ window.pageShows = [
     startYear: 2020,
     years: '2020',
     genres: ['Action', 'Children', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled mid-series; Miko and Five\'s bug-busting adventures and the megabot storyline were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/238/597198.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 110, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 110, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

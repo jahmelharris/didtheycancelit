@@ -320,12 +320,12 @@ window.pageShows = [
   {
     id: 11949,
     tvmazeId: '55993',
-    title: 'Wallace & Gromit checkifcancelled',
+    title: 'Wallace & Gromit',
     network: 'BBC One',
     startYear: 1989,
     years: '1989–',
     genres: ['Comedy', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 498, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 498, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -235,7 +235,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Disney Channel gave the series a proper finale, concluding Anne and the Plantar family\'s adventure fully.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/344/861126.jpg',
     note: '',
   },
@@ -263,11 +263,11 @@ window.pageShows = [
     startYear: 2019,
     years: '2019–2021',
     genres: ['Drama', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after two seasons with the alien contact storyline and Niko\'s mission left completely open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/361/903008.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 125, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 125, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 6244,
     tvmazeId: '9251',
-    title: 'The Dumping Ground checkifcancelled',
+    title: 'The Dumping Ground',
     network: 'BBC iPlayer',
     startYear: 2013,
     years: '2013–',
     genres: ['Drama', 'Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -379,9 +379,9 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'CW gave the show a planned finale, with Klaus and Elijah making a sacrifice that brought their arc to a close.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/271/678632.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 261, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 261, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -119,11 +119,11 @@ window.pageShows = [
     startYear: 2006,
     years: '2006–2007',
     genres: ['Drama', 'Action', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after one season; Matt and Emily\'s FBI hostage-negotiating relationship was mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/7/18595.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 347, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 347, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

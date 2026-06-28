@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 723,
     tvmazeId: '76746',
-    title: 'LEGO Star Wars: Rebuild the Galaxy checkifcancelled',
+    title: 'LEGO Star Wars: Rebuild the Galaxy',
     network: 'Disney+',
     startYear: 2024,
     years: '2024–',
     genres: ['Adventure', 'Science-Fiction'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 31, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 31, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

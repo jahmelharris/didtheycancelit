@@ -7,11 +7,11 @@ window.pageShows = [
     startYear: 2019,
     years: '2019',
     genres: ['Drama', 'Comedy', 'Horror'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'NBC cancelled after one season on a cliffhanger; Josh Wheeler\'s quest and the Burr zombie timeline were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/214/536631.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 129, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 129, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

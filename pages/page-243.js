@@ -75,7 +75,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Disney XD gave the show a four-season planned finale, fully resolving the Ghost crew\'s Rebellion arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/353/884619.jpg',
     note: '',
   },
@@ -87,11 +87,11 @@ window.pageShows = [
     startYear: 2014,
     years: '2014',
     genres: ['Drama', 'Romance', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CW cancelled after one season; Roman and Emery\'s star-crossed romance and the Atrian integration were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/1/2776.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 243, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 243, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 7372,
     tvmazeId: '6888',
-    title: 'Horrible Histories checkifcancelled',
+    title: 'Horrible Histories',
     network: 'CBBC',
     startYear: 2009,
     years: '2009–',
     genres: ['Comedy', 'Children', 'History'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 308, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 308, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

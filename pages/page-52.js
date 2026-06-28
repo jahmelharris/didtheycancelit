@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 1242,
     tvmazeId: '65779',
-    title: 'Princess Power checkifcancelled',
+    title: 'Princess Power',
     network: 'Netflix',
     startYear: 2023,
     years: '2023–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 52, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 52, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

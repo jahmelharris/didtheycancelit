@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2003,
     years: '2003–2005',
     genres: ['Drama', 'Fantasy', 'Horror'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'HBO cancelled after two seasons at the halfway point of a planned six-season arc; the battle between Ben Hawkins (good) and Brother Justin Crowe (evil) was left entirely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/2256.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 371, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 371, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

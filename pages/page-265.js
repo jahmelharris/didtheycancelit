@@ -7,11 +7,11 @@ window.pageShows = [
     startYear: 2012,
     years: '2012',
     genres: ['Drama', 'Science-Fiction', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after one season on a cliffhanger; the returning prisoners\' origin and Rebecca Madsen\'s fate were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/120/302148.jpg',
     note: '',
   },
@@ -331,7 +331,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'CW ran for four seasons and concluded Cat and Vincent\'s romance with a proper finale.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/2128.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 265, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 265, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

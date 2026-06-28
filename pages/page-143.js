@@ -122,8 +122,8 @@ window.pageShows = [
     status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after season four (with Henry Cavill replaced); the Conjunction of Spheres and Geralt-Ciri\'s story were ongoing at cancellation, though a continuation was promised.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/594/1486674.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 143, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 143, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

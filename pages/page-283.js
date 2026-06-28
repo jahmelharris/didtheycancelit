@@ -59,7 +59,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'CW ran for four seasons and ended with Zoe and Wade\'s wedding, a satisfying conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/82/205570.jpg',
     note: '',
   },
@@ -146,12 +146,12 @@ window.pageShows = [
   {
     id: 6778,
     tvmazeId: '7044',
-    title: 'Housos checkifcancelled',
+    title: 'Housos',
     network: '7mate',
     startYear: 2011,
     years: '2011–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 283, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 283, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

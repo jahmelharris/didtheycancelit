@@ -23,11 +23,11 @@ window.pageShows = [
     startYear: 2002,
     years: '2002–2003',
     genres: ['Drama', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after one season on a huge cliffhanger revealing John\'s past and the Phoenix organisation\'s true goals.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/17/43938.jpg',
     note: '',
   },
@@ -379,4 +379,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 383, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 383, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

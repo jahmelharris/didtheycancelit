@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 7668,
     tvmazeId: '87830',
-    title: 'Hollyoaks Later checkifcancelled',
+    title: 'Hollyoaks Later',
     network: 'E4',
     startYear: 2008,
     years: '2008–',
     genres: [],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 320, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 320, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -11,7 +11,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'BBC One gave the series a planned five-series finale, though fans debated its handling of Arthur and Merlin\'s destiny.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/444/1110069.jpg',
     note: '',
   },
@@ -75,7 +75,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'BBC One gave the UK version a proper four-series conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/15744.jpg',
     note: '',
   },
@@ -183,11 +183,11 @@ window.pageShows = [
     startYear: 2008,
     years: '2008',
     genres: ['Drama', 'Science-Fiction', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'NBC cancelled after nine episodes; Henry/Edward\'s dual identity crisis and the spy organisation were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/19/49172.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 322, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 322, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

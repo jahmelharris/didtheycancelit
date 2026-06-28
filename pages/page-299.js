@@ -23,11 +23,11 @@ window.pageShows = [
     startYear: 2010,
     years: '2010',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'NBC cancelled after one season; the shadowy Programme holding people captive was never explained.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/4/11645.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 299, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 299, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

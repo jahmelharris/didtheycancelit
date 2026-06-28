@@ -375,13 +375,13 @@ window.pageShows = [
     startYear: 2015,
     years: '2015',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after three episodes; the 1980s Sunset Strip serial killer anthology was barely introduced.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/26/66540.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 230, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 230, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

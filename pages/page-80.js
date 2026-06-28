@@ -162,12 +162,12 @@ window.pageShows = [
   {
     id: 1907,
     tvmazeId: '60526',
-    title: 'The Santa Clauses checkifcancelled',
+    title: 'The Santa Clauses',
     network: 'Disney+',
     startYear: 2022,
     years: '2022–',
     genres: ['Comedy', 'Family', 'Fantasy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 80, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 80, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

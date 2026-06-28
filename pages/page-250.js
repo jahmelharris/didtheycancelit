@@ -71,11 +71,11 @@ window.pageShows = [
     startYear: 2013,
     years: '2013',
     genres: ['Drama', 'Comedy', 'Romance'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'NBC cancelled after one season; the summer camp dramas were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/11/27727.jpg',
     note: '',
   },
@@ -342,11 +342,11 @@ window.pageShows = [
     startYear: 2013,
     years: '2013',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CW cancelled after one season; the conspiracy within a TV show concept was left completely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/16676.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 250, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 250, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

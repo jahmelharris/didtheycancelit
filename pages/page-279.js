@@ -151,11 +151,11 @@ window.pageShows = [
     startYear: 2011,
     years: '2011–2012',
     genres: ['Drama', 'Science-Fiction', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Syfy cancelled after two seasons on a massive cliffhanger; Dr. Rosen was shot and the Alpha team\'s mission against Stanton Parish was left completely open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/1/3632.jpg',
     note: '',
   },
@@ -171,7 +171,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'FX anthology — individual seasons are self-contained stories, though crossover arcs between some seasons were introduced.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/473/1183640.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 279, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 279, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -342,11 +342,11 @@ window.pageShows = [
     startYear: 2005,
     years: '2005–2006',
     genres: ['Action', 'Adventure', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'NBC cancelled in 2006 after one season; Nim/Nimrod\'s origins and the government cover-up were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/11/28907.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 358, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 358, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

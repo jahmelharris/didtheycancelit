@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 2887,
     tvmazeId: '40311',
-    title: 'The Secrets She Keeps checkifcancelled',
+    title: 'The Secrets She Keeps',
     network: 'Paramount+',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 121, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 121, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

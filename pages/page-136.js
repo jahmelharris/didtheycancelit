@@ -315,7 +315,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Adult Swim gave Genndy Tartakovsky\'s series a proper two-season conclusion.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/608/1521294.jpg',
     note: '',
   },
@@ -327,11 +327,11 @@ window.pageShows = [
     startYear: 2019,
     years: '2019–2021',
     genres: ['Drama', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after two seasons; Malcolm Bright\'s psychological journey and his father Martin\'s storyline were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/282/706994.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 136, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 136, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

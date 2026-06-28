@@ -71,11 +71,11 @@ window.pageShows = [
     startYear: 2014,
     years: '2014–2015',
     genres: ['Drama', 'Action', 'Horror'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'NBC cancelled after one season; John Constantine\'s fight against the Rising Darkness was unresolved (he later appeared in Arrow).',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/154.jpg',
     note: '',
   },
@@ -375,13 +375,13 @@ window.pageShows = [
     startYear: 2014,
     years: '2014–2015',
     genres: ['Action', 'Adventure', 'Fantasy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Syfy cancelled after two seasons; the angel war and Alex Lannen\'s chosen one arc were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/775.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 234, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 234, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

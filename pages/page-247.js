@@ -18,7 +18,7 @@ window.pageShows = [
   {
     id: 5906,
     tvmazeId: '3300',
-    title: 'Utopia checkifcancelled',
+    title: 'Utopia',
     network: 'ABC',
     startYear: 2014,
     years: '2014–',
@@ -26,8 +26,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Channel 4 cancelled after two seasons on a major cliffhanger; the Network\'s population reduction plan and Becky\'s illness were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/17/43969.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 247, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 247, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 3761,
     tvmazeId: '45803',
-    title: 'Nate is Late checkifcancelled',
+    title: 'Nate is Late',
     network: 'Nine Network',
     startYear: 2018,
     years: '2018–',
     genres: ['Comedy', 'Adventure', 'Fantasy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 157, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 157, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

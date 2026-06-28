@@ -311,11 +311,11 @@ window.pageShows = [
     startYear: 2004,
     years: '2004–2019',
     genres: ['Drama', 'Crime', 'Western'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'HBO cancelled after three seasons without the planned fourth season conclusion; a 2019 TV film provided partial but not complete closure.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/4/11724.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 362, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 362, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

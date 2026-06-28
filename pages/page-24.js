@@ -107,7 +107,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Nickelodeon gave the series a planned three-season finale, fully resolving Aang\'s quest.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/629/1573435.jpg',
     note: '',
   },
@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 568,
     tvmazeId: '62601',
-    title: 'Before checkifcancelled',
+    title: 'Before',
     network: 'Apple TV',
     startYear: 2024,
     years: '2024–',
     genres: ['Thriller', 'Mystery', 'Supernatural'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 24, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 24, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

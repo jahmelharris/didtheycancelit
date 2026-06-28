@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 4635,
     tvmazeId: '18637',
-    title: 'Escape the Night checkifcancelled',
+    title: 'Escape the Night',
     network: 'Tubi',
     startYear: 2016,
     years: '2016–',
     genres: ['Comedy', 'Adventure', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 194, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 194, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

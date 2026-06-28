@@ -54,11 +54,11 @@ window.pageShows = [
     startYear: 1988,
     years: '1988',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; the search for Dr. Emmet Cole in the Amazon and the supernatural forces there were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/151/379943.jpg',
     note: '',
   },
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 504, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 504, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

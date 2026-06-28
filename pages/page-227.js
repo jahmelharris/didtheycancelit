@@ -134,11 +134,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2022',
     genres: ['Adventure', 'Children'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'BBC One cancelled after one series; the Hermes submarine crew\'s deep-sea discoveries were just beginning.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/48/120277.jpg',
     note: '',
   },
@@ -249,7 +249,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Amazon gave the series a proper planned finale after six seasons, concluding the Ring network storyline.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/445/1114081.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 227, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 227, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

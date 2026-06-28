@@ -263,11 +263,11 @@ window.pageShows = [
     startYear: 1999,
     years: '1999–2004',
     genres: ['Drama', 'Action', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'WB cancelled after five seasons; the finale \'Not Fade Away\' ended mid-battle with the team\'s fate unknown. Comics continued the story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/3/7507.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 408, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 408, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

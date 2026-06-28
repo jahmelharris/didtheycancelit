@@ -98,16 +98,16 @@ window.pageShows = [
   {
     id: 3151,
     tvmazeId: '33452',
-    title: 'Harley Quinn checkifcancelled',
+    title: 'Harley Quinn',
     network: 'HBO Max',
     startYear: 2019,
     years: '2019–',
     genres: ['Comedy', 'Action', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Max — ongoing; renewed through multiple seasons.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/547/1368613.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 132, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 132, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

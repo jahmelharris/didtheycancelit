@@ -203,7 +203,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'ABC ran for three seasons and wrapped up its major storylines in a series finale.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/441/1104672.jpg',
     note: '',
   },
@@ -258,12 +258,12 @@ window.pageShows = [
   {
     id: 2537,
     tvmazeId: '41120',
-    title: 'Blood & Water checkifcancelled',
+    title: 'Blood & Water',
     network: 'Netflix',
     startYear: 2020,
     years: '2020–',
     genres: ['Drama', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 106, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 106, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -194,7 +194,7 @@ window.pageShows = [
   {
     id: 1309,
     tvmazeId: '62133',
-    title: 'The Artful Dodger checkifcancelled',
+    title: 'The Artful Dodger',
     network: 'Disney+',
     startYear: 2023,
     years: '2023–',
@@ -202,8 +202,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Disney+ cancelled after one season; the romance and ongoing criminal intrigue were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/613/1532864.jpg',
     note: '',
   },
@@ -327,11 +327,11 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons; the Benefactor storyline and con artist cat-and-mouse were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/443/1108805.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 55, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 55, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -55,11 +55,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2016',
     genres: ['Action', 'Adventure', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons; Peggy Carter\'s SSR career and the Zero Matter storyline were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/143/357815.jpg',
     note: '',
   },
@@ -295,11 +295,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Comedy Central cancelled after one season mid-story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/18/47238.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 221, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 221, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

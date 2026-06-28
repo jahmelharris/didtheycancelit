@@ -194,7 +194,7 @@ window.pageShows = [
   {
     id: 973,
     tvmazeId: '56904',
-    title: 'Adventure Time: Fionna and Cake checkifcancelled',
+    title: 'Adventure Time: Fionna and Cake',
     network: 'HBO Max',
     startYear: 2023,
     years: '2023–',
@@ -202,8 +202,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Cancelled by Max after one season; multiple character arcs left completely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/604/1510959.jpg',
     note: '',
   },
@@ -343,11 +343,11 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'WB cancelled after five seasons; the finale \'Not Fade Away\' ended mid-battle with the team\'s fate unknown. Comics continued the story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/441/1104678.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 41, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 41, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

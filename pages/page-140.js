@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 3354,
     tvmazeId: '35512',
-    title: 'The Capture checkifcancelled',
+    title: 'The Capture',
     network: 'BBC iPlayer',
     startYear: 2019,
     years: '2019–',
     genres: ['Drama', 'Thriller', 'Espionage'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -327,11 +327,11 @@ window.pageShows = [
     startYear: 2019,
     years: '2019',
     genres: ['Drama', 'Legal'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC Australia cancelled after two seasons; Ned and Jesse\'s political conspiracy investigation was left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/191/478314.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 140, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 140, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

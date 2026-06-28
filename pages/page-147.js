@@ -150,11 +150,11 @@ window.pageShows = [
     startYear: 2018,
     years: '2018–2020',
     genres: ['Drama', 'Crime', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after two seasons; Takeshi Kovacs\' search for Quellcrist Falconer and the Protectorate conflict were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/240/602152.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 147, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 147, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

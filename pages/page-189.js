@@ -187,7 +187,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'FX anthology — each season is self-contained and concludes its true crime story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/401/1004505.jpg',
     note: '',
   },
@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016',
     genres: ['Drama', 'Horror', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CBS cancelled after one season; the Hawthorne family\'s investigation of the Silver Hand killer was unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/63/158451.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 189, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 189, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

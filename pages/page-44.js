@@ -66,16 +66,16 @@ window.pageShows = [
   {
     id: 1037,
     tvmazeId: '45834',
-    title: 'Citadel checkifcancelled',
+    title: 'Citadel',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
     genres: ['Action', 'Thriller', 'Espionage'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Amazon renewed for season two but the show\'s fate remains uncertain after high production costs; Mason and Nadia\'s battle against Manticore was left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/624/1560435.jpg',
     note: '',
   },
@@ -155,7 +155,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'MTV cancelled after one season; a 2023 revival series continued and resolved the story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/464/1161604.jpg',
     note: '',
   },
@@ -354,12 +354,12 @@ window.pageShows = [
   {
     id: 1055,
     tvmazeId: '60614',
-    title: 'Deadloch checkifcancelled',
+    title: 'Deadloch',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy', 'Crime', 'Mystery'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 44, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 44, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

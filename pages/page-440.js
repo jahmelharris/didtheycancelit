@@ -55,11 +55,11 @@ window.pageShows = [
     startYear: 1996,
     years: '1996–1998',
     genres: ['Drama', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; Henry Morgan\'s immortality origins and Adam\'s identity were unresolved.',
     note: '',
   },
   {
@@ -379,4 +379,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 440, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 440, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

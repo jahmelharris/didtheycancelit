@@ -241,16 +241,16 @@ window.pageShows = [
   {
     id: 5632,
     tvmazeId: '32',
-    title: 'Fargo checkifcancelled',
+    title: 'Fargo',
     network: 'FX',
     startYear: 2014,
     years: '2014–',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'FX anthology — each season tells a complete story; ongoing anthology with no unresolved overarching plot.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/487/1219631.jpg',
     note: '',
   },
@@ -356,11 +356,11 @@ window.pageShows = [
     startYear: 2014,
     years: '2014–2015',
     genres: ['Drama', 'Crime', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; Henry Morgan\'s immortality origins and Adam\'s identity were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/383.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 235, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 235, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -119,11 +119,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016',
     genres: ['Drama', 'Horror', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CW cancelled after one season; the Atlanta quarantine outbreak\'s origin and political conspiracy were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/54/135379.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 192, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 192, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

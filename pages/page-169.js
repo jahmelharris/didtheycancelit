@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Netflix gave the show a proper final season concluding the characters\' coming-of-age stories.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/560/1401497.jpg',
     note: '',
   },
@@ -87,11 +87,11 @@ window.pageShows = [
     startYear: 2017,
     years: '2017',
     genres: ['Drama', 'Action', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Syfy cancelled after one season; the dystopian car race and corporate villain arc were left completely open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/116/291702.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 169, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 169, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

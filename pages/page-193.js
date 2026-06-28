@@ -7,11 +7,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016–2022',
     genres: ['Drama', 'Action', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'The CW cancelled after seven seasons; the Legends\' time-travelling adventures and several character arcs were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/315/787584.jpg',
     note: '',
   },
@@ -87,11 +87,11 @@ window.pageShows = [
     startYear: 2016,
     years: '2016–2019',
     genres: ['Drama', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after two seasons then revived by Netflix for one more season; the conspiracy was resolved on Netflix.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/194/486246.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 193, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 193, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

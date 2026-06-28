@@ -354,12 +354,12 @@ window.pageShows = [
   {
     id: 551,
     tvmazeId: '56861',
-    title: 'American Sports Story checkifcancelled',
+    title: 'American Sports Story',
     network: 'FX',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Sports'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 23, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 23, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

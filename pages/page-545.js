@@ -339,11 +339,11 @@ window.pageShows = [
     startYear: 1981,
     years: '1981',
     genres: ['Drama', 'History'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Showtime cancelled before the planned season four finale; Rodrigo Borgia\'s papal legacy and family schemes were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/107/267517.jpg',
     note: '',
   },
@@ -379,4 +379,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 545, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 545, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

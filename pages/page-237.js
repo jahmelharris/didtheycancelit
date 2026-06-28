@@ -87,11 +87,11 @@ window.pageShows = [
     startYear: 2014,
     years: '2014–2015',
     genres: ['Horror', 'Science-Fiction', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Syfy cancelled after two seasons with the Ilaria Corporation conspiracy and immortality plague unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/126/316697.jpg',
     note: '',
   },
@@ -171,7 +171,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'ABC gave the show a proper finale after six seasons, resolving Annalise Keating\'s story.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/212/531512.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 237, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 237, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

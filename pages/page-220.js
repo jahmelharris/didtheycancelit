@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Syfy gave the show a planned five-season conclusion resolving the Hullen threat.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/206/515143.jpg',
     note: '',
   },
@@ -247,11 +247,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2016',
     genres: ['Drama', 'Crime', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'CBS cancelled after one season; Brian Finch\'s use of NZT-48 and his arrangement with the FBI were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/44/110345.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 220, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 220, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

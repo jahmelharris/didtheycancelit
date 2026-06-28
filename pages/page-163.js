@@ -23,11 +23,11 @@ window.pageShows = [
     startYear: 2018,
     years: '2018',
     genres: ['Drama', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; the refugees from the future and Apex\'s plans to alter history were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/142/355299.jpg',
     note: '',
   },
@@ -250,7 +250,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Netflix gave the series a two-season conclusion resolving the game world mystery.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/157/394577.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 163, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 163, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

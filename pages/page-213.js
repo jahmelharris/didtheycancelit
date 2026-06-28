@@ -247,11 +247,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; Billy and Cody\'s oil empire ambitions were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/14/35885.jpg',
     note: '',
   },
@@ -279,11 +279,11 @@ window.pageShows = [
     startYear: 2015,
     years: '2015–2017',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled after three seasons; the Rayburn family\'s crimes and consequences were only partially resolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/177/444579.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 213, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 213, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

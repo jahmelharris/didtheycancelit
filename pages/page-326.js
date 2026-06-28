@@ -166,11 +166,11 @@ window.pageShows = [
     startYear: 2008,
     years: '2008–2009',
     genres: ['Action', 'Adventure', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Disney cancelled after two seasons mid-story; Peter Parker\'s high school years and the Green Goblin arc were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/20/51967.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 326, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 326, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

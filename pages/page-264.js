@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2013,
     years: '2013',
     genres: ['Drama', 'Thriller', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after three episodes; the Nazi clocks and conspiracy were barely introduced.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/16617.jpg',
     note: '',
   },
@@ -279,11 +279,11 @@ window.pageShows = [
     startYear: 2012,
     years: '2012–2013',
     genres: ['Drama', 'Mystery', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; the Drake\'s demonic mysteries and Jane\'s fate were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/481/1204845.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 264, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 264, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 901,
     tvmazeId: '60420',
-    title: 'The New Look checkifcancelled',
+    title: 'The New Look',
     network: 'Apple TV',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 38, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 38, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

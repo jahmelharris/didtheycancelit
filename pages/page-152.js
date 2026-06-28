@@ -87,11 +87,11 @@ window.pageShows = [
     startYear: 2018,
     years: '2018–2021',
     genres: ['Comedy', 'Adventure', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Cancelled after three seasons; Gary Goodspeed\'s mission to rescue Quinn from Final Space was left completely unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/206/515082.jpg',
     note: '',
   },
@@ -199,11 +199,11 @@ window.pageShows = [
     startYear: 2018,
     years: '2018',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; Henry Morgan\'s immortality origins and Adam\'s identity were unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/163/408127.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 152, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 152, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

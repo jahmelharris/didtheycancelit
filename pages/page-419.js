@@ -39,11 +39,11 @@ window.pageShows = [
     startYear: 1998,
     years: '1998–1999',
     genres: ['Action', 'Fantasy', 'Horror'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Fox cancelled after thirteen episodes; Detective Stone\'s mission to recapture Hell\'s 113 escapees was unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/83/207963.jpg',
     note: '',
   },
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 419, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 419, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -151,11 +151,11 @@ window.pageShows = [
     startYear: 2017,
     years: '2017–2019',
     genres: ['Drama', 'Crime', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix placed on indefinite hold after season two; the BTK killer thread planted in the finale was never paid off.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/501/1253490.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 178, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 178, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

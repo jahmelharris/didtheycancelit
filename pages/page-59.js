@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 1394,
     tvmazeId: '63507',
-    title: 'Totally Completely Fine checkifcancelled',
+    title: 'Totally Completely Fine',
     network: 'Stan',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -161,7 +161,7 @@ window.pageShows = [
   {
     id: 1403,
     tvmazeId: '51576',
-    title: 'Unicorn: Warriors Eternal checkifcancelled',
+    title: 'Unicorn: Warriors Eternal',
     network: 'Adult Swim',
     startYear: 2023,
     years: '2023–',
@@ -169,8 +169,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Genndy Tartakovsky\'s Adult Swim series was cancelled with a major multi-arc cliffhanger after season one.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/455/1137696.jpg',
     note: '',
   },
@@ -262,11 +262,11 @@ window.pageShows = [
     startYear: 2023,
     years: '2023–2024',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Max cancelled after two seasons; the Scooby-Doo origin\'s mysteries were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/513/1284185.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 59, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 59, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

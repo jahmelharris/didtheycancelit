@@ -327,11 +327,11 @@ window.pageShows = [
     startYear: 2010,
     years: '2010',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'ABC cancelled after one season; the Magic Man serial killer mystery was left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/6/16587.jpg',
     note: '',
   },
@@ -363,7 +363,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Syfy gave the series a proper conclusion after five seasons resolving the Troubles.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/0/672.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 295, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 295, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

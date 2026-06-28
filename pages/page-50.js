@@ -18,12 +18,12 @@ window.pageShows = [
   {
     id: 1178,
     tvmazeId: '67055',
-    title: 'Malpractice checkifcancelled',
+    title: 'Malpractice',
     network: 'ITVX',
     startYear: 2023,
     years: '2023–',
     genres: ['Thriller', 'Medical'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -186,8 +186,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Apple TV+ cancelled after one season; the Randa family mystery and Godzilla\'s origins were left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/612/1530034.jpg',
     note: '',
   },
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 50, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 50, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

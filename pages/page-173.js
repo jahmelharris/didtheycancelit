@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 4134,
     tvmazeId: '16623',
-    title: 'Genius checkifcancelled',
+    title: 'Genius',
     network: 'National Geographic',
     startYear: 2017,
     years: '2017–',
     genres: ['Drama', 'History'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -230,11 +230,11 @@ window.pageShows = [
     startYear: 2017,
     years: '2017–2019',
     genres: ['Drama', 'Comedy', 'Sports'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Netflix cancelled season four due to COVID-19; the wrestling women\'s Las Vegas evolution was left mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/202/505923.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 173, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 173, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

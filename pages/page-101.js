@@ -7,11 +7,11 @@ window.pageShows = [
     startYear: 2021,
     years: '2021',
     genres: ['Drama', 'Science-Fiction', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'HBO cancelled after part of season one; the Victorian sci-fi storyline of Touched women with powers was left unresolved.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/305/764057.jpg',
     note: '',
   },
@@ -215,11 +215,11 @@ window.pageShows = [
     startYear: 2021,
     years: '2021',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'HBO Max cancelled after one season of the controversial royal family satire.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/344/861808.jpg',
     note: '',
   },
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 101, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 101, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

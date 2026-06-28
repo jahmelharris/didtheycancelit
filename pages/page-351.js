@@ -27,7 +27,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'TBS/Fox — ongoing animated show, still running.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/611/1528249.jpg',
     note: '',
   },
@@ -91,7 +91,7 @@ window.pageShows = [
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhangerNote: 'Nickelodeon gave the series a planned three-season finale, fully resolving Aang\'s quest.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/79/199224.jpg',
     note: '',
   },
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 351, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 351, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

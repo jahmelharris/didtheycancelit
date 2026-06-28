@@ -338,12 +338,12 @@ window.pageShows = [
   {
     id: 3334,
     tvmazeId: '57197',
-    title: 'Tall Girl checkifcancelled',
+    title: 'Tall Girl',
     network: 'Netflix',
     startYear: 2019,
     years: '2019–',
     genres: ['Drama', 'Comedy', 'Romance'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 139, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 139, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

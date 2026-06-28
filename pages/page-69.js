@@ -82,7 +82,7 @@ window.pageShows = [
   {
     id: 1638,
     tvmazeId: '49440',
-    title: 'Killing It checkifcancelled',
+    title: 'Killing It',
     network: 'Peacock',
     startYear: 2022,
     years: '2022–',
@@ -90,8 +90,8 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Peacock cancelled after two seasons; Craig\'s ambitions and the family dynamics were left mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/404/1012074.jpg',
     note: '',
   },
@@ -311,11 +311,11 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Comedy', 'Horror', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'FXX cancelled after one season; Chrissy\'s demonhood and Satan\'s paternal relationship were mid-arc.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/433/1082784.jpg',
     note: '',
   },
@@ -378,10 +378,10 @@ window.pageShows = [
     status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
+    cliffhanger: true,
+    cliffhangerNote: 'Apple TV+ cancelled after two seasons; Molly\'s charity work and romantic arc were left open.',
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/594/1485065.jpg',
     note: '',
   }
 ];
-window.pageMetadata = {"page": 69, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 670, "cliffhanger": 0, "ended": 13760}};
+window.pageMetadata = {"page": 69, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 856, "cliffhanger": 286, "ended": 13542}};

@@ -70,7 +70,7 @@ window.pageShows = [
     startYear: 2006,
     years: '2006–2009',
     genres: ['Drama', 'Science-Fiction', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -262,7 +262,7 @@ window.pageShows = [
     startYear: 2006,
     years: '2006',
     genres: ['Drama', 'Comedy', 'Music'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -294,7 +294,7 @@ window.pageShows = [
     startYear: 2006,
     years: '2006',
     genres: ['Action', 'Crime', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 423, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 423, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

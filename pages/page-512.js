@@ -39,7 +39,7 @@ window.pageShows = [
     startYear: 1997,
     years: '1997',
     genres: ['Drama', 'Crime'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -86,7 +86,7 @@ window.pageShows = [
     startYear: 1997,
     years: '1997–1998',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -246,7 +246,7 @@ window.pageShows = [
     startYear: 1997,
     years: '1997',
     genres: [],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -261,7 +261,7 @@ window.pageShows = [
     startYear: 1997,
     years: '1997',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 512, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 512, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

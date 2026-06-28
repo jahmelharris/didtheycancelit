@@ -39,7 +39,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Drama', 'Thriller'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -119,7 +119,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022–2023',
     genres: ['Drama', 'Comedy', 'Food'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -343,7 +343,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Drama', 'Fantasy', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 106, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 106, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

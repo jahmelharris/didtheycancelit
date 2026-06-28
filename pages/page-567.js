@@ -23,7 +23,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990',
     genres: [],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -70,7 +70,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990',
     genres: ['Comedy', 'War', 'History'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -133,7 +133,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990',
     genres: ['Drama', 'Comedy', 'Music'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 567, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 567, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

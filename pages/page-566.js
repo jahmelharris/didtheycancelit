@@ -102,7 +102,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990–1991',
     genres: ['Drama', 'Family', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -182,7 +182,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990–1992',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -244,7 +244,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990–1991',
     genres: ['Comedy', 'Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -339,7 +339,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -355,7 +355,7 @@ window.pageShows = [
     startYear: 1990,
     years: '1990',
     genres: ['Drama', 'Action', 'Crime'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 566, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 566, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

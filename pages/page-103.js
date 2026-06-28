@@ -199,7 +199,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Drama', 'Medical'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -215,7 +215,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -261,9 +261,9 @@ window.pageShows = [
     title: 'Grenfell',
     network: 'Channel 4',
     startYear: 2022,
-    years: '2022–',
+    years: '2022–2022',
     genres: ['Drama'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -359,7 +359,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Drama', 'Children', 'Family'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 103, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 103, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

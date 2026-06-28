@@ -39,7 +39,7 @@ window.pageShows = [
     startYear: 2018,
     years: '2018–2020',
     genres: ['Comedy', 'Children', 'Music'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -133,9 +133,9 @@ window.pageShows = [
     title: 'Townies',
     network: 'Blackpills',
     startYear: 2018,
-    years: '2018–',
+    years: '2018–2018',
     genres: ['Comedy'],
-    status: 'running',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -167,7 +167,7 @@ window.pageShows = [
     startYear: 2018,
     years: '2018–2020',
     genres: ['Action', 'Adventure', 'Science-Fiction'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -215,7 +215,7 @@ window.pageShows = [
     startYear: 2018,
     years: '2018–2019',
     genres: ['Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -295,7 +295,7 @@ window.pageShows = [
     startYear: 2018,
     years: '2018',
     genres: ['Children', 'Music'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 231, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 231, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

@@ -23,7 +23,7 @@ window.pageShows = [
     startYear: 1953,
     years: '1953–1958',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -371,7 +371,7 @@ window.pageShows = [
     startYear: 1952,
     years: '1952–1970',
     genres: ['Drama', 'Western'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 715, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 715, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

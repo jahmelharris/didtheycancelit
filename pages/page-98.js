@@ -39,7 +39,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -133,9 +133,9 @@ window.pageShows = [
     title: 'Circuit Breakers',
     network: 'Apple TV',
     startYear: 2022,
-    years: '2022–',
+    years: '2022–2022',
     genres: ['Family', 'Science-Fiction', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -229,9 +229,9 @@ window.pageShows = [
     title: 'Compulsion',
     network: '5',
     startYear: 2022,
-    years: '2022–',
+    years: '2022–2022',
     genres: ['Drama', 'Thriller'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 98, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 98, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

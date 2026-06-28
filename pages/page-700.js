@@ -23,7 +23,7 @@ window.pageShows = [
     startYear: 1961,
     years: '1961',
     genres: ['Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -70,7 +70,7 @@ window.pageShows = [
     startYear: 1961,
     years: '1961',
     genres: ['Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -86,7 +86,7 @@ window.pageShows = [
     startYear: 1961,
     years: '1961–1978',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -118,7 +118,7 @@ window.pageShows = [
     startYear: 1961,
     years: '1961–1980',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -380,4 +380,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 700, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 700, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

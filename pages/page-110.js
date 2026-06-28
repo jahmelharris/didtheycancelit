@@ -135,7 +135,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Drama', 'Music'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -165,9 +165,9 @@ window.pageShows = [
     title: 'Monster High',
     network: 'Nickelodeon',
     startYear: 2022,
-    years: '2022–',
+    years: '2022–2024',
     genres: [],
-    status: 'running',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -247,7 +247,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022',
     genres: ['Science-Fiction', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -358,7 +358,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Crime', 'Mystery'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 110, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 110, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

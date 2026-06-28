@@ -37,9 +37,9 @@ window.pageShows = [
     title: 'Only You: An Animated Shorts Collection',
     network: 'HBO Max',
     startYear: 2023,
-    years: '2023–',
+    years: '2023–2023',
     genres: [],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -55,7 +55,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023–2024',
     genres: ['Comedy', 'Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -231,7 +231,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Comedy', 'Crime', 'Romance'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -311,7 +311,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023–2024',
     genres: ['Drama', 'Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 81, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 81, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

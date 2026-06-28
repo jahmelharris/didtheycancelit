@@ -150,7 +150,7 @@ window.pageShows = [
     startYear: 2003,
     years: '2003–2016',
     genres: ['Comedy', 'Action', 'Adventure'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -198,7 +198,7 @@ window.pageShows = [
     startYear: 2003,
     years: '2003–2004',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -243,9 +243,9 @@ window.pageShows = [
     title: 'FLCL',
     network: 'Adult Swim',
     startYear: 2003,
-    years: '2003–',
+    years: '2003–2023',
     genres: ['Drama', 'Comedy', 'Anime', 'Science-Fiction'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -381,4 +381,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 452, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 452, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

@@ -23,7 +23,7 @@ window.pageShows = [
     startYear: 2026,
     years: '2026',
     genres: ['Horror', 'Science-Fiction', 'Supernatural'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -55,7 +55,7 @@ window.pageShows = [
     startYear: 2026,
     years: '2026',
     genres: ['Crime', 'Thriller'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -103,7 +103,7 @@ window.pageShows = [
     startYear: 2026,
     years: '2026',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -151,7 +151,7 @@ window.pageShows = [
     startYear: 2026,
     years: '2026',
     genres: ['Drama', 'History', 'Espionage'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -374,7 +374,7 @@ window.pageShows = [
     startYear: 2026,
     years: '2026',
     genres: ['Horror', 'Science-Fiction', 'Mystery'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 9, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 9, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

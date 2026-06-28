@@ -37,9 +37,9 @@ window.pageShows = [
     title: 'Harley Quinn',
     network: 'HBO Max',
     startYear: 2019,
-    years: '2019–',
+    years: '2019–2025',
     genres: ['Comedy', 'Action', 'Crime'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -119,7 +119,7 @@ window.pageShows = [
     startYear: 2019,
     years: '2019–2020',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -135,7 +135,7 @@ window.pageShows = [
     startYear: 2019,
     years: '2019–2021',
     genres: ['Adventure', 'Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 191, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 191, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

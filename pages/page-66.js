@@ -23,7 +23,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023–2024',
     genres: ['Science-Fiction', 'Thriller', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -103,7 +103,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -151,7 +151,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -247,7 +247,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'History'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -373,9 +373,9 @@ window.pageShows = [
     title: 'Boiling Point',
     network: 'BBC iPlayer',
     startYear: 2023,
-    years: '2023–',
+    years: '2023–2023',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 66, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 66, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

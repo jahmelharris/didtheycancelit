@@ -39,7 +39,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -167,7 +167,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -199,7 +199,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'History'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -261,9 +261,9 @@ window.pageShows = [
     title: 'Three Little Birds',
     network: 'ITVX',
     startYear: 2023,
-    years: '2023–',
+    years: '2023–2023',
     genres: ['Drama', 'History'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -375,7 +375,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Romance'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 90, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 90, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

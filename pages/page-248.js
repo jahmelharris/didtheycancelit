@@ -7,7 +7,7 @@ window.pageShows = [
     startYear: 2017,
     years: '2017–2020',
     genres: ['Comedy', 'Family'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -183,7 +183,7 @@ window.pageShows = [
     startYear: 2017,
     years: '2017',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -261,9 +261,9 @@ window.pageShows = [
     title: 'Pot Luck',
     network: 'YouTube',
     startYear: 2017,
-    years: '2017–',
+    years: '2017–2017',
     genres: [],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -279,7 +279,7 @@ window.pageShows = [
     startYear: 2017,
     years: '2017',
     genres: ['Comedy', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 248, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 248, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

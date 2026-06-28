@@ -247,7 +247,7 @@ window.pageShows = [
     startYear: 2025,
     years: '2025–2026',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -295,7 +295,7 @@ window.pageShows = [
     startYear: 2025,
     years: '2025',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -309,9 +309,9 @@ window.pageShows = [
     title: 'Government Cheese',
     network: 'Apple TV',
     startYear: 2025,
-    years: '2025–',
+    years: '2025–2025',
     genres: ['Comedy', 'Family'],
-    status: 'running',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -343,7 +343,7 @@ window.pageShows = [
     startYear: 2025,
     years: '2025',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 18, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 18, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

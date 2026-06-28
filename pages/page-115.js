@@ -103,7 +103,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022–2024',
     genres: ['Comedy', 'Food', 'Music'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -183,7 +183,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022–2024',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -341,9 +341,9 @@ window.pageShows = [
     title: 'Saving Me',
     network: 'BYUtv.org',
     startYear: 2022,
-    years: '2022–',
+    years: '2022–2022',
     genres: ['Comedy'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -375,7 +375,7 @@ window.pageShows = [
     startYear: 2022,
     years: '2022–2023',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 115, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 115, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

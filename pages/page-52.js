@@ -148,9 +148,9 @@ window.pageShows = [
     title: 'Nightsleeper',
     network: 'BBC iPlayer',
     startYear: 2024,
-    years: '2024–',
+    years: '2024–2024',
     genres: ['Thriller'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -372,9 +372,9 @@ window.pageShows = [
     title: 'One Day in October',
     network: 'Yes',
     startYear: 2024,
-    years: '2024–',
+    years: '2024–2025',
     genres: ['Drama'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 52, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 52, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

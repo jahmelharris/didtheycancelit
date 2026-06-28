@@ -54,7 +54,7 @@ window.pageShows = [
     startYear: 1947,
     years: '1947–1958',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -150,7 +150,7 @@ window.pageShows = [
     startYear: 1930,
     years: '1930–1939',
     genres: [],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -166,7 +166,7 @@ window.pageShows = [
     startYear: 1929,
     years: '1929–2014',
     genres: ['Comedy', 'Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -192,5 +192,4 @@ window.pageShows = [
   },
 ];
 ];
-];
-window.pageMetadata = {"page": 719, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 719, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

@@ -324,9 +324,9 @@ window.pageShows = [
     title: 'Mystery Science Theater 3000',
     network: 'The Gizmoplex',
     startYear: 1988,
-    years: '1988–',
+    years: '1988–1999',
     genres: ['Comedy', 'Science-Fiction'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 582, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 582, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

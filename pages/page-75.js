@@ -7,7 +7,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Drama', 'Comedy', 'Supernatural'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -39,7 +39,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Comedy', 'Adventure', 'Supernatural'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -231,7 +231,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023–2025',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 75, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 75, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

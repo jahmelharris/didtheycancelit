@@ -119,7 +119,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012–2016',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -231,7 +231,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012–2013',
     genres: [],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -261,9 +261,9 @@ window.pageShows = [
     title: 'It\'s My Shout: Short Films from Wales',
     network: 'BBC iPlayer',
     startYear: 2012,
-    years: '2012–',
+    years: '2012–2012',
     genres: [],
-    status: 'running',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -326,7 +326,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012',
     genres: ['Drama', 'Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 346, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 346, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

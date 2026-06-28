@@ -23,7 +23,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023–2024',
     genres: [],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -71,7 +71,7 @@ window.pageShows = [
     startYear: 2023,
     years: '2023',
     genres: ['Comedy', 'Action', 'Adventure'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -213,9 +213,9 @@ window.pageShows = [
     title: 'L\'il Stompers',
     network: 'Peacock',
     startYear: 2023,
-    years: '2023–',
+    years: '2023–2025',
     genres: ['Children'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 76, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 76, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

@@ -5,9 +5,9 @@ window.pageShows = [
     title: 'Stage Fright',
     network: 'YouTube',
     startYear: 2020,
-    years: '2020–',
+    years: '2020–2020',
     genres: ['Drama', 'Mystery'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -71,7 +71,7 @@ window.pageShows = [
     startYear: 2020,
     years: '2020–2021',
     genres: ['Children'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -263,7 +263,7 @@ window.pageShows = [
     startYear: 2020,
     years: '2020',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -343,7 +343,7 @@ window.pageShows = [
     startYear: 2020,
     years: '2020',
     genres: [],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -359,7 +359,7 @@ window.pageShows = [
     startYear: 2020,
     years: '2020–2023',
     genres: ['Horror', 'Thriller', 'Supernatural'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 174, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 174, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

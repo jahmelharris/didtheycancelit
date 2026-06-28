@@ -37,9 +37,9 @@ window.pageShows = [
     title: 'You\'re Killing Me',
     network: 'Acorn TV',
     startYear: 2026,
-    years: '2026–',
+    years: '2026–2026',
     genres: ['Drama', 'Comedy', 'Crime'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -167,7 +167,7 @@ window.pageShows = [
     startYear: 2025,
     years: '2025–',
     genres: ['Drama', 'History'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -325,9 +325,9 @@ window.pageShows = [
     title: 'All\'s Fair',
     network: 'Hulu',
     startYear: 2025,
-    years: '2025–',
+    years: '2025–2025',
     genres: ['Drama', 'Legal'],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 11, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 11, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

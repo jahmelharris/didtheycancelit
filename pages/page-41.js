@@ -71,7 +71,7 @@ window.pageShows = [
     startYear: 2024,
     years: '2024–',
     genres: ['Crime', 'Thriller'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -183,7 +183,7 @@ window.pageShows = [
     startYear: 2024,
     years: '2024',
     genres: ['Drama'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -261,9 +261,9 @@ window.pageShows = [
     title: 'Damaged',
     network: 'OUTtv',
     startYear: 2024,
-    years: '2024–',
+    years: '2024–2024',
     genres: [],
-    status: 'running',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 41, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 41, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

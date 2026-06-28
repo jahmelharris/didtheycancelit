@@ -87,7 +87,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012–2013',
     genres: ['Drama', 'Music'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -103,7 +103,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012–2018',
     genres: ['Comedy', 'Mystery'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -151,7 +151,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -247,7 +247,7 @@ window.pageShows = [
     startYear: 2012,
     years: '2012',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -359,7 +359,7 @@ window.pageShows = [
     startYear: 2011,
     years: '2011–2017',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 355, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 355, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

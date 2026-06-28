@@ -7,7 +7,7 @@ window.pageShows = [
     startYear: 2021,
     years: '2021–2023',
     genres: ['Drama', 'Western'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -71,7 +71,7 @@ window.pageShows = [
     startYear: 2021,
     years: '2021',
     genres: ['Drama', 'Action', 'Science-Fiction'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -167,7 +167,7 @@ window.pageShows = [
     startYear: 2021,
     years: '2021–2022',
     genres: ['Comedy', 'Children', 'Music'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -231,7 +231,7 @@ window.pageShows = [
     startYear: 2021,
     years: '2021–2022',
     genres: ['Comedy'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -277,9 +277,9 @@ window.pageShows = [
     title: 'Kin',
     network: 'RTÉ ONE',
     startYear: 2021,
-    years: '2021–',
+    years: '2021–2023',
     genres: ['Drama', 'Crime'],
-    status: 'running',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 139, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 139, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

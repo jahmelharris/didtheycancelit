@@ -7,7 +7,7 @@ window.pageShows = [
     startYear: 2014,
     years: '2014',
     genres: ['Action', 'Fantasy'],
-    status: 'ended',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -182,7 +182,7 @@ window.pageShows = [
     startYear: 2014,
     years: '2014–2020',
     genres: ['Drama', 'War', 'Medical'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -214,7 +214,7 @@ window.pageShows = [
     startYear: 2014,
     years: '2014',
     genres: ['Drama', 'Thriller'],
-    status: 'ended',
+    status: 'cancelled',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 315, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 398, "cliffhanger": 239, "ended": 15092}};
+window.pageMetadata = {"page": 315, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 239, "ended": 12349}};

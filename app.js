@@ -242,12 +242,7 @@ function applyFiltersAndSort(source) {
 
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
-    result = result.filter(s =>
-      s.title.toLowerCase().includes(q)   ||
-      s.network.toLowerCase().includes(q) ||
-      s.genres.some(g => g.toLowerCase().includes(q)) ||
-      s.note.toLowerCase().includes(q)
-    );
+    result = result.filter(s => s.title.toLowerCase().includes(q));
   }
 
   if (currentFilter === 'cancelled')   result = result.filter(s => s.status === 'cancelled');

@@ -23,7 +23,7 @@ const paginationEl = document.getElementById('pagination');
 
 // ── Image loading ──────────────────────────────────────────────
 
-const LS_KEY = 'hibc_images_v3';
+const LS_KEY = 'hibc_images_v4';
 const LS_TTL = 48 * 60 * 60 * 1000;
 const imageCache = {};
 
@@ -42,9 +42,8 @@ function writeLocalCache(data) {
 }
 
 async function fetchImage(show) {
-  const q = encodeURIComponent(show.tvmazeQuery || show.title);
   try {
-    const res = await fetch(`https://api.tvmaze.com/singlesearch/shows?q=${q}`);
+    const res = await fetch(`https://api.tvmaze.com/shows/${show.tvmazeId}`);
     if (!res.ok) return null;
     const json = await res.json();
     return json.image?.medium || json.image?.original || null;

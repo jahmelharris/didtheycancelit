@@ -129,7 +129,7 @@ window.pageShows = [
   {
     id: 2145,
     tvmazeId: '52969',
-    title: 'Go, Dog. Go! checkifcancelled',
+    title: 'Go, Dog. Go!',
     network: 'Netflix',
     startYear: 2021,
     years: '2021–',
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 90, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 90, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

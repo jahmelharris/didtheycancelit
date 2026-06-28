@@ -178,7 +178,7 @@ window.pageShows = [
   {
     id: 564,
     tvmazeId: '69311',
-    title: 'Barney\'s World checkifcancelled',
+    title: 'Barney\'s World',
     network: 'HBO Max',
     startYear: 2024,
     years: '2024–',
@@ -321,12 +321,12 @@ window.pageShows = [
   {
     id: 573,
     tvmazeId: '67129',
-    title: 'Big Mood checkifcancelled',
+    title: 'Big Mood',
     network: 'Channel 4',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 24, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 24, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

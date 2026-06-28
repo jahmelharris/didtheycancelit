@@ -274,12 +274,12 @@ window.pageShows = [
   {
     id: 546,
     tvmazeId: '67032',
-    title: 'After the Flood checkifcancelled',
+    title: 'After the Flood',
     network: 'ITVX',
     startYear: 2024,
     years: '2024–',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 23, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 23, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

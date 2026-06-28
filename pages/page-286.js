@@ -145,12 +145,12 @@ window.pageShows = [
   {
     id: 6850,
     tvmazeId: '12085',
-    title: 'Poppy Cat checkifcancelled',
+    title: 'Poppy Cat',
     network: 'Nick Jr.',
     startYear: 2011,
     years: '2011–',
     genres: ['Children'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 286, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 286, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

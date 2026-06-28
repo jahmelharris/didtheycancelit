@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 156,
     tvmazeId: '63786',
-    title: 'A Thousand Blows checkifcancelled',
+    title: 'A Thousand Blows',
     network: 'Disney+',
     startYear: 2025,
     years: '2025–',
     genres: ['Drama', 'History'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 7, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 7, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

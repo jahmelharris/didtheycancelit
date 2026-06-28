@@ -50,12 +50,12 @@ window.pageShows = [
   {
     id: 2668,
     tvmazeId: '46710',
-    title: 'JoJo & Gran Gran checkifcancelled',
+    title: 'JoJo & Gran Gran',
     network: 'BBC iPlayer',
     startYear: 2020,
     years: '2020–',
     genres: [],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -98,7 +98,7 @@ window.pageShows = [
   {
     id: 2671,
     tvmazeId: '45897',
-    title: 'Just Add Magic: Mystery City checkifcancelled',
+    title: 'Just Add Magic: Mystery City',
     network: 'Prime Video',
     startYear: 2020,
     years: '2020–',
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 112, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 112, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

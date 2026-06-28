@@ -2,12 +2,12 @@ window.pageShows = [
   {
     id: 1033,
     tvmazeId: '63255',
-    title: 'Champion checkifcancelled',
+    title: 'Champion',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Music'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -98,12 +98,12 @@ window.pageShows = [
   {
     id: 1039,
     tvmazeId: '67125',
-    title: 'Class of \'07 checkifcancelled',
+    title: 'Class of \'07',
     network: 'Prime Video',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -274,7 +274,7 @@ window.pageShows = [
   {
     id: 1050,
     tvmazeId: '71231',
-    title: 'Curses! checkifcancelled',
+    title: 'Curses!',
     network: 'Apple TV',
     startYear: 2023,
     years: '2023–',
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 44, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 44, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

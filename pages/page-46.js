@@ -258,7 +258,7 @@ window.pageShows = [
   {
     id: 1097,
     tvmazeId: '66660',
-    title: 'Frog and Toad checkifcancelled',
+    title: 'Frog and Toad',
     network: 'Apple TV',
     startYear: 2023,
     years: '2023–',
@@ -383,4 +383,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 46, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 46, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

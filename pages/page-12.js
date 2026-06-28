@@ -242,12 +242,12 @@ window.pageShows = [
   {
     id: 280,
     tvmazeId: '74497',
-    title: 'How Are You? It\'s Alan (Partridge) checkifcancelled',
+    title: 'How Are You? It\'s Alan (Partridge)',
     network: 'BBC iPlayer',
     startYear: 2025,
     years: '2025–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 12, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 12, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

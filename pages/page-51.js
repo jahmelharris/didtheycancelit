@@ -34,7 +34,7 @@ window.pageShows = [
   {
     id: 1203,
     tvmazeId: '65097',
-    title: 'Neon checkifcancelled',
+    title: 'Neon',
     network: 'Netflix',
     startYear: 2023,
     years: '2023–',
@@ -114,12 +114,12 @@ window.pageShows = [
   {
     id: 1208,
     tvmazeId: '60889',
-    title: 'No Escape checkifcancelled',
+    title: 'No Escape',
     network: 'Paramount+',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Thriller', 'Mystery'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 51, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 51, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

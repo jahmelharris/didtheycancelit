@@ -273,12 +273,12 @@ window.pageShows = [
   {
     id: 2202,
     tvmazeId: '53750',
-    title: 'Kin checkifcancelled',
+    title: 'Kin',
     network: 'RTÉ ONE',
     startYear: 2021,
     years: '2021–',
     genres: ['Drama', 'Crime'],
-    status: 'cancelled',
+    status: 'running',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -382,4 +382,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 92, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 92, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 1326,
     tvmazeId: '67780',
-    title: 'The Couple Next Door checkifcancelled',
+    title: 'The Couple Next Door',
     network: 'Channel 4',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -290,12 +290,12 @@ window.pageShows = [
   {
     id: 1339,
     tvmazeId: '49887',
-    title: 'The Following Events Are Based on a Pack of Lies checkifcancelled',
+    title: 'The Following Events Are Based on a Pack of Lies',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -322,12 +322,12 @@ window.pageShows = [
   {
     id: 1341,
     tvmazeId: '57471',
-    title: 'The Gallows Pole - This Valley Will Rise checkifcancelled',
+    title: 'The Gallows Pole - This Valley Will Rise',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Drama', 'Crime', 'History'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 56, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 56, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 1662,
     tvmazeId: '56375',
-    title: 'Mammals checkifcancelled',
+    title: 'Mammals',
     network: 'Prime Video',
     startYear: 2022,
     years: '2022–',
     genres: ['Drama', 'Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 70, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 70, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

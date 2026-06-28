@@ -178,12 +178,12 @@ window.pageShows = [
   {
     id: 2100,
     tvmazeId: '68923',
-    title: 'Dinosaur checkifcancelled',
+    title: 'Dinosaur',
     network: 'BBC iPlayer',
     startYear: 2021,
     years: '2021–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 88, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 88, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

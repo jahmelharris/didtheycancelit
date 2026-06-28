@@ -82,12 +82,12 @@ window.pageShows = [
   {
     id: 1422,
     tvmazeId: '54404',
-    title: 'Wolf checkifcancelled',
+    title: 'Wolf',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Crime', 'Horror', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 60, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 60, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

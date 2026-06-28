@@ -34,12 +34,12 @@ window.pageShows = [
   {
     id: 603,
     tvmazeId: '62628',
-    title: 'Criminal Record checkifcancelled',
+    title: 'Criminal Record',
     network: 'Apple TV',
     startYear: 2024,
     years: '2024–',
     genres: ['Crime', 'Thriller'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 26, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 26, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

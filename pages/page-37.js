@@ -194,12 +194,12 @@ window.pageShows = [
   {
     id: 877,
     tvmazeId: '74067',
-    title: 'The Completely Made-Up Adventures of Dick Turpin checkifcancelled',
+    title: 'The Completely Made-Up Adventures of Dick Turpin',
     network: 'Apple TV',
     startYear: 2024,
     years: '2024–',
     genres: ['Comedy', 'History'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 37, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 37, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

@@ -210,12 +210,12 @@ window.pageShows = [
   {
     id: 1070,
     tvmazeId: '69627',
-    title: 'Dreaming Whilst Black checkifcancelled',
+    title: 'Dreaming Whilst Black',
     network: 'BBC iPlayer',
     startYear: 2023,
     years: '2023–',
     genres: ['Comedy'],
-    status: 'cancelled',
+    status: 'ended',
     cancelledAfterSeason: null,
     totalSeasons: null,
     cliffhanger: false,
@@ -322,7 +322,7 @@ window.pageShows = [
   {
     id: 1077,
     tvmazeId: '62112',
-    title: 'Eva the Owlet checkifcancelled',
+    title: 'Eva the Owlet',
     network: 'Apple TV',
     startYear: 2023,
     years: '2023–',
@@ -384,4 +384,4 @@ window.pageShows = [
     note: '',
   }
 ];
-window.pageMetadata = {"page": 45, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 824, "cliffhanger": 237, "ended": 13574}};
+window.pageMetadata = {"page": 45, "totalPages": 638, "perPage": 24, "stats": {"total": 15292, "cancelled": 785, "cliffhanger": 237, "ended": 13610}};

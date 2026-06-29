@@ -1,21 +1,5 @@
 window.pageShows = [
   {
-    id: 145,
-    tvmazeId: '90856',
-    title: 'O11CE: Nueva generación',
-    network: 'Disney+',
-    startYear: 2026,
-    years: '2026–',
-    genres: ['Drama', 'Family', 'Sports'],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-        imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1545843.jpg',
-    note: '',
-  },
-  {
     id: 146,
     tvmazeId: '92001',
     title: 'Oasis',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/626/1567247.jpg',
     note: '',
+  },
+  {
+    id: 169,
+    tvmazeId: '90925',
+    title: 'Seeking Persephone',
+    network: 'Prime Video',
+    startYear: 2026,
+    years: '2026',
+    genres: ['Romance'],
+    status: 'ended',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1546556.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 7, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 7, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};

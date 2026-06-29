@@ -1,21 +1,5 @@
 window.pageShows = [
   {
-    id: 73,
-    tvmazeId: '91842',
-    title: 'Froglets',
-    network: 'BBC iPlayer',
-    startYear: 2026,
-    years: '2026–',
-    genres: ['Children'],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/624/1561936.jpg',
-    note: '',
-  },
-  {
     id: 74,
     tvmazeId: '61201',
     title: 'Futuro Desierto',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
         imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/623/1557825.jpg',
     note: '',
+  },
+  {
+    id: 97,
+    tvmazeId: '75637',
+    title: 'Imperfect Women',
+    network: 'Apple TV',
+    startYear: 2026,
+    years: '2026',
+    genres: ['Thriller'],
+    status: 'ended',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1545422.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 4, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 4, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};

@@ -1,21 +1,5 @@
 window.pageShows = [
   {
-    id: 169,
-    tvmazeId: '90925',
-    title: 'Seeking Persephone',
-    network: 'Prime Video',
-    startYear: 2026,
-    years: '2026',
-    genres: ['Romance'],
-    status: 'ended',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1546556.jpg',
-    note: '',
-  },
-  {
     id: 170,
     tvmazeId: '89744',
     title: 'Shaun Tan\'s Tales from Outer Suburbia',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
         imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/628/1571630.jpg',
     note: '',
+  },
+  {
+    id: 193,
+    tvmazeId: '79916',
+    title: 'The Beauty',
+    network: 'Hulu',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Horror', 'Science-Fiction', 'Thriller'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/608/1520444.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 8, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 8, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};

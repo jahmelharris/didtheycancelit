@@ -1,21 +1,5 @@
 window.pageShows = [
   {
-    id: 121,
-    tvmazeId: '69284',
-    title: 'Magicampers',
-    network: 'Disney Junior',
-    startYear: 2026,
-    years: '2026–',
-    genres: ['Comedy', 'Adventure', 'Children'],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/619/1547834.jpg',
-    note: '',
-  },
-  {
     id: 122,
     tvmazeId: '91403',
     title: 'Make That Movie',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/622/1556700.jpg',
     note: '',
+  },
+  {
+    id: 145,
+    tvmazeId: '90856',
+    title: 'O11CE: Nueva generación',
+    network: 'Disney+',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Drama', 'Family', 'Sports'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+        imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1545843.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 6, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 6, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};

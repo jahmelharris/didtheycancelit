@@ -32,21 +32,6 @@ window.pageShows = [
     note: '',
   },
   {
-    id: 27,
-    tvmazeId: '91687',
-    title: 'Be a Man With Me',
-    network: 'Daystar',
-    startYear: 2026,
-    years: '2026–',
-    genres: [],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    note: '',
-  },
-  {
     id: 28,
     tvmazeId: '86352',
     title: 'Believe Me',
@@ -380,6 +365,22 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/619/1548690.jpg',
     note: '',
+  },
+  {
+    id: 49,
+    tvmazeId: '84855',
+    title: 'Crookhaven',
+    network: 'BBC iPlayer',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Drama', 'Adventure', 'Children'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1547241.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 2, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 2, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};

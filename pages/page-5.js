@@ -1,21 +1,5 @@
 window.pageShows = [
   {
-    id: 97,
-    tvmazeId: '75637',
-    title: 'Imperfect Women',
-    network: 'Apple TV',
-    startYear: 2026,
-    years: '2026',
-    genres: ['Thriller'],
-    status: 'ended',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1545422.jpg',
-    note: '',
-  },
-  {
     id: 98,
     tvmazeId: '91794',
     title: 'In Utero',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/624/1561931.jpg',
     note: '',
+  },
+  {
+    id: 121,
+    tvmazeId: '69284',
+    title: 'Magicampers',
+    network: 'Disney Junior',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Comedy', 'Adventure', 'Children'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/619/1547834.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 5, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 5, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};

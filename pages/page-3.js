@@ -1,21 +1,5 @@
 window.pageShows = [
   {
-    id: 49,
-    tvmazeId: '84855',
-    title: 'Crookhaven',
-    network: 'BBC iPlayer',
-    startYear: 2026,
-    years: '2026–',
-    genres: ['Drama', 'Adventure', 'Children'],
-    status: 'running',
-    cancelledAfterSeason: null,
-    totalSeasons: null,
-    cliffhanger: false,
-    cliffhangerNote: null,
-    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/618/1547241.jpg',
-    note: '',
-  },
-  {
     id: 50,
     tvmazeId: '75481',
     title: 'Daldal',
@@ -382,6 +366,22 @@ window.pageShows = [
     cliffhangerNote: null,
     imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/610/1525203.jpg',
     note: '',
+  },
+  {
+    id: 73,
+    tvmazeId: '91842',
+    title: 'Froglets',
+    network: 'BBC iPlayer',
+    startYear: 2026,
+    years: '2026–',
+    genres: ['Children'],
+    status: 'running',
+    cancelledAfterSeason: null,
+    totalSeasons: null,
+    cliffhanger: false,
+    cliffhangerNote: null,
+    imageUrl: 'https://static.tvmaze.com/uploads/images/medium_portrait/624/1561936.jpg',
+    note: '',
   }
 ];
-window.pageMetadata = {"page": 3, "totalPages": 719, "perPage": 24, "stats": {"total": 17244, "cancelled": 2246, "cliffhanger": 295, "ended": 12349}};
+window.pageMetadata = {"page": 3, "totalPages": 719, "perPage": 24, "stats": {"total": 17240, "cancelled": 2244, "cliffhanger": 295, "ended": 12349}};
